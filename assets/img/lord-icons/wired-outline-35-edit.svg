@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100"
+    style="width:100%;height:100%;transform:translate3d(0,0,0);content-visibility:visible"
+    viewBox="0 0 500 500">
+    <defs>
+        <clipPath id="a">
+            <path d="M0 0h500v500H0z" />
+        </clipPath>
+        <clipPath id="c">
+            <path d="M0 0h500v500H0z" />
+        </clipPath>
+        <clipPath id="b">
+            <path d="M0 0h500v500H0z" />
+        </clipPath>
+    </defs>
+    <g clip-path="url(#a)">
+        <g fill="none" stroke-linecap="round" stroke-linejoin="round" clip-path="url(#b)"
+            opacity="0" style="display:block">
+            <path stroke="#ec0000" stroke-width="10.04" d="M0 0" opacity="1" style="display:block"
+                transform="translate(249 251)" />
+            <path stroke="#ec0000" stroke-width="2.5"
+                d="M6.643-32.376h-18.536v-12.232H6.643v12.232z" opacity="1" style="display:block"
+                transform="matrix(3.5 0 0 3.5 260 248)" />
+            <path stroke="#121330" stroke-width="2.5"
+                d="m-2.625 45.775 9.268-16.052h-18.536l9.268 16.052zm9.268-16.052h-18.536v-62.099H6.643v62.099z"
+                opacity="1" style="display:block" transform="matrix(3.5 0 0 3.5 260 248)" />
+            <path stroke="#ec0000" stroke-width="2.5" d="M-2.625 3.19v-27.851" opacity="1"
+                style="display:block" transform="matrix(3.5 0 0 3.5 260 248)" />
+        </g>
+        <g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+            clip-path="url(#c)" style="display:block">
+            <path stroke="#ec0000" d="M6.643-32.376h-18.536v-12.232H6.643v12.232z"
+                style="display:block" transform="matrix(3.5 0 0 3.5 260 248)" />
+            <path stroke="#121330"
+                d="m-2.625 45.775 9.268-16.052h-18.536l9.268 16.052zm9.268-16.052h-18.536v-62.099H6.643v62.099z"
+                style="display:block" transform="matrix(3.5 0 0 3.5 260 248)" />
+            <path stroke="#ec0000" d="M-2.625 3.19v-27.851" style="display:block"
+                transform="matrix(3.5 0 0 3.5 260 248)" />
+        </g>
+        <g class="com" style="display:none">
+            <path />
+            <path />
+            <path />
+            <path />
+            <path />
+            <path />
+            <path />
+            <path />
+            <path />
+            <path />
+            <path />
+            <path />
+        </g>
+    </g>
+</svg>

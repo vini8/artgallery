@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_47665" data-name="Path 47665" d="M0,0H500V500H0Z"/>
+    </clipPath>
+    <clipPath id="clip-idea">
+      <rect width="500" height="500"/>
+    </clipPath>
+  </defs>
+  <g id="idea" clip-path="url(#clip-idea)">
+    <g id="_36-bulb-outline" data-name="36-bulb-outline" clip-path="url(#clip-path)">
+      <path id="Path_47662" data-name="Path 47662" d="M246.314,369.1H217.446v9.863A28.145,28.145,0,0,0,245.593,407.1h10.182a28.142,28.142,0,0,0,28.143-28.143V369.1Z" fill="none" stroke="#2f4ccc" stroke-linecap="round" stroke-linejoin="round" stroke-width="12.236"/>
+      <path id="Path_47663" data-name="Path 47663" d="M250.684,343.84h27.422a13.71,13.71,0,0,0,13.713-13.71v-14.3a25.664,25.664,0,0,1,8.967-19.525c17.664-15.107,55.259-53.223,55.259-104.015,0-58.934-31.032-103.193-105.361-103.193s-105.36,44.259-105.36,103.193c0,50.792,37.59,88.908,55.254,104.015a25.669,25.669,0,0,1,8.971,19.525v14.3a13.707,13.707,0,0,0,13.709,13.71h27.426Z" fill="none" stroke="#121331" stroke-linecap="round" stroke-linejoin="round" stroke-width="12.236"/>
+      <path id="Path_47664" data-name="Path 47664" d="M270.89,291.64l19.242-93.755-19.241,26.4-20.207-23.611-20.207,23.61-19.245-26.4,19.245,93.754" fill="none" stroke="#2f4ccc" stroke-linecap="round" stroke-linejoin="round" stroke-width="12.236"/>
+    </g>
+  </g>
+</svg>

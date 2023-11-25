@@ -1,0 +1,799 @@
+@import "./styles/typography.scss";
+@import "./styles/variables.scss";
+@import "./styles/media.scss";
+
+@font-face {
+  font-family: "NovemberPro";
+  src: url("../../../assets/fonts/november-pro/NovemberPro-Reg.eot");
+  src: url("../../../assets/fonts/november-pro/NovemberPro.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../../assets/fonts/november-pro/NovemberPro.svg#NovemberPro")
+      format("svg"),
+    url("../../../assets/fonts/november-pro/NovemberPro.ttf") format("truetype"),
+    url("../../../assets/fonts/november-pro/NovemberPro.woff") format("woff"),
+    url("../../../assets/fonts/november-pro/NovemberPro.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NovemberPro-Reg";
+  src: url("../../../assets/fonts/november-pro/NovemberPro-Reg.eot");
+  src: url("../../../assets/fonts/november-pro/NovemberPro-Reg.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../../assets/fonts/november-pro/NovemberPro-Reg.svg#NovemberPro-Reg")
+      format("svg"),
+    url("../../../assets/fonts/november-pro/NovemberPro-Reg.ttf")
+      format("truetype"),
+    url("../../../assets/fonts/november-pro/NovemberPro-Reg.woff")
+      format("woff"),
+    url("../../../assets/fonts/november-pro/NovemberPro-Reg.woff2")
+      format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+// header css starts here
+button,
+p {
+  font-family: "NovemberPro-Reg" !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
+  font-family: "NovemberPro";
+}
+
+.header-container {
+  font-family: "NovemberPro";
+
+  &.fixed-top {
+    height: 80px;
+    .navbar {
+      margin: 0px 0;
+    }
+  }
+  .header-inner-container {
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  .mh-auto {
+    margin: 0 auto 0 auto;
+  }
+  .contact-btn {
+    @extend .btnbase;
+  }
+  .contact-btn:hover {
+    @extend .btnhover;
+  }
+  .nav-item.active {
+    a {
+      color: $primaryColor !important;
+      background: $color__fill-white;
+      border-radius: 4px;
+      padding-right: 25px;
+      padding-left: 25px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  }
+  .nav-item {
+    .nav-link {
+      color: $color__fill-white !important;
+      font-size: 16px;
+      font-family: "NovemberPro-Reg";
+      font-weight: 500;
+      text-transform: uppercase;
+    }
+  }
+  .dropdown-submenu {
+    position: relative;
+  }
+  .dropdown-menu {
+    min-width: 215px;
+  }
+  .dropdown-submenu > .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -7px;
+  }
+  .dropdown:hover > .dropdown-menu {
+    display: block;
+  }
+  .dropdown-submenu:hover > .dropdown-menu {
+    display: block;
+  }
+  .dropdown-submenu > a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+  }
+  .dropdown-submenu:hover > a:after {
+    border-left-color: #fff;
+  }
+  .multi-level {
+    padding: 10px 23px 10px 18px;
+    font-size: 14px;
+    border-radius: 18px;
+  }
+  .dropdown-submenu {
+    padding: 6px 0;
+    .dropdown-toggle {
+      text-decoration: none;
+      color: $color__fill-black;
+    }
+  }
+  .pre-menu-icon {
+    margin-right: 10px;
+    width: 0.3rem;
+  }
+  .pre-menu-icon:hover {
+    fill: $primaryColor;
+  }
+  .single-level {
+    font-size: 14px;
+    padding: 10px 23px 10px 18px;
+    border-radius: 18px;
+    li {
+      padding: 6px 0;
+      a {
+        text-decoration: none;
+        color: $color__fill-black;
+        span {
+          transition: transform 0.2s ease-out;
+        }
+      }
+      a:hover {
+        color: $primaryColor;
+      }
+    }
+  }
+  .nav-sub-item {
+    a {
+      text-decoration: none;
+    }
+  }
+  .dropdown-toggle {
+    color: $color__fill-black;
+  }
+  .dropdown-toggle:hover {
+    color: $primaryColor;
+  }
+  // mega menu css starts here
+  .mega-dropdown {
+    position: relative !important;
+  }
+  .mega-dropdown-menu {
+    padding: 20px 0px;
+    width: 100%;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+  }
+  .mega-dropdown-menu {
+    position: absolute;
+    top: 87%;
+    left: 0;
+    z-index: 1000;
+    float: left;
+    width: max-content;
+    max-width: 500px;
+    min-width: 160px;
+    padding: 2px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: $color__fill-black;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #00000026;
+    border-radius: 4px;
+    box-shadow: 0 6px 12px #0000002e;
+    background: $color__fill-white;
+  }
+  .mega-menu-heading {
+    font-weight: bold;
+    margin-left: 30px;
+  }
+  ul {
+    list-style: none;
+    padding: 0 6px;
+    li {
+      padding: 12px 10px;
+      font-size: 14px;
+      font-family: "NovemberPro-Reg";
+      font-weight: 500;
+      text-transform: uppercase;
+    }
+    a {
+      text-decoration: none;
+      color: $color__fill-black;
+    }
+    a:hover {
+      color: $primaryColor;
+    }
+  }
+  .navbar {
+    margin: 14px 0;
+  }
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .sticky + .content {
+    padding-top: 60px;
+  }
+}
+.carousel-control-next,
+.carousel-control-prev {
+  width: 3% !important;
+}
+.fixed-top {
+  height: 125px !important;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background: $color__fill-white;
+  left: 0;
+  z-index: 1030;
+  box-shadow: 0px 9px 95px 13px #6e7b831a;
+}
+.fixed-top .nav-link {
+  color: $primaryColor !important;
+}
+.home-logo-black {
+  display: none;
+}
+.fixed-top .home-logo-black {
+  display: block;
+}
+.fixed-top .home-logo {
+  display: none;
+}
+.fixed-top .navbar-dark .navbar-nav .nav-link {
+  color: $color__fill-black !important;
+  padding: 6px 14px !important;
+}
+.fixed-top .navbar-dark .navbar-nav .active .nav-link {
+  color: $color__fill-white !important;
+  background: $primaryColor;
+}
+
+// header css ends here
+
+.reactjs-developer_banner-section {
+//   background-image: url("../../assets/img/react-header.png");
+//   background-position: center center;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  position: relative;
+  height: 140px;
+  display: flex;
+  align-items: center;
+  h1 {
+    @extend .H1heading;
+  }
+  p {
+    @extend .ptxtMediumWhite;
+  }
+  .banner-bg-overlay {
+    background-color: $primaryColor;
+    // opacity: 0.5;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+  .banner-inner-container {
+    position: relative;
+  }
+}
+
+.reactjs-chatgpt_intro {
+  padding: 4px 0 1px 0;
+  background-color: $primaryColor;
+  .reactjs-chatgpt_intro-inner {
+    background: url("../../assets/img/home-bg-10-1.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    h2 {
+      @extend .mainHeading;
+    }
+    .sub-column{
+      color: $secondryColor;
+    }
+    p {
+      @extend .txtDescription;
+      padding: 15px 0 0px 0;
+      color: $color__fill-white;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    button {
+      @extend .btnbase;
+      background-color: $color__fill-white;
+      color: $primaryColor;
+    }
+    button:hover {
+      @extend .btnhover;
+      border: 1px solid;
+    }
+    img {
+      padding: 0 0px;
+    }
+    h4{
+        color: $color__fill-white;
+    }
+    h2{
+        color: $color__fill-white;
+    }
+    form{
+        background-color: #41415a;
+        padding: 1.5rem 2rem;
+        border-radius: 10px;
+        margin: auto;
+        label{
+          @extend .miniDescription;
+          padding: 0;
+          position: absolute;
+          top: -7px;
+          background-color: #41415a;
+          left: 26px;
+          font-size: 12px;
+          color: $color__fill-white;
+        }
+        input{
+            background-color: transparent;
+        }
+    }
+    .nav-pills{
+        justify-content: left;
+        .nav-link{
+            color: #8d7a7a;
+            @extend .boxsubHeading;
+            padding: 0 1rem 1rem 0;
+            margin: 0 1rem 0 0;
+            &.active{
+                background-color: transparent;
+                color: $secondryColor;
+                font-weight: 700;
+                border-bottom: 1px solid $secondryColor;
+                border-radius: 0px;
+            }
+        }
+    }
+  }
+}
+
+.reactjs-developer_intro {
+  padding: 70px 0 80px 0;
+  background: url("../../assets/img/home-bg-07.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right center;
+  .reactjs-developer_intro-inner {
+    h2 {
+      @extend .mainHeading;
+    }
+    .sub-column{
+      color: $secondryColor;
+    }
+    p {
+      @extend .txtDescription;
+      padding: 15px 0 0px 0;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    button {
+      @extend .btnbase;
+    }
+    button:hover {
+      @extend .btnhover;
+    }
+    img {
+      padding: 0 0px;
+    }
+    ul{
+      @extend .bannerList;
+      @extend .txtDescription;
+      i{
+        color: $secondryColor;
+        margin: 0 8px 0 0;
+      }
+      li{
+        padding: 0 0 4px 0;
+        margin-bottom: 12px;
+      }
+    }
+    .dark_bg{
+        &::before{
+            content: url('');
+            background-color: #f7b2b2;
+            height: 30%;
+            width: 50%;
+            position: absolute;
+            filter: blur(333px);
+            z-index: -1;
+        }
+    }
+    .nav-pills{
+        justify-content: left;
+        padding: 0;
+        .nav-link{
+            color: #8d7a7a;
+            @extend .boxsubHeading;
+            padding: 0 1rem 1rem 0;
+            margin: 0 1rem 0 0;
+            &.active{
+                background-color: transparent;
+                color: $secondryColor;
+                font-weight: 700;
+                border-bottom: 1px solid $secondryColor;
+                border-radius: 0px;
+            }
+        }
+    }
+    .guide-list{
+        margin-left: 15px;
+      li{
+        display: flex;
+        margin: 0;
+        padding-bottom: 18px;
+        border-left: 3px dashed #ec0000;
+        &:last-child{
+          border-left: none;
+        }
+      }
+      span{
+        width: 30px;
+        background-color: $secondryColor;
+        color: $color__fill-white;
+        max-width: 30px;
+        min-width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 10px;
+        border-radius: 50%;
+        border: 5px solid #ffcbcb;
+        margin-left: -15px;
+      }
+    }
+  }
+}
+
+.mircosoft-chatgpt_goals {
+  padding: 70px 0 80px 0;
+  .mircosoft-chatgpt_goals-inner {
+    img{
+      background-color: #f3f3f3;
+      padding: 3rem;
+      border-top-left-radius: 175px;
+      border-top-right-radius: 175px;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+    h2 {
+      @extend .mainHeading;
+    }
+    .sub-column{
+      color: $secondryColor;
+    }
+    p {
+      @extend .txtDescription;
+      padding: 15px 0 0px 0;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    button {
+      @extend .btnbase;
+    }
+    button:hover {
+      @extend .btnhover;
+    }
+    ul{
+      @extend .bannerList;
+      @extend .txtDescription;
+      padding: 0;
+      i{
+        color: $secondryColor;
+        margin: 0 8px 0 0;
+      }
+      li{
+        padding: 0 0 4px 0;
+        margin-bottom: 12px;
+      }
+    }
+  }
+}
+
+.chatgpt-chatbot_per-day {
+  padding: 70px 0 75px 0;
+  .chatgpt-chatbot_per-day-inner {
+    h2 {
+      @extend .mainHeading;
+    }
+    .sub-column{
+      color: $secondryColor;
+    }
+    p {
+      @extend .txtDescription;
+      padding: 15px 0 0px 0;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    button {
+      @extend .btnbase;
+    }
+    button:hover {
+      @extend .btnhover;
+    }
+    img {
+      padding: 0 0px;
+    }
+    ul{
+      @extend .bannerList;
+      @extend .txtDescription;
+      padding: 0;
+      i{
+        color: $secondryColor;
+        margin: 0 8px 0 0;
+      }
+      li{
+        padding: 0 0 4px 0;
+        margin-bottom: 12px;
+      }
+    }
+  }
+}
+
+.reactjs-chatgpt_usecase {
+  padding: 94px 0 60px 0;
+  background-color: $primaryColor;
+  background-size: 100% 100%;
+  .heading-title {
+    margin-bottom: 20px;
+    h4 {
+      @extend .subHeading;
+    }
+  }
+  h3 {
+    font-weight: bold;
+    opacity: 0.1;
+  }
+  .heading-sub-title {
+    padding: 0px 0px 10px 0px;
+    h2 {
+      @extend .mainHeading;
+      color: $color__fill-white;
+    }
+  }
+  .description {
+    @extend .txtDescription;
+    color: $color__fill-white;
+  }
+  .ror-development-solution_name {
+    @extend .txtDescription;
+    margin-top: 20px;
+    text-transform: uppercase;
+    padding: 0;
+  }
+  .sub-column {
+    color: $secondryColor;
+  }
+  .box {
+      border: 1px solid $color__fill-box;
+      border-radius: 0px;
+      padding: 30px 16px 0px 16px;
+      height: 100%;
+      background-color: #fff;
+      h5{
+        @extend .boxminiHeading;
+      }
+      i{
+        color: $secondryColor;
+        font-size: 20px;
+        box-shadow: 0px 0px 20px #b95656;
+        border-radius: 50%;
+      }
+    }
+    .box:hover {
+      box-shadow: 8px 8px 30px 0px $primary__box-shadow;
+    }
+}
+
+.reactjs-chatgpt_app {
+  padding: 100px 0 60px 0;
+  background: $bg__soft-white;
+  background-image: url('../../assets/img/bg-shape1-home5.png');
+  background-repeat: no-repeat;
+  background-position: right center;
+  .reactjs-chatgpt_app-inner {
+    h2 {
+      @extend .mainHeading;
+    }
+    p {
+      @extend .txtDescription;
+    }
+    .box {
+      border: 1px solid $color__fill-box;
+      border-radius: 15px;
+      padding: 30px 16px 0px 16px;
+      height: 100%;
+      h5{
+        @extend .boxminiHeading;
+      }
+      i{
+        color: $secondryColor;
+        font-size: 20px;
+        // box-shadow: 0px 0px 20px #b95656;
+        border-radius: 50%;
+      }
+    }
+    .box:hover {
+      box-shadow: 8px 8px 30px 0px $primary__box-shadow;
+    }
+    .sub-column {
+      color: $secondryColor;
+    }
+    ul{
+        list-style: none;
+        padding: 0;
+        li{
+            @extend .miniDescription;
+            padding: 0px 0px 14px 0px;
+        }
+        i{
+            color: $secondryColor;
+            margin-right: 5px;
+        }
+    }
+  }
+}
+
+.reactjs-other_usecase{
+    padding: 100px 0 40px 0;
+    .reactjs-other_usecase-inner{
+        .sub-column{
+            color: $secondryColor;
+        }
+        ul{
+          @extend .txtDescription;
+
+          li{
+            position: relative;
+            padding-left: 2rem;
+            margin-bottom: 1.5rem;
+            width: 50%;
+             i{
+                position: absolute;
+                left: 0;
+                top: 5px;
+                color: #ec0000;
+             }
+          }
+        }
+        p{
+            @extend .txtDescription;
+        }
+        h2{
+            @extend .mainHeading;
+        }
+        p{
+            padding-bottom: 10px;
+            margin: 0;
+        }
+        .box{
+            border: 1px solid #ebebeb;
+            border-radius: 15px;
+            padding: 30px 16px 20px 16px;
+            height: 100%;
+        }
+        .price-tag{
+            background-color: #eb0101;
+            color: #fff;
+            padding: 8px 12px;
+            border-radius: 22px;
+        }
+    }
+}
+
+.chatgpt_build-cost{
+    padding: 80px 0 100px 0;
+    .chatgpt_build-cost-inner{
+        .sub-column{
+            color: $secondryColor;
+        }
+        p{
+            @extend .txtDescription;
+        }
+        h2{
+            @extend .mainHeading;
+        }
+        p{
+            padding-bottom: 10px;
+            margin: 0;
+        }
+        .box{
+            border: 1px solid #ebebeb;
+            border-radius: 15px;
+            padding: 30px 16px 20px 16px;
+            height: 100%;
+        }
+        .price-tag{
+            background-color: #eb0101;
+            color: #fff;
+            padding: 8px 12px;
+            border-radius: 22px;
+        }
+    }
+}
+
+.reactjs-developer_faq{
+    padding: 20px 0 80px 0;
+    .reactjs-developer_faq-inner{
+      .sub-column{
+        color: $secondryColor;
+      }
+        h2{
+            @extend .mainHeading;
+        }
+        p{
+            padding-bottom: 10px;
+            margin: 0;
+            @extend .txtDescription;
+        }
+        .collapse-section{
+                border-bottom: 1px solid;
+                border-color: orange;
+                padding-bottom: 16px;
+
+                &:last-child{
+                    border-bottom: none;
+                }
+            a{
+                display: flex;
+                align-items: center;
+                margin: 0;
+            }
+            a[aria-expanded="false"]{
+                &::before{
+                    content: '+';
+                    font-size: 40px;
+                    color: #ed0e0e;
+                    margin-right: 12px;
+                }
+            }
+            a[aria-expanded="true"]{
+                &::before{
+                    content: '-';
+                    font-size: 40px;
+                    color: #ed0e0e;
+                    margin-right: 12px;
+                }
+            }
+        }
+    }
+}

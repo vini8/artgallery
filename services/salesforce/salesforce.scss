@@ -1,0 +1,1087 @@
+@import "../../styles/typography.scss";
+@import "../../styles/variables.scss";
+@import "../../styles/media.scss";
+
+
+.banner-section-salesforce-development {
+  background-image: url("../../assets/img/salesforce-header.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  position: relative;
+  height: 600px;
+  display: flex;
+  align-items: center;
+
+  h1 {
+    @extend .H1heading;
+  }
+
+  p {
+    @extend .ptxtMediumWhite;
+  }
+
+  .banner-section-salesforce-development-bg-overlay {
+    background-color: #000000;
+    opacity: 0.5;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+
+  .banner-inner-container {
+    position: relative;
+
+    .salesforce-partner-logo {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+    }
+  }
+}
+
+.salesforce-development-intro {
+  padding: 80px 0 80px 0;
+  background: $color__fill-box;
+
+  .salesforce-development-intro-inner {
+    h2 {
+      @extend .mainHeading;
+    }
+
+    .sub-column {
+      color: $secondryColor;
+    }
+
+    p {
+      @extend .txtDescription;
+      padding: 10px 0 10px 0;
+    }
+
+    .align-vt_center {
+      align-items: center;
+    }
+
+    button {
+      @extend .btnbase;
+      text-transform: capitalize;
+    }
+
+    button:hover {
+      @extend .btnhover;
+    }
+
+    img {
+      border-radius: 20px;
+      width: 70%;
+    }
+  }
+}
+
+.solution-salesforce-development {
+  padding: 80px 0 80px 0;
+
+  .solution-salesforce-development-inner {
+    h2 {
+      @extend .mainHeading;
+    }
+
+    .sub-column {
+      color: $secondryColor;
+    }
+
+    p {
+      @extend .txtDescription;
+      padding: 10px 0 0px 0;
+    }
+
+    .align-vt_center {
+      align-items: center;
+    }
+
+    button {
+      @extend .btnbase;
+      text-transform: capitalize;
+    }
+
+    button:hover {
+      @extend .btnhover;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+
+      li {
+        @extend .txtDescription;
+        padding: 6px 0px;
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+.our-service-box {
+  .our-service-box__container {
+    .our-service-box__container-button {
+      a {
+        color: $color__fill-white;
+        text-decoration: none;
+      }
+    }
+
+    .our-service-box {
+      height: 100%;
+    }
+  }
+
+  button {
+    @extend .btnbase;
+  }
+
+  button:hover {
+    @extend .btnhover;
+  }
+}
+
+.salesforce-development-quote {
+  padding: 0px 0px 60px 0px;
+
+  .salesforce-development-quote-title {
+    margin-bottom: 20px;
+  }
+
+  .mini-description {
+    font-size: 16px;
+    color: $color__fill-grey;
+    line-height: 1.3;
+    padding: 0 0 14px 0;
+  }
+
+  h2 {
+    padding: 0 0 10px 0;
+    @extend .mainHeading;
+  }
+
+  .description {
+    @extend .txtDescription;
+  }
+
+  .salesforce_cloud-box {
+    padding: 22px 10px 0px 10px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    height: 100%;
+
+    p {
+      font-size: 15px;
+      margin: 0;
+    }
+
+    .description {
+      padding: 0;
+    }
+
+    .salesforce_cloud-box-inner {
+      display: flex;
+      flex-wrap: nowrap;
+      margin: 6px 0 33px 0;
+
+      .social_studio-icon {
+        background: $primaryColor;
+      }
+    }
+
+    .salesforce-cloud-icon {
+      width: 114px;
+      height: 55px;
+      float: left;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 18px 0 0;
+      border-radius: 8px;
+      padding: 2px 6px 2px 6px;
+    }
+  }
+
+  button {
+    @extend .btnbase;
+    font-weight: 500;
+  }
+
+  button:hover {
+    @extend .btnhover;
+  }
+
+  .sub-column {
+    color: $secondryColor;
+  }
+}
+
+.salesforce-development-mobile-cloud {
+  padding: 100px 0;
+
+  .salesforce_cloud-box-list {
+    ul {
+      list-style: none;
+      padding: 0;
+
+      li {
+        @extend .miniDescription;
+        padding: 3px 0px;
+      }
+    }
+  }
+
+  h2 {
+    @extend .mainHeading;
+  }
+
+  .salesforce_cloud-box {
+    padding: 22px 10px 0px 10px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    height: 100%;
+
+    p {
+      font-size: 15px;
+      margin: 0;
+    }
+
+    .description {
+      padding: 0;
+    }
+  }
+
+  button {
+    @extend .btnbase;
+    font-weight: 500;
+  }
+
+  button:hover {
+    @extend .btnhover;
+  }
+
+  .sub-column {
+    color: $secondryColor;
+  }
+
+  p {
+    @extend .miniDescription;
+    padding: 0;
+  }
+}
+
+.salesforce-development-marketing-cloud {
+  background: $bg__casestudy-grey;
+  padding: 100px 0;
+
+  h2 {
+    @extend .mainHeading;
+  }
+
+  .description {
+    @extend .miniDescription;
+    padding: 0;
+  }
+
+  h5 {
+    @extend .boxminiHeading;
+  }
+
+  .salesforce_cloud-box {
+    padding: 22px 10px 0px 10px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    height: 100%;
+
+    p {
+      @extend .miniDescription;
+      padding: 0;
+      margin: 0;
+    }
+
+    .description {
+      padding: 0;
+    }
+
+    .salesforce_cloud-box-inner {
+      display: flex;
+      flex-wrap: nowrap;
+      margin: 6px 0 33px 0;
+
+      .salesforce-cloud-icon {
+        min-width: 60px;
+        height: 55px;
+        float: left;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 18px 0 0;
+        border-radius: 8px;
+        padding: 2px 6px 2px 6px;
+      }
+    }
+
+    .salesforce_cloud-box-inner .salesforce-cloud-icon {
+      background: $primaryColor;
+    }
+  }
+
+  button {
+    @extend .btnbase;
+    font-weight: 500;
+  }
+
+  .sub-column {
+    color: $secondryColor;
+  }
+}
+
+.salesforce-development-sales-cloud {
+  padding: 100px 0;
+
+  h2 {
+    @extend .mainHeading;
+  }
+
+  .description {
+    @extend .miniDescription;
+    padding: 0;
+  }
+
+  .salesforce_cloud-box {
+    padding: 22px 10px 0px 10px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    height: 100%;
+
+    p {
+      @extend .miniDescription;
+      padding: 0;
+      margin: 0;
+    }
+
+    h5 {
+      @extend .boxminiHeading;
+    }
+
+    .description {
+      padding: 0;
+    }
+
+    .salesforce_cloud-box-inner {
+      display: flex;
+      flex-wrap: nowrap;
+      margin: 6px 0 33px 0;
+
+      .salesforce-cloud-icon {
+        min-width: 60px;
+        height: 55px;
+        float: left;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 18px 0 0;
+        border-radius: 8px;
+        padding: 2px 6px 2px 6px;
+      }
+    }
+
+    .salesforce_cloud-box-inner .salesforce-cloud-icon {
+      background: $primaryColor;
+    }
+  }
+
+  button {
+    @extend .btnbase;
+    font-weight: 500;
+  }
+
+  .sub-column {
+    color: $secondryColor;
+  }
+}
+
+.salesforce-development-service-cloud {
+  background: $bg__casestudy-grey;
+  padding: 100px 0;
+
+  .description {
+    @extend .miniDescription;
+    padding: 0;
+  }
+
+  .salesforce_cloud-box {
+    padding: 22px 10px 0px 10px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    height: 100%;
+
+    p {
+      @extend .miniDescription;
+      padding: 0;
+      margin: 0;
+    }
+
+    h5 {
+      @extend .boxminiHeading;
+    }
+
+    .description {
+      padding: 0;
+    }
+
+    .salesforce_cloud-box-inner {
+      display: flex;
+      flex-wrap: nowrap;
+      margin: 6px 0 33px 0;
+
+      .salesforce-cloud-icon {
+        min-width: 60px;
+        height: 55px;
+        float: left;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 18px 0 0;
+        border-radius: 8px;
+        padding: 2px 6px 2px 6px;
+      }
+    }
+
+    .salesforce_cloud-box-inner .salesforce-cloud-icon {
+      background: $primaryColor;
+    }
+  }
+
+  button {
+    @extend .btnbase;
+    font-weight: 500;
+  }
+
+  .sub-column {
+    color: $secondryColor;
+  }
+}
+
+.salesforce-development-commerce-cloud {
+  padding: 100px 0;
+
+  h2 {
+    @extend .mainHeading;
+  }
+
+  .description {
+    @extend .miniDescription;
+    padding: 0;
+  }
+
+  .salesforce_cloud-box {
+    padding: 22px 10px 0px 10px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    height: 100%;
+
+    p {
+      @extend .miniDescription;
+      padding: 0;
+      margin: 0;
+    }
+
+    h5 {
+      @extend .boxminiHeading;
+    }
+
+    .description {
+      padding: 0;
+    }
+
+    .salesforce_cloud-box-inner {
+      display: flex;
+      flex-wrap: nowrap;
+      margin: 6px 0 33px 0;
+
+      .salesforce-cloud-icon {
+        min-width: 60px;
+        height: 55px;
+        float: left;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 18px 0 0;
+        border-radius: 8px;
+        padding: 2px 6px 2px 6px;
+      }
+    }
+
+    .salesforce_cloud-box-inner .salesforce-cloud-icon {
+      background: $primaryColor;
+    }
+  }
+
+  button {
+    @extend .btnbase;
+    font-weight: 500;
+  }
+
+  .sub-column {
+    color: $secondryColor;
+  }
+}
+
+.salesforce-development-community-cloud {
+  background: $bg__casestudy-grey;
+  padding: 100px 0;
+
+  h2 {
+    @extend .mainHeading;
+  }
+
+  .description {
+    @extend .miniDescription;
+    padding: 0;
+  }
+
+  .salesforce_cloud-box {
+    padding: 22px 10px 0px 10px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    height: 100%;
+
+    p {
+      @extend .miniDescription;
+      padding: 0;
+      margin: 0;
+    }
+
+    .description {
+      padding: 0;
+    }
+
+    .salesforce_cloud-box-inner {
+      display: flex;
+      flex-wrap: nowrap;
+      margin: 6px 0 33px 0;
+
+      .salesforce-cloud-icon {
+        min-width: 60px;
+        height: 55px;
+        float: left;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 18px 0 0;
+        border-radius: 8px;
+        padding: 2px 6px 2px 6px;
+      }
+    }
+
+    .salesforce_cloud-box-inner .salesforce-cloud-icon {
+      background: $primaryColor;
+    }
+  }
+
+  button {
+    @extend .btnbase;
+    font-weight: 500;
+  }
+
+  .sub-column {
+    color: $secondryColor;
+  }
+}
+
+.salesforce-development-lightning-cloud {
+  padding: 100px 0;
+
+  h2 {
+    @extend .mainHeading;
+  }
+
+  .description {
+    @extend .miniDescription;
+  }
+
+  .salesforce_cloud-box-list {
+    ul {
+      list-style: none;
+      padding: 0;
+      @extend .txtDescription;
+
+      li {
+        padding: 3px 0px;
+        font-size: 16px;
+      }
+    }
+  }
+
+  .salesforce_cloud-box {
+    padding: 22px 10px 0px 10px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    height: 100%;
+
+    p {
+      font-size: 15px;
+      margin: 0;
+    }
+
+    .description {
+      padding: 0;
+    }
+
+    .salesforce_cloud-box-inner {
+      display: flex;
+      flex-wrap: nowrap;
+      margin: 6px 0 33px 0;
+
+      .salesforce-cloud-icon {
+        min-width: 60px;
+        height: 55px;
+        float: left;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 18px 0 0;
+        border-radius: 8px;
+        padding: 2px 6px 2px 6px;
+      }
+    }
+
+    .salesforce_cloud-box-inner:nth-child(1n) .salesforce-cloud-icon {
+      background: $service__box-green;
+    }
+
+    .salesforce_cloud-box-inner:nth-child(2n) .salesforce-cloud-icon {
+      background: $service__box-purple;
+    }
+
+    .salesforce_cloud-box-inner:nth-child(3n) .salesforce-cloud-icon {
+      background: $service__box-pink;
+    }
+
+    .salesforce_cloud-box-inner:nth-child(4n) .salesforce-cloud-icon {
+      background: $service__box-yellow;
+    }
+
+    .salesforce_cloud-box-inner:nth-child(5n) .salesforce-cloud-icon {
+      background: $service__box-blue;
+    }
+  }
+
+  button {
+    @extend .btnbase;
+    font-weight: 500;
+  }
+
+  .sub-column {
+    color: $secondryColor;
+  }
+}
+
+.salesforce-development-force-cloud {
+  padding: 100px 0;
+  background: $bg__casestudy-grey;
+
+  h2 {
+    @extend .mainHeading;
+  }
+
+  .description {
+    @extend .miniDescription;
+  }
+
+  .salesforce_cloud-box-list {
+    ul {
+      list-style: none;
+      padding: 0;
+
+      li {
+        @extend .txtDescription;
+        padding: 3px 0px;
+        font-size: 16px;
+      }
+    }
+  }
+
+  .salesforce_cloud-box {
+    padding: 22px 10px 0px 10px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    height: 100%;
+
+    p {
+      font-size: 15px;
+      margin: 0;
+    }
+
+    .description {
+      padding: 0;
+    }
+
+    .salesforce_cloud-box-inner {
+      display: flex;
+      flex-wrap: nowrap;
+      margin: 6px 0 33px 0;
+
+      .salesforce-cloud-icon {
+        min-width: 60px;
+        height: 55px;
+        float: left;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 18px 0 0;
+        border-radius: 8px;
+        padding: 2px 6px 2px 6px;
+      }
+    }
+
+    .salesforce_cloud-box-inner:nth-child(1n) .salesforce-cloud-icon {
+      background: $service__box-green;
+    }
+
+    .salesforce_cloud-box-inner:nth-child(2n) .salesforce-cloud-icon {
+      background: $service__box-purple;
+    }
+
+    .salesforce_cloud-box-inner:nth-child(3n) .salesforce-cloud-icon {
+      background: $service__box-pink;
+    }
+
+    .salesforce_cloud-box-inner:nth-child(4n) .salesforce-cloud-icon {
+      background: $service__box-yellow;
+    }
+
+    .salesforce_cloud-box-inner:nth-child(5n) .salesforce-cloud-icon {
+      background: $service__box-blue;
+    }
+  }
+
+  button {
+    @extend .btnbase;
+    font-weight: 500;
+  }
+
+  .sub-column {
+    color: $secondryColor;
+  }
+}
+
+.salesforce-development-services {
+  padding: 100px 0 20px 0;
+  background: $color__fill-light-grey;
+
+  .salesforce-development-services-inner {
+    .sub-column {
+      color: $secondryColor;
+    }
+
+    h2 {
+      @extend .mainHeading;
+    }
+
+    p {
+      @extend .txtDescription;
+    }
+
+    .blue-column {
+      color: $primaryColor;
+    }
+
+    .salesforce-development-services-box {
+      border-radius: 15px;
+      padding: 30px 16px 15px 16px;
+      height: 100%;
+      position: relative;
+
+      p {
+        padding: 0;
+      }
+
+      img {
+        min-height: 250px;
+        object-fit: contain;
+        max-height: 250px;
+      }
+
+      h4 {
+        @extend .boxsubHeading;
+      }
+    }
+
+    .service-box1 {
+      background: $service__box-green;
+    }
+
+    .service-box1::before {
+      position: absolute;
+      top: -20px;
+      left: 30px;
+      right: 30px;
+      height: 20px;
+      content: "";
+      border-radius: 10px 10px 0 0;
+      z-index: 1;
+      background: $service__box-green;
+      opacity: 0.7;
+    }
+
+    .service-box1::after {
+      content: "";
+      border-radius: 10px 10px 0 0;
+      z-index: 1;
+      height: 20px;
+      top: -40px;
+      left: 50px;
+      right: 50px;
+      background: $service__box-green;
+      position: absolute;
+      opacity: 0.5;
+    }
+
+    .service-box2 {
+      background: $service__box-purple;
+    }
+
+    .service-box2::before {
+      position: absolute;
+      top: -20px;
+      left: 30px;
+      right: 30px;
+      height: 20px;
+      content: "";
+      border-radius: 10px 10px 0 0;
+      z-index: 1;
+      background: $service__box-purple;
+      opacity: 0.7;
+    }
+
+    .service-box2::after {
+      content: "";
+      border-radius: 10px 10px 0 0;
+      z-index: 1;
+      height: 20px;
+      top: -40px;
+      left: 50px;
+      right: 50px;
+      background: $service__box-purple;
+      position: absolute;
+      opacity: 0.5;
+    }
+
+    .service-box3 {
+      background: $service__box-pink;
+    }
+
+    .service-box3::before {
+      position: absolute;
+      top: -20px;
+      left: 30px;
+      right: 30px;
+      height: 20px;
+      content: "";
+      border-radius: 10px 10px 0 0;
+      z-index: 1;
+      background: $service__box-pink;
+      opacity: 0.7;
+    }
+
+    .service-box3::after {
+      content: "";
+      border-radius: 10px 10px 0 0;
+      z-index: 1;
+      height: 20px;
+      top: -40px;
+      left: 50px;
+      right: 50px;
+      background: $service__box-pink;
+      position: absolute;
+      opacity: 0.5;
+    }
+
+    .service-box4 {
+      background: $service__box-yellow;
+    }
+
+    .service-box4::before {
+      position: absolute;
+      top: -20px;
+      left: 30px;
+      right: 30px;
+      height: 20px;
+      content: "";
+      border-radius: 10px 10px 0 0;
+      z-index: 1;
+      background: $service__box-yellow;
+      opacity: 0.7;
+    }
+
+    .service-box4::after {
+      content: "";
+      border-radius: 10px 10px 0 0;
+      z-index: 1;
+      height: 20px;
+      top: -40px;
+      left: 50px;
+      right: 50px;
+      background: $service__box-yellow;
+      position: absolute;
+      opacity: 0.5;
+    }
+
+    .service-box5 {
+      background: $service__box-blue;
+    }
+
+    .service-box5::before {
+      position: absolute;
+      top: -20px;
+      left: 30px;
+      right: 30px;
+      height: 20px;
+      content: "";
+      border-radius: 10px 10px 0 0;
+      z-index: 1;
+      background: $service__box-blue;
+      opacity: 0.7;
+    }
+
+    .service-box5::after {
+      content: "";
+      border-radius: 10px 10px 0 0;
+      z-index: 1;
+      height: 20px;
+      top: -40px;
+      left: 50px;
+      right: 50px;
+      background: $service__box-blue;
+      position: absolute;
+      opacity: 0.5;
+    }
+
+    .service-box6 {
+      background: $service__box-pitch;
+    }
+
+    .service-box6::before {
+      position: absolute;
+      top: -20px;
+      left: 30px;
+      right: 30px;
+      height: 20px;
+      content: "";
+      border-radius: 10px 10px 0 0;
+      z-index: 1;
+      background: $service__box-pitch;
+      opacity: 0.7;
+    }
+
+    .service-box6::after {
+      content: "";
+      border-radius: 10px 10px 0 0;
+      z-index: 1;
+      height: 20px;
+      top: -40px;
+      left: 50px;
+      right: 50px;
+      background: $service__box-pitch;
+      position: absolute;
+      opacity: 0.5;
+    }
+
+    .salesforce-development-services-box:hover {
+      box-shadow: 8px 8px 30px 0px $primary__box-shadow;
+    }
+  }
+}
+
+.salesforce-development-partner {
+  .salesforce-development-partner-container {
+    padding: 100px 0px 100px 0px;
+  }
+
+  .heading-title {
+    margin-bottom: 20px;
+
+    h4 {
+      @extend .subHeading;
+    }
+  }
+
+  .heading-sub-title {
+    padding: 0px 0px 5px 0px;
+
+    h2 {
+      @extend .mainHeading;
+    }
+  }
+
+  .btn-primary {
+    color: $color__fill-white;
+    background-color: $primaryColor;
+    border-color: $primaryColor;
+  }
+
+  .btn-base {
+    border: none;
+    padding: 8px 18px;
+    border: 1px solid transparent;
+  }
+
+  .btn-base:hover {
+    background: $color__fill-white !important;
+    color: $primaryColor !important;
+    border: 1px solid !important;
+  }
+
+  .description {
+    @extend .txtDescription;
+    padding: 0 0 8px 0;
+  }
+
+  ul {
+    @extend .txtDescription;
+    padding: 0 0 0 60px;
+    list-style: none;
+
+    li {
+      padding: 3px 0;
+    }
+
+    i {
+      color: $secondryColor;
+    }
+  }
+
+  .about-asset-sec {
+    padding: 3rem;
+
+    .about-next-img {
+      margin-top: -18rem;
+      margin-left: 7rem;
+    }
+  }
+
+  .vt-center {
+    align-items: center;
+  }
+
+  img {
+    border-radius: 10px;
+  }
+}

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500"
+    style="width:100%;height:100%;transform:translate3d(0,0,0);content-visibility:visible"
+    viewBox="0 0 500 500">
+    <defs>
+        <clipPath id="c">
+            <path d="M0 0h500v500H0z" />
+        </clipPath>
+        <filter id="a" width="100%" height="100%" x="0%" y="0%" filterUnits="objectBoundingBox">
+            <feComponentTransfer in="SourceGraphic">
+                <feFuncA tableValues="1.0 0.0" type="table" />
+            </feComponentTransfer>
+        </filter>
+        <mask id="d" mask-type="alpha">
+            <g filter="url(#a)">
+                <path fill="#fff" d="M0 0h500v500H0z" opacity="0" />
+                <use xmlns:ns1="http://www.w3.org/1999/xlink" ns1:href="#b" />
+            </g>
+        </mask>
+        <g id="b" style="display:block">
+            <path fill-opacity="0" stroke="#121330" stroke-linecap="round" stroke-linejoin="round"
+                stroke-width="0"
+                d="m325.42 185.601.353 35.846-72.056-35.846h-46.211c-5.845 0-10.583-4.737-10.583-10.582v-74.556c0-5.845 4.738-10.582 10.583-10.582H372.22c5.845 0 10.583 4.737 10.583 10.582v74.556c0 5.845-4.738 10.582-10.583 10.582h-46.8z" />
+            <path fill="red"
+                d="m325.42 185.601.353 35.846-72.056-35.846h-46.211c-5.845 0-10.583-4.737-10.583-10.582v-74.556c0-5.845 4.738-10.582 10.583-10.582H372.22c5.845 0 10.583 4.737 10.583 10.582v74.556c0 5.845-4.738 10.582-10.583 10.582h-46.8z" />
+        </g>
+    </defs>
+    <g clip-path="url(#c)">
+        <path fill="none" stroke="#121330" stroke-linecap="round" stroke-linejoin="round"
+            stroke-width="12.04"
+            d="M-17.841 57.591h35.682c19.707 0 35.682 15.975 35.682 35.682v11.937a6.448 6.448 0 0 1-5.707 6.406L35.33 113.06a36.636 36.636 0 0 0-9.92 2.592s0 0 0 0a66.217 66.217 0 0 1-50.956.052l-.086-.035a38.396 38.396 0 0 0-10.347-2.69l-11.834-1.365a6.448 6.448 0 0 1-5.71-6.406V93.273c0-19.707 15.975-35.682 35.682-35.682zM-.834-37.617H.834c14.502 0 26.115 12.024 25.611 26.518l-.834 23.98C25.131 26.679 13.806 37.617 0 37.617c0 0 0 0 0 0-13.806 0-25.131-10.938-25.611-24.736l-.834-23.98c-.504-14.494 11.109-26.518 25.611-26.518z"
+            style="display:block" transform="translate(159.984 293.251)" />
+        <path fill="none" stroke="#121330" stroke-linecap="round" stroke-linejoin="round"
+            stroke-width="12.04"
+            d="M-17.841 57.591h35.682c19.707 0 35.682 15.975 35.682 35.682v11.937a6.448 6.448 0 0 1-5.707 6.406L35.33 113.06a36.636 36.636 0 0 0-9.92 2.592s0 0 0 0a66.217 66.217 0 0 1-50.956.052l-.086-.035a38.396 38.396 0 0 0-10.347-2.69l-11.834-1.365a6.448 6.448 0 0 1-5.71-6.406V93.273c0-19.707 15.975-35.682 35.682-35.682zM-.834-37.617H.834c14.502 0 26.115 12.024 25.611 26.518l-.834 23.98C25.131 26.679 13.806 37.617 0 37.617c0 0 0 0 0 0-13.806 0-25.131-10.938-25.611-24.736l-.834-23.98c-.504-14.494 11.109-26.518 25.611-26.518z"
+            style="display:block" transform="translate(339.122 289.834)" />
+        <g mask="url(#d)" style="display:block">
+            <path fill="none" stroke="#ec0000" stroke-linecap="round" stroke-linejoin="round"
+                stroke-width="12.04"
+                d="m246.356 215.649-35.121 34.649-34.187-34.649H132.38c-5.649 0-10.229-4.58-10.229-10.229v-72.067c0-5.649 4.58-10.229 10.229-10.229h159.214c5.649 0 10.229 4.58 10.229 10.229v72.067c0 5.649-4.58 10.229-10.229 10.229h-45.238z" />
+        </g>
+        <path fill="none" stroke="#121330" stroke-linecap="round" stroke-linejoin="round"
+            stroke-width="12.04"
+            d="m35.557 29.937.353 35.846-72.056-35.846h-46.211c-5.845 0-10.583-4.737-10.583-10.582v-74.556c0-5.845 4.738-10.582 10.583-10.582H82.357c5.845 0 10.583 4.737 10.583 10.582v74.556c0 5.845-4.738 10.582-10.583 10.582h-46.8z"
+            style="display:block" transform="translate(289.863 155.664)" />
+        <g class="com" style="display:none">
+            <path />
+            <path />
+            <path />
+            <path />
+            <path />
+            <path />
+            <path />
+            <path />
+            <path />
+            <path />
+            <path />
+            <path />
+        </g>
+    </g>
+</svg>

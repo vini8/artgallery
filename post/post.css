@@ -1,0 +1,1353 @@
+@font-face {
+  font-family: "NovemberPro";
+  src: url("../assets/fonts/november-pro/NovemberPro.eot");
+  src: url("../assets/fonts/november-pro/NovemberPro.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/november-pro/NovemberPro.svg#NovemberPro") format("svg"), url("../assets/fonts/november-pro/NovemberPro.ttf") format("truetype"), url("../assets/fonts/november-pro/NovemberPro.woff") format("woff"), url("../assets/fonts/november-pro/NovemberPro.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NovemberPro-Reg";
+  src: url("../assets/fonts/november-pro/NovemberPro-Reg.eot");
+  src: url("../assets/fonts/november-pro/NovemberPro-Reg.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/november-pro/NovemberPro-Reg.svg#NovemberPro-Reg") format("svg"), url("../assets/fonts/november-pro/NovemberPro-Reg.ttf") format("truetype"), url("../assets/fonts/november-pro/NovemberPro-Reg.woff") format("woff"), url("../assets/fonts/november-pro/NovemberPro-Reg.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Graphik;
+  src: url("../assets/fonts/circular-std/Graphik-Regular.woff2") format("woff2");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: CircularStd;
+  src: url("../assets/fonts/circular-std/CircularStd-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+button, p {
+  font-family: "NovemberPro-Reg" !important;
+}
+
+h1, h2, h3, h4, h5, h5 {
+  font-family: "NovemberPro";
+}
+
+body {
+  font-family: "NovemberPro" !important;
+}
+
+.H1DesktopGreen {
+  font-family: Boxout02;
+  font-size: 54px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  color: #008067;
+}
+
+.H1DesktopBlack {
+  font-family: Boxout02;
+  font-size: 54px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.H1DesktopWhite {
+  font-family: Boxout02;
+  font-size: 54px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  color: #f6f6f6;
+}
+
+.H2Desktop {
+  font-family: Boxout02;
+  font-size: 36px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+}
+
+.H2DesktopGreen {
+  font-family: Boxout02;
+  font-size: 36px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  color: #008067;
+}
+
+.H2DesktopWhite {
+  font-family: Boxout02;
+  font-size: 36px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.H3Desktop {
+  font-family: Boxout02;
+  font-size: 30px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.07;
+  letter-spacing: normal;
+}
+
+.H3BlackDesktop {
+  font-size: 30px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.07;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.sliderHeading, .home-section .carousel-caption h3 {
+  font-family: "NovemberPro";
+  font-size: 40px;
+}
+
+@media (max-width: 1400px) {
+  .sliderHeading, .home-section .carousel-caption h3 {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 992px) {
+  .sliderHeading, .home-section .carousel-caption h3 {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 576px) {
+  .sliderHeading, .home-section .carousel-caption h3 {
+    font-size: 15px;
+  }
+}
+
+.slidersubHeading {
+  font-family: "NovemberPro";
+  font-size: 30px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 1400px) {
+  .slidersubHeading {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 992px) {
+  .slidersubHeading {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 576px) {
+  .slidersubHeading {
+    font-size: 20px;
+  }
+}
+
+.sliderDescription {
+  font-family: Graphik;
+  font-size: 22px;
+  margin: 30px 0 0 0;
+  font-weight: normal;
+}
+
+@media (max-width: 1400px) {
+  .sliderDescription {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 992px) {
+  .sliderDescription {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 576px) {
+  .sliderDescription {
+    font-size: 10px;
+  }
+}
+
+.menuList {
+  font-size: 16px;
+}
+
+@media (max-width: 1400px) {
+  .menuList {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 992px) {
+  .menuList {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 576px) {
+  .menuList {
+    font-size: 10px;
+  }
+}
+
+.largeHeading {
+  font-family: "NovemberPro";
+  font-size: 3.5rem;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #000000;
+}
+
+@media (max-width: 1400px) {
+  .largeHeading {
+    font-size: 2.3rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .largeHeading {
+    font-size: 2.3rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .largeHeading {
+    font-size: 2rem;
+  }
+}
+
+.mainHeading, .quote h2 {
+  font-family: "NovemberPro";
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #000000;
+}
+
+@media (max-width: 1400px) {
+  .mainHeading, .quote h2 {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 992px) {
+  .mainHeading, .quote h2 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 576px) {
+  .mainHeading, .quote h2 {
+    font-size: 12px;
+  }
+}
+
+.subHeading, .quote h4 {
+  font-family: "NovemberPro";
+  font-size: 40px;
+  line-height: 1;
+  letter-spacing: 2px;
+  color: #000000;
+}
+
+@media (max-width: 1400px) {
+  .subHeading, .quote h4 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  .subHeading, .quote h4 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 576px) {
+  .subHeading, .quote h4 {
+    font-size: 10px;
+  }
+}
+
+.boxsubHeading {
+  font-size: 24px;
+}
+
+@media (max-width: 1400px) {
+  .boxsubHeading {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 992px) {
+  .boxsubHeading {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .boxsubHeading {
+    font-size: 10px;
+  }
+}
+
+.boxminiHeading {
+  font-size: 18px;
+}
+
+@media (max-width: 1400px) {
+  .boxminiHeading {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 992px) {
+  .boxminiHeading {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 576px) {
+  .boxminiHeading {
+    font-size: 8px;
+  }
+}
+
+.txtDescription, .quote .description {
+  font-family: "NovemberPro-Reg";
+  font-size: 18px;
+  color: #333;
+  line-height: 1.5;
+  padding: 0px 0px 30px 0px;
+}
+
+@media (max-width: 1400px) {
+  .txtDescription, .quote .description {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 992px) {
+  .txtDescription, .quote .description {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 576px) {
+  .txtDescription, .quote .description {
+    font-size: 10px;
+  }
+}
+
+.miniDescription {
+  font-family: "NovemberPro-Reg";
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+  padding: 0px 0px 30px 0px;
+}
+
+@media (max-width: 1400px) {
+  .miniDescription {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 992px) {
+  .miniDescription {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 576px) {
+  .miniDescription {
+    font-size: 10px;
+  }
+}
+
+.boxHeading {
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 23px;
+  color: #000000;
+  padding: 0px 0px 15px 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+@media (max-width: 1400px) {
+  .boxHeading {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 992px) {
+  .boxHeading {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .boxHeading {
+    font-size: 10px;
+  }
+}
+
+.miniHeading {
+  font-family: "NovemberPro";
+  color: #000000;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+@media (max-width: 1400px) {
+  .miniHeading {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 992px) {
+  .miniHeading {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .miniHeading {
+    font-size: 8px;
+  }
+}
+
+.btnbase, .header-container .contact-btn {
+  border: none;
+  padding: 8px 18px;
+  border: 1px solid transparent;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.btnhover, .header-container .contact-btn:hover {
+  background: #ffffff !important;
+  color: #000000 !important;
+  border: 1px solid !important;
+}
+
+.btnfocus {
+  background: #ffffff !important;
+  color: #000000 !important;
+  border: 1px solid !important;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.btnactivefocus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.H1heading, .banner-section h1 {
+  font-size: 70px;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 0px 0px 15px 0px;
+}
+
+@media (max-width: 1400px) {
+  .H1heading, .banner-section h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 992px) {
+  .H1heading, .banner-section h1 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .H1heading, .banner-section h1 {
+    font-size: 20px;
+  }
+}
+
+.ptxtMediumBlack {
+  font-size: 18px;
+  letter-spacing: 0.22px;
+}
+
+@media (max-width: 1400px) {
+  .ptxtMediumBlack {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 992px) {
+  .ptxtMediumBlack {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 576px) {
+  .ptxtMediumBlack {
+    font-size: 10px;
+  }
+}
+
+.ptxtMediumWhite, .post .post-box-container .post-box-content h4 {
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0.22px;
+}
+
+@media (max-width: 1400px) {
+  .ptxtMediumWhite, .post .post-box-container .post-box-content h4 {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 992px) {
+  .ptxtMediumWhite, .post .post-box-container .post-box-content h4 {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 576px) {
+  .ptxtMediumWhite, .post .post-box-container .post-box-content h4 {
+    font-size: 10px;
+  }
+}
+
+.bannerList, .banner-section ul {
+  list-style: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+}
+
+.H3WhiteDesktop {
+  font-family: Boxout02;
+  font-size: 30px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.07;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.H5DesktopGreen {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #008067;
+}
+
+.H5DesktopGrey {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #748494;
+}
+
+.H5DesktopBlack {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.H4DesktopWhite {
+  font-family: Boxout02;
+  font-size: 21px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.52;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.H4DesktopBlack {
+  font-family: Boxout02;
+  font-size: 21px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.52;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.H6Desktop {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+}
+
+.H6DesktopGrey {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #748494;
+}
+
+.H6DesktopBlack {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.H6DesktopGreen {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #008067;
+}
+
+.H6DesktopWhite {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.BodyLargeWhite {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.BodyDefault {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+
+.BodyDefaultBold {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+
+.BodyDefaultBoldGrey {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #748494;
+}
+
+.BodyDefaultBoldWhite {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.BodyDefaultBoldBlack {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.BodyDefaultRegularGrey {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #748494;
+}
+
+.BodyDefaultRegularBlack {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.BodySmallMediumGrey {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #748494;
+}
+
+.BodySmallMediumWhite {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.BodySmallMediumBlack {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.BodySmallMedium {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+}
+
+.CTA {
+  font-family: Hatch;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1.14;
+  letter-spacing: 0.5px;
+}
+
+.CTABlue {
+  font-family: Hatch;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1.14;
+  letter-spacing: 0.5px;
+  color: #3035ff;
+}
+
+.CTAGrey {
+  font-family: Hatch;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1.14;
+  letter-spacing: 0.5px;
+  color: #737373;
+}
+
+.CTAGreen {
+  font-family: Hatch;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1.14;
+  letter-spacing: 0.5px;
+  color: #008067;
+}
+
+.CTABlack {
+  font-family: Hatch;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1.14;
+  letter-spacing: 0.5px;
+  color: #000000;
+}
+
+.CTARed {
+  font-family: Hatch;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1.14;
+  letter-spacing: 0.5px;
+  color: #ff542d;
+}
+
+.CTAWhite {
+  font-family: Hatch;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1.14;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+}
+
+.CTAYellow {
+  font-family: Hatch;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1.14;
+  letter-spacing: 0.5px;
+  color: #ffcd00;
+}
+
+.BodySmallRegular {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+}
+
+.BodySmallRegularWhite {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.BodySmallRegularGrey {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #737373;
+}
+
+.BodySmallRegularGreen {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #008067;
+}
+
+.BodySmallRegularBlack {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.LabelGrey {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #737373;
+}
+
+.LabelWhite, .post .post-box-container .post-box-content .read-more-section a {
+  font-family: "NovemberPro-Reg";
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.EyebrowBlack {
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: 0.75px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.EyebrowWhite {
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: 0.75px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.EyebrowGreen {
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: 0.75px;
+  color: #008067;
+  text-transform: uppercase;
+}
+
+.EyebrowGrey {
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: 0.75px;
+  color: #737373;
+  text-transform: uppercase;
+}
+
+.text-description {
+  color: #333 !important;
+  font-family: 'November-pro';
+}
+
+p {
+  font-family: 'November-pro';
+}
+
+button, p {
+  font-family: "NovemberPro-Reg" !important;
+}
+
+h1, h2, h3, h4, h5, h5 {
+  font-family: "NovemberPro";
+}
+
+.header-container {
+  font-family: "NovemberPro-Reg";
+}
+
+.header-container .header-inner-container {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.header-container .mh-auto {
+  margin: 0 auto 0 auto;
+}
+
+.header-container .nav-item.active a {
+  color: #ffffff !important;
+  background: #000000;
+  border-radius: 4px;
+  padding-right: 0.7rem;
+  padding-left: 0.8rem;
+}
+
+.header-container .nav-item .nav-link {
+  font-family: "NovemberPro-Reg";
+  text-transform: uppercase;
+  color: #fff !important;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: Open Sans;
+  letter-spacing: 2.8px;
+  letter-spacing: normal;
+}
+
+.header-container .dropdown-submenu {
+  position: relative;
+}
+
+.header-container .dropdown-menu {
+  min-width: 215px;
+}
+
+.header-container .dropdown-submenu > .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -7px;
+}
+
+.header-container .dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.header-container .dropdown-submenu:hover > .dropdown-menu {
+  display: block;
+}
+
+.header-container .dropdown-submenu > a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #ccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+
+.header-container .dropdown-submenu:hover > a:after {
+  border-left-color: #fff;
+}
+
+.header-container .multi-level {
+  padding: 10px 23px 10px 18px;
+  font-size: 14px;
+  border-radius: 18px;
+}
+
+.header-container .dropdown-submenu {
+  padding: 6px 0;
+}
+
+.header-container .dropdown-submenu .dropdown-toggle {
+  text-decoration: none;
+  color: #000000;
+}
+
+.header-container .pre-menu-icon {
+  margin-right: 10px;
+  width: 0.3rem;
+}
+
+.header-container .pre-menu-icon:hover {
+  fill: #000000;
+}
+
+.header-container .single-level {
+  font-size: 14px;
+  padding: 10px 23px 10px 18px;
+  border-radius: 18px;
+}
+
+.header-container .single-level li {
+  padding: 6px 0;
+}
+
+.header-container .single-level li a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.header-container .single-level li a span {
+  -webkit-transition: -webkit-transform 0.2s ease-out;
+  transition: -webkit-transform 0.2s ease-out;
+  transition: transform 0.2s ease-out;
+  transition: transform 0.2s ease-out, -webkit-transform 0.2s ease-out;
+}
+
+.header-container .single-level li a:hover {
+  color: #000000;
+}
+
+.header-container .nav-sub-item {
+  padding: 7px 0;
+}
+
+.header-container .nav-sub-item a {
+  text-decoration: none;
+}
+
+.header-container .dropdown-toggle {
+  color: #000000;
+}
+
+.header-container .dropdown-toggle:hover {
+  color: #000000;
+}
+
+.home-section {
+  position: relative;
+}
+
+.home-section .banner-overlay {
+  background: #000;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.4;
+}
+
+.home-section .carousel-caption {
+  top: 42% !important;
+  text-align: left !important;
+  width: 26%;
+}
+
+.banner-section {
+  background-image: url("../assets/img/banner3.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-transition: background 0.3s, border 0.3s, border-radius 0.3s, -webkit-box-shadow 0.3s;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, -webkit-box-shadow 0.3s;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, -webkit-box-shadow 0.3s;
+  padding: 245px 0px 190px 0px;
+  position: relative;
+}
+
+.banner-section .banner-bg-overlay {
+  background-color: #000000;
+  opacity: 0.5;
+  -webkit-transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.banner-section .banner-inner-container {
+  position: relative;
+}
+
+.banner-section ul li {
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+.banner-section ul li a {
+  color: #e4e4e4;
+  text-decoration: none;
+}
+
+.post {
+  padding: 100px 0px 100px 0px;
+  background-image: url("../assets/img/home-bg-08.png");
+  background-position: bottom left;
+  background-repeat: no-repeat;
+}
+
+.post .post-box-container {
+  position: relative;
+  margin-bottom: 80px;
+}
+
+.post .post-box-container .post-box-img img {
+  min-height: 320px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
+
+.post .post-box-container .post-box-content {
+  position: absolute;
+  bottom: 0;
+  padding: 20px 20px;
+}
+
+.post .post-box-container .post-box-content h4 a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.post .post-box-container .post-box-content .read-more-section a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.post .post-box-container .post-box-content:hover {
+  background-color: #00000099;
+}
+
+.quote {
+  padding: 60px 0px 60px 0px;
+}
+
+.quote .quote-title {
+  margin-bottom: 20px;
+}
+
+.quote .quote-sub-title {
+  font-weight: bold;
+}
+
+.quote .mini-description {
+  font-size: 16px;
+  color: #748494;
+  line-height: 1.3;
+  padding: 0 0 14px 0;
+}
+
+.quote h2 {
+  padding: 0 0 30px 0;
+}
+
+footer {
+  padding: 50px 0px 25px 0px;
+  color: #333;
+  font-size: 14px;
+  line-height: 1.6rem;
+}
+
+footer a {
+  color: #333;
+  font-family: "NovemberPro-Reg";
+}
+
+footer ul {
+  font-family: "NovemberPro-Reg";
+  list-style-type: none;
+  padding: 0;
+}
+
+footer li a {
+  text-decoration: none;
+}
+
+footer h4 {
+  color: #000000;
+  font-family: "NovemberPro";
+}
+
+footer .footer-logo {
+  width: 58%;
+}
+
+@media (max-width: 768px) {
+  .home-logo {
+    width: 100%;
+  }
+  .navbar-brand {
+    width: 28%;
+  }
+  .carousel-control-next,
+  .carousel-control-prev {
+    height: 20% !important;
+    top: 50% !important;
+  }
+  .about-asset-sec img {
+    width: 100%;
+  }
+  .home-service-asset-sec img {
+    width: 100%;
+  }
+  .testimonial {
+    padding: 0 !important;
+  }
+}
+
+@media (max-width: 558px) {
+  #mynavbar {
+    background: #000000;
+  }
+}
+/*# sourceMappingURL=post.css.map */

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_47689" data-name="Path 47689" d="M0,0H500V500H0Z"/>
+    </clipPath>
+    <clipPath id="clip-visual-design">
+      <rect width="500" height="500"/>
+    </clipPath>
+  </defs>
+  <g id="visual-design" clip-path="url(#clip-visual-design)">
+    <g id="_117-vector-design-pen-outline" data-name="117-vector-design-pen-outline" clip-path="url(#clip-path)">
+      <g id="Group_3972" data-name="Group 3972">
+        <path id="Path_47677" data-name="Path 47677" d="M80,253c0-68,47.587-163,170.112-163C375.806,90,418,187.55,418,253.85" fill="none" stroke="#121331" stroke-linecap="round" stroke-linejoin="round" stroke-width="12.6"/>
+        <path id="Path_47678" data-name="Path 47678" d="M95,239.5H64.5V270H95Z" fill="#2f4ccc"/>
+        <path id="Path_47679" data-name="Path 47679" d="M95,239.5H64.5V270H95Z" fill="none" stroke="#08a88a" stroke-linecap="round" stroke-linejoin="round" stroke-width="12.6"/>
+        <path id="Path_47680" data-name="Path 47680" d="M95,239.5H64.5V270H95Z" fill="none" stroke="#2f4ccc" stroke-linecap="round" stroke-linejoin="round" stroke-width="12.6"/>
+        <path id="Path_47681" data-name="Path 47681" d="M95,239.5H64.5V270H95Z" fill="#2f4ccc"/>
+        <g id="Group_3970" data-name="Group 3970">
+          <path id="Path_47682" data-name="Path 47682" d="M432.5,239.5H402V270h30.5Z" fill="#2f4ccc"/>
+          <path id="Path_47683" data-name="Path 47683" d="M432.5,239.5H402V270h30.5Z" fill="none" stroke="#2f4ccc" stroke-linecap="round" stroke-linejoin="round" stroke-width="12.6"/>
+        </g>
+        <g id="Group_3971" data-name="Group 3971">
+          <path id="Path_47684" data-name="Path 47684" d="M105,81.75H89.5v15.5H105Zm305,0H394.5v15.5H410ZM97,90H403.5M265,74.5H234.5V105H265Z" fill="none" stroke="#2f4ccc" stroke-linecap="round" stroke-linejoin="round" stroke-width="12.6"/>
+          <path id="Path_47685" data-name="Path 47685" d="M265,74.5H234.5V105H265Z" fill="#2f4ccc"/>
+        </g>
+      </g>
+      <g id="Group_3973" data-name="Group 3973">
+        <path id="Path_47686" data-name="Path 47686" d="M250.5,167.5,190,258l19.5,70h79l21-69Zm0,.5V268" fill="none" stroke="#2f4ccc" stroke-linecap="round" stroke-linejoin="round" stroke-width="12.6"/>
+        <path id="Path_47687" data-name="Path 47687" d="M250.25,264a4.75,4.75,0,1,0,4.75,4.75A4.75,4.75,0,0,0,250.25,264Z" fill="none" stroke="#2f4ccc" stroke-width="12.6"/>
+        <path id="Path_47688" data-name="Path 47688" d="M297,327.5H199V358h98ZM290,358H209v50.5h81Z" fill="none" stroke="#121331" stroke-linecap="round" stroke-linejoin="round" stroke-width="12.6"/>
+      </g>
+    </g>
+  </g>
+</svg>

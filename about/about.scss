@@ -1,0 +1,350 @@
+@import "../styles/typography.scss";
+@import "../styles/variables.scss";
+@import "../styles/media.scss";
+
+
+.about-banner-section {
+  background-image: url("../assets/img/slide3.webp");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  position: relative;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  .about-banner-inner {
+    position: relative;
+  }
+  h1 {
+    @extend .H1heading;
+  }
+  .banner-bg-overlay {
+    background-color: $color__fill-black;
+    opacity: 0.5;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+  .banner-inner-container {
+    position: relative;
+  }
+}
+
+.quote-about-section {
+  padding: 100px 0px 100px 0px;
+  background: url("../assets/img/bg-shape1-home5.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  .quote-title {
+    margin-bottom: 20px;
+  }
+  .quote-sub-title {
+    font-weight: bold;
+  }
+  .mini-description {
+    font-size: 16px;
+    color: $color__fill-grey;
+    line-height: 1.3;
+    padding: 0 0 14px 0;
+  }
+  h4 {
+    @extend .subHeading;
+  }
+  h2 {
+    padding: 0 0 30px 0;
+    @extend .mainHeading;
+  }
+  .description {
+    @extend .txtDescription;
+  }
+}
+
+.about-intro-section {
+  padding: 70px 0px 100px 0px;
+  background: url("../assets/img/home-bg-10-1.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  .quote-title {
+    margin-bottom: 20px;
+  }
+  .sub-column {
+    color: $secondryColor;
+  }
+  .quote-sub-title {
+    font-weight: bold;
+  }
+  .mini-description {
+    font-size: 16px;
+    color: $color__fill-grey;
+    line-height: 1.3;
+    padding: 0 0 14px 0;
+  }
+  h4 {
+    @extend .subHeading;
+  }
+  h2 {
+    padding: 0 0 12px 0;
+    @extend .mainHeading;
+  }
+  .description {
+    @extend .txtDescription;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    i {
+      color: $secondryColor;
+    }
+  }
+  .story-box {
+    padding: 0 28px;
+    border-radius: 12px;
+  }
+  .story-bg {
+    background: url("../assets/img/story-bg.png");
+    height: 100%;
+    background-size: 100%;
+    border-top-right-radius: 30px;
+    background-repeat: no-repeat;
+    background-color: $primaryColor;
+    background-position: bottom center;
+    h3 {
+      padding: 18px 18px;
+      word-break: break-word;
+    }
+  }
+}
+
+.about-mission {
+  padding: 65px 0 65px 0;
+  background-image: url("../../assets/img/bg-shape1-home5.png");
+  background-position: center right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background: $primaryColor;
+  color: $color__fill-white;
+  .about-mission-inner {
+    .sub-column {
+      color: $secondryColor;
+    }
+    .ror-blue-column {
+      color: $primaryColor;
+    }
+    h2 {
+      @extend .mainHeading;
+    }
+    p {
+      @extend .txtDescription;
+      padding: 15px 0 0px 0;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    button {
+      @extend .btnbase;
+    }
+    button:hover {
+      @extend .btnhover;
+    }
+    .count {
+      background: $color__fill-black;
+      color: $color__fill-white;
+      padding: 5px 8px;
+      margin-right: 7px;
+    }
+    .about-mission-icon {
+      width: 100px;
+    }
+    .about-mission-box {
+      border: 1px solid $color__fill-box;
+      padding: 22px 27px 0px 27px;
+      border-radius: 10px;
+      margin: 0 0 20px 0;
+      height: 100%;
+      p {
+        color: $color__fill-white;
+        margin: 0;
+      }
+    }
+    .about-mission-inner-box {
+      height: 100%;
+    }
+  }
+}
+
+.about-journey {
+  background: url("../../../assets/img/bg-shape1-home5.png");
+  background-repeat: no-repeat;
+  background-position: right center;
+  padding: 100px 0 60px 0;
+  .about-journey-inner {
+    .sub-column {
+      color: $secondryColor;
+    }
+    p {
+      @extend .txtDescription;
+      padding: 0px 0px 0px 0px;
+      margin: 0;
+    }
+    h2 {
+      @extend .mainHeading;
+    }
+    .about-journey-container {
+      position: relative;
+    }
+    .about-journey-p1 {
+      padding: 30px 30px;
+    }
+    .about-journey-p1::after {
+      position: absolute;
+      right: 50%;
+      height: 94%;
+      top: 1rem;
+      content: "";
+      z-index: 1;
+      width: 2px;
+      background: $primaryColor;
+    }
+    .journey-box {
+      background: $color__fill-white;
+      border: 1px solid $color__fill-box;
+      height: 100%;
+      img {
+        min-height: 400px;
+        max-height: 400px;
+        object-fit: cover;
+      }
+    }
+    .journey-divider {
+      height: 4px;
+      background: $secondryColor;
+      width: 100px;
+      text-align: center;
+      margin: 22px auto;
+    }
+  }
+}
+
+.about-usp {
+  padding: 100px 0 80px 0;
+  .about-usp-inner {
+    .blue-column {
+      color: $primaryColor;
+    }
+    .sub-column {
+      color: $secondryColor;
+    }
+    h2 {
+      @extend .mainHeading;
+    }
+    .about-usp-quote-sub-title {
+      max-width: 800px;
+      margin: auto;
+      h2 {
+        text-transform: capitalize;
+      }
+    }
+    p {
+      @extend .txtDescription;
+      padding: 0 0 0 0;
+    }
+    .about-usp-box {
+      border: 1px solid $color__fill-box;
+      padding: 45px 27px 0px 27px;
+      border-radius: 15px;
+      margin-bottom: 25px;
+      height: 100%;
+    }
+    .about-usp-box:hover {
+      box-shadow: 8px 8px 30px 0px $primary__box-shadow;
+    }
+  }
+}
+
+.about-us-team {
+  background: $primaryColor;
+  .about-us-team-container {
+    padding: 100px 0px 100px 0px;
+  }
+  .heading-title {
+    margin-bottom: 20px;
+    h4 {
+      @extend .subHeading;
+    }
+  }
+  .about-us-team-info {
+    .heading-sub-title {
+      border-top: 4px solid $color__fill-white;
+      padding: 22px 0 0 0;
+      h2 {
+        @extend .mainHeading;
+        color: $color__fill-white;
+      }
+    }
+  }
+  .about-us-team-count {
+    .about-us-team__count-box {
+      background: $color__fill-white;
+      padding: 24px 24px 9px 24px;
+      border-radius: 10px;
+      height: 100%;
+    }
+    h2 {
+      @extend .mainHeading;
+      color: $primaryColor;
+    }
+  }
+  .description {
+    @extend .txtDescription;
+    padding: 0 0 8px 0;
+    color: $color__fill-white;
+  }
+  .vt-center {
+    align-items: center;
+  }
+  img {
+    border-radius: 10px;
+  }
+}
+
+.about-working-section {
+  padding: 0px 0px 40px 0px;
+  .quote-title {
+    margin-bottom: 20px;
+  }
+  .quote-sub-title {
+    font-weight: bold;
+  }
+  .mini-description {
+    font-size: 16px;
+    color: $color__fill-grey;
+    line-height: 1.3;
+    padding: 0 0 14px 0;
+  }
+  h4 {
+    @extend .subHeading;
+  }
+  h2 {
+    padding: 0 0 12px 0;
+    @extend .mainHeading;
+  }
+  .description {
+    @extend .txtDescription;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    i {
+      color: $secondryColor;
+    }
+  }
+  .sub-column {
+    color: $secondryColor;
+  }
+}
+

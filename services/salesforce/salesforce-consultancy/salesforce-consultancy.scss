@@ -1,0 +1,906 @@
+@import "../../../styles/typography.scss";
+@import "../../../styles/variables.scss";
+@import "../../../styles/media.scss";
+
+@font-face {
+  font-family: "NovemberPro";
+  src: url("../../../assets/fonts/november-pro/NovemberPro-Reg.eot");
+  src: url("../../../assets/fonts/november-pro/NovemberPro.eot?#iefix") format("embedded-opentype"),
+    url("../../../assets/fonts/november-pro/NovemberPro.svg#NovemberPro") format("svg"),
+    url("../../../assets/fonts/november-pro/NovemberPro.ttf") format("truetype"),
+    url("../../../assets/fonts/november-pro/NovemberPro.woff") format("woff"),
+    url("../../../assets/fonts/november-pro/NovemberPro.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NovemberPro-Reg";
+  src: url("../../../assets/fonts/november-pro/NovemberPro-Reg.eot");
+  src: url("../../../assets/fonts/november-pro/NovemberPro-Reg.eot?#iefix") format("embedded-opentype"),
+    url("../../../assets/fonts/november-pro/NovemberPro-Reg.svg#NovemberPro-Reg") format("svg"),
+    url("../../../assets/fonts/november-pro/NovemberPro-Reg.ttf") format("truetype"),
+    url("../../../assets/fonts/november-pro/NovemberPro-Reg.woff") format("woff"),
+    url("../../../assets/fonts/november-pro/NovemberPro-Reg.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+button,
+p {
+  font-family: "NovemberPro-Reg" !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
+  font-family: "NovemberPro";
+}
+
+.header-container {
+  font-family: "NovemberPro";
+
+  &.fixed-top {
+    height: 80px;
+
+    .navbar {
+      margin: 0px 0;
+    }
+  }
+
+  .header-inner-container {
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+
+  .mh-auto {
+    margin: 0 auto 0 auto;
+  }
+
+  .contact-btn {
+    @extend .btnbase;
+  }
+
+  .contact-btn:hover {
+    @extend .btnhover;
+  }
+
+  .nav-item.active {
+    a {
+      color: $primaryColor !important;
+      background: $color__fill-white;
+      border-radius: 4px;
+      padding-right: 25px;
+      padding-left: 25px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  }
+
+  .nav-item {
+    .nav-link {
+      color: $color__fill-white !important;
+      font-size: 16px;
+      font-family: "NovemberPro-Reg";
+      font-weight: 500;
+      text-transform: uppercase;
+    }
+  }
+
+  .dropdown-submenu {
+    position: relative;
+  }
+
+  .dropdown-menu {
+    min-width: 215px;
+  }
+
+  .dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -7px;
+  }
+
+  .dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+
+  .dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+  }
+
+  .dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+  }
+
+  .dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+  }
+
+  .multi-level {
+    padding: 10px 23px 10px 18px;
+    font-size: 14px;
+    border-radius: 18px;
+  }
+
+  .dropdown-submenu {
+    padding: 6px 0;
+
+    .dropdown-toggle {
+      text-decoration: none;
+      color: $color__fill-black;
+    }
+  }
+
+  .pre-menu-icon {
+    margin-right: 10px;
+    width: 0.3rem;
+  }
+
+  .pre-menu-icon:hover {
+    fill: $primaryColor;
+  }
+
+  .single-level {
+    font-size: 14px;
+    padding: 10px 23px 10px 18px;
+    border-radius: 18px;
+
+    li {
+      padding: 6px 0;
+
+      a {
+        text-decoration: none;
+        color: $color__fill-black;
+
+        span {
+          transition: transform 0.2s ease-out;
+        }
+      }
+
+      a:hover {
+        color: $primaryColor;
+      }
+    }
+  }
+
+  .nav-sub-item {
+    a {
+      text-decoration: none;
+    }
+  }
+
+  .dropdown-toggle {
+    color: $color__fill-black;
+  }
+
+  .dropdown-toggle:hover {
+    color: $primaryColor;
+  }
+
+  // mega menu css starts here
+  .mega-dropdown {
+    position: relative !important;
+  }
+
+  .mega-dropdown-menu {
+    padding: 20px 0px;
+    width: 100%;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+  }
+
+  .mega-dropdown-menu {
+    position: absolute;
+    top: 87%;
+    left: 0;
+    z-index: 1000;
+    float: left;
+    width: max-content;
+    max-width: 500px;
+    min-width: 160px;
+    padding: 2px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: $color__fill-black;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #00000026;
+    border-radius: 4px;
+    box-shadow: 0 6px 12px #0000002e;
+    background: $color__fill-white;
+  }
+
+  .mega-menu-heading {
+    font-weight: bold;
+    margin-left: 30px;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0 6px;
+
+    li {
+      padding: 12px 10px;
+      font-size: 14px;
+      font-family: "NovemberPro-Reg";
+      font-weight: 500;
+      text-transform: uppercase;
+    }
+
+    a {
+      text-decoration: none;
+      color: $color__fill-black;
+    }
+
+    a:hover {
+      color: $primaryColor;
+    }
+  }
+
+  .navbar {
+    margin: 14px 0;
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .sticky+.content {
+    padding-top: 60px;
+  }
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  width: 3% !important;
+}
+
+.fixed-top {
+  height: 125px !important;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background: $color__fill-white;
+  left: 0;
+  z-index: 1030;
+  box-shadow: 0px 9px 95px 13px #6e7b831a;
+}
+
+.fixed-top .nav-link {
+  color: $primaryColor !important;
+}
+
+.home-logo-black {
+  display: none;
+}
+
+.fixed-top .home-logo-black {
+  display: block;
+}
+
+.fixed-top .home-logo {
+  display: none;
+}
+
+.fixed-top .navbar-dark .navbar-nav .nav-link {
+  color: $color__fill-black !important;
+  padding: 6px 14px !important;
+}
+
+.fixed-top .navbar-dark .navbar-nav .active .nav-link {
+  color: $color__fill-white !important;
+  background: $primaryColor;
+}
+
+// header css ends here
+
+.home-section {
+  position: relative;
+
+  .banner-overlay {
+    background: $color__fill-black;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+  }
+
+  .carousel-caption {
+    top: 42% !important;
+    text-align: left !important;
+    width: 26%;
+
+    h3 {
+      @extend .sliderHeading;
+    }
+  }
+}
+
+.salesforce-consultancy-banner-section {
+  background-image: url("../../../assets/img/salesforce-header.png");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  position: relative;
+
+  .salesforce-consultancy-banner-inner {
+    position: relative;
+  }
+
+  h1 {
+    @extend .H1heading;
+  }
+
+  p {
+    @extend .ptxtMediumWhite;
+  }
+
+  .banner-bg-overlay {
+    background-color: #000000;
+    opacity: 0.5;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+
+  .banner-inner-container {
+    position: relative;
+  }
+}
+
+// salesforce-consultancy intro css starts here
+.salesforce-consultancy-intro {
+  padding: 80px 0 80px 0;
+  background: $color__fill-box;
+
+  .salesforce-consultancy-intro-inner {
+    h2 {
+      @extend .mainHeading;
+    }
+
+    .sub-column {
+      color: $secondryColor;
+    }
+
+    p {
+      @extend .txtDescription;
+      padding: 10px 0 0px 0;
+    }
+
+    .align-vt_center {
+      align-items: center;
+    }
+
+    button {
+      @extend .btnbase;
+      text-transform: capitalize;
+    }
+
+    button:hover {
+      @extend .btnhover;
+    }
+
+    img {
+      border-radius: 20px;
+      width: 70%;
+    }
+  }
+}
+
+// salesforce-consultancy intro css ends here
+
+// salesforce consultancy services css starts here
+.salesforce-consultancy-services {
+  padding: 80px 0 80px 0;
+
+  .salesforce-consultancy-services-inner {
+    h2 {
+      @extend .mainHeading;
+    }
+
+    .sub-column {
+      color: $secondryColor;
+    }
+
+    p {
+      @extend .txtDescription;
+      padding: 0px 0 10px 0;
+    }
+
+    .align-vt_center {
+      align-items: center;
+    }
+
+    button {
+      @extend .btnbase;
+      text-transform: capitalize;
+    }
+
+    button:hover {
+      @extend .btnhover;
+    }
+
+    .count-box {
+      box-shadow: 8px 8px 30px 0px #2a43712e;
+      border-radius: 15px;
+      padding: 10px 32px 0px 32px;
+      height: 100%;
+    }
+  }
+}
+
+// salesforce consultancy services css ends here
+
+.salesforce-consulting-process {
+  padding: 100px 0 20px 0;
+  background: $color__fill-light-grey;
+
+  .salesforce-consulting-process-inner {
+    .sub-column {
+      color: $secondryColor;
+    }
+
+    h2 {
+      @extend .mainHeading;
+    }
+
+    p {
+      @extend .txtDescription;
+    }
+
+    .blue-column {
+      color: $primaryColor;
+    }
+
+    .salesforce-consulting-process-box {
+      border-radius: 15px;
+      padding: 30px 16px 15px 16px;
+      height: 100%;
+      position: relative;
+
+      p {
+        padding: 0;
+      }
+
+      img {
+        min-height: 250px;
+        object-fit: contain;
+        max-height: 250px;
+      }
+      h4{
+        @extend .boxminiHeading;
+      }
+    }
+
+    .service-box1 {
+      background: #dafdf2;
+    }
+
+    .service-box1::before {
+      position: absolute;
+      top: -20px;
+      left: 30px;
+      right: 30px;
+      height: 20px;
+      content: "";
+      border-radius: 10px 10px 0 0;
+      z-index: 1;
+      background: #dafdf2;
+      opacity: 0.7;
+    }
+
+    .service-box1::after {
+      content: "";
+      border-radius: 10px 10px 0 0;
+      z-index: 1;
+      height: 20px;
+      top: -40px;
+      left: 50px;
+      right: 50px;
+      background: #dafdf2;
+      position: absolute;
+      opacity: 0.5;
+    }
+
+    .service-box2 {
+      background: #dbdafd;
+    }
+
+    .service-box2::before {
+      position: absolute;
+      top: -20px;
+      left: 30px;
+      right: 30px;
+      height: 20px;
+      content: "";
+      border-radius: 10px 10px 0 0;
+      z-index: 1;
+      background: #dbdafd;
+      opacity: 0.7;
+    }
+
+    .service-box2::after {
+      content: "";
+      border-radius: 10px 10px 0 0;
+      z-index: 1;
+      height: 20px;
+      top: -40px;
+      left: 50px;
+      right: 50px;
+      background: #dbdafd;
+      position: absolute;
+      opacity: 0.5;
+    }
+
+    .service-box3 {
+      background: #fddaf4;
+    }
+
+    .service-box3::before {
+      position: absolute;
+      top: -20px;
+      left: 30px;
+      right: 30px;
+      height: 20px;
+      content: "";
+      border-radius: 10px 10px 0 0;
+      z-index: 1;
+      background: #fddaf4;
+      opacity: 0.7;
+    }
+
+    .service-box3::after {
+      content: "";
+      border-radius: 10px 10px 0 0;
+      z-index: 1;
+      height: 20px;
+      top: -40px;
+      left: 50px;
+      right: 50px;
+      background: #fddaf4;
+      position: absolute;
+      opacity: 0.5;
+    }
+
+    .service-box4 {
+      background: #fdf1da;
+    }
+
+    .service-box4::before {
+      position: absolute;
+      top: -20px;
+      left: 30px;
+      right: 30px;
+      height: 20px;
+      content: "";
+      border-radius: 10px 10px 0 0;
+      z-index: 1;
+      background: #fdf1da;
+      opacity: 0.7;
+    }
+
+    .service-box4::after {
+      content: "";
+      border-radius: 10px 10px 0 0;
+      z-index: 1;
+      height: 20px;
+      top: -40px;
+      left: 50px;
+      right: 50px;
+      background: #fdf1da;
+      position: absolute;
+      opacity: 0.5;
+    }
+
+    .service-box5 {
+      background: #daf8fd;
+    }
+
+    .service-box5::before {
+      position: absolute;
+      top: -20px;
+      left: 30px;
+      right: 30px;
+      height: 20px;
+      content: "";
+      border-radius: 10px 10px 0 0;
+      z-index: 1;
+      background: #daf8fd;
+      opacity: 0.7;
+    }
+
+    .service-box5::after {
+      content: "";
+      border-radius: 10px 10px 0 0;
+      z-index: 1;
+      height: 20px;
+      top: -40px;
+      left: 50px;
+      right: 50px;
+      background: #daf8fd;
+      position: absolute;
+      opacity: 0.5;
+    }
+
+    .service-box6 {
+      background: #fddae4;
+    }
+
+    .service-box6::before {
+      position: absolute;
+      top: -20px;
+      left: 30px;
+      right: 30px;
+      height: 20px;
+      content: "";
+      border-radius: 10px 10px 0 0;
+      z-index: 1;
+      background: #fddae4;
+      opacity: 0.7;
+    }
+
+    .service-box6::after {
+      content: "";
+      border-radius: 10px 10px 0 0;
+      z-index: 1;
+      height: 20px;
+      top: -40px;
+      left: 50px;
+      right: 50px;
+      background: #fddae4;
+      position: absolute;
+      opacity: 0.5;
+    }
+
+    .salesforce-consulting-process-box:hover {
+      box-shadow: 8px 8px 30px 0px #2a43712e;
+    }
+
+    .salesforce-consulting-main {
+      flex: 20%;
+    }
+  }
+}
+
+// salesforce consulting services css starts here
+.salesforce-consulting-services {
+  padding: 80px 0 0px 0;
+
+  .salesforce-consulting-services-inner {
+    ul {
+      list-style: none;
+      padding: 0;
+
+      li {
+        padding: 3px 0px;
+      }
+    }
+
+    h2 {
+      @extend .mainHeading;
+    }
+
+    .sub-column {
+      color: $secondryColor;
+    }
+
+    p {
+      @extend .txtDescription;
+      padding: 0px 0 10px 0;
+    }
+
+    .align-vt_center {
+      align-items: center;
+    }
+
+    button {
+      @extend .btnbase;
+      text-transform: capitalize;
+    }
+
+    button:hover {
+      @extend .btnhover;
+    }
+
+    .salesforce-consulting-services-box {
+      border-radius: 15px;
+      height: 100%;
+
+      p {
+        @extend .txtDescription;
+        padding: 0;
+      }
+
+      h4{
+        @extend .boxsubHeading;
+      }
+
+      img {
+        border-radius: 10px;
+      }
+    }
+  }
+}
+
+// salesforce consulting services css ends here
+
+// salescloud teams css starts here
+.salesforce-consultancy-consultants {
+  padding: 0px 0 80px 0;
+
+  .salesforce-consultancy-consultants-inner {
+    h2 {
+      @extend .mainHeading;
+    }
+
+    .sub-column {
+      color: $secondryColor;
+    }
+
+    p {
+      @extend .txtDescription;
+      padding: 0px 0 10px 0;
+    }
+
+    .align-vt_center {
+      align-items: center;
+    }
+
+    button {
+      @extend .btnbase;
+      text-transform: capitalize;
+    }
+
+    button:hover {
+      @extend .btnhover;
+    }
+
+    .salesforce-consultancy-consultants-box {
+      border-radius: 15px;
+      padding: 10px 32px 0px 32px;
+      height: 100%;
+
+      p {
+        font-size: 16px;
+      }
+
+      img {
+        border-radius: 10px;
+      }
+    }
+
+    .salesforce-consultancy-consultants-description {
+      p {
+        @extend .boxsubHeading;
+      }
+
+      .salesforce-consultancy-consultants-divider {
+        height: 4px;
+        background: $secondryColor;
+        width: 100px;
+        text-align: center;
+        margin: 22px auto 14px 0;
+      }
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      @extend .miniDescription;
+
+      li {
+        padding: 3px 0px;
+      }
+    }
+  }
+}
+
+// salescloud teams css ends here
+
+// salesforce-consultancy partner css starts here
+.salesforce-consultancy__partner {
+  padding: 0px 0 0px 0;
+
+  .salesforce-consultancy__partner-inner {
+    h2 {
+      @extend .mainHeading;
+    }
+
+    .sub-column {
+      color: $secondryColor;
+    }
+
+    p {
+      @extend .txtDescription;
+      padding: 0px 0 10px 0;
+    }
+
+    .align-vt_center {
+      align-items: center;
+    }
+
+    button {
+      @extend .btnbase;
+      text-transform: capitalize;
+    }
+
+    button:hover {
+      @extend .btnhover;
+    }
+
+    .salesforce-consultancy__partner-main {
+      border: 1px solid $color__fill-dark-grey;
+      padding: 16px 0;
+      margin: -0.5px;
+      flex: 0 0 26%;
+    }
+
+    .salesforce-consultancy__partner-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .salesforce-consultancy__partner-box {
+      border-radius: 15px;
+      padding: 10px 32px 0px 32px;
+      height: 100%;
+
+      p {
+        font-size: 16px;
+      }
+
+      img {
+        border-radius: 10px;
+      }
+
+      i {
+        font-size: 60px;
+        color: $primaryColor;
+        margin: 0 0 15px 0;
+      }
+    }
+
+    .salesforce-consultancy__partner-description {
+      p {
+        font-size: 27px;
+      }
+
+      .salesforce-consultancy__partner-divider {
+        height: 4px;
+        background: $secondryColor;
+        width: 100px;
+        text-align: center;
+        margin: 22px auto 14px 0;
+      }
+    }
+  }
+}
+
+// salesforce-consultancy partner css ends here

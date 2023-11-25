@@ -1,0 +1,72 @@
+@import "../../styles/typography.scss";
+@import "../../styles/variables.scss";
+@import "../../styles/media.scss";
+
+.marketing-cloud-banner-section {
+  background: url("../../../assets/img/salesforce-header.png");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  position: relative;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  h1 {
+    @extend .H1heading;
+    font-size: 50px;
+  }
+  .heading-title {
+    h4 {
+      @extend .slidersubHeading;
+    }
+  }
+  p {
+    @extend .ptxtMediumWhite;
+  }
+  .banner-bg-overlay {
+    background-color: $color__fill-black;
+    opacity: 0.5;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+  .banner-inner-container {
+    position: relative;
+  }
+  button {
+    @extend .btnbase;
+    font-weight: 500;
+  }
+  button:hover {
+    @extend .btnhover;
+  }
+}
+
+.npsp-potential {
+  padding: 100px 0 100px 0;
+  .npsp-potential-inner {
+    h2 {
+      @extend .mainHeading;
+    }
+    .npsp-potential-quote-sub-title {
+      max-width: 800px;
+      margin: auto;
+    }
+    .npsp-potential-box {
+      border: 1px solid #ebebeb;
+      padding: 45px 27px 0px 27px;
+      border-radius: 15px;
+      margin-bottom: 25px;
+      height: 100%;
+    }
+    .npsp-potential-box:hover {
+      box-shadow: 8px 8px 30px 0px #2a43712e;
+    }
+  }
+}
+
+

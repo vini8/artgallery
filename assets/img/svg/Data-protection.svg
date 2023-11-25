@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_47579" data-name="Path 47579" d="M0,0H500V500H0Z"/>
+    </clipPath>
+    <clipPath id="clip-Data-protection">
+      <rect width="500" height="500"/>
+    </clipPath>
+  </defs>
+  <g id="Data-protection" clip-path="url(#clip-Data-protection)">
+    <g id="_457-shield-security-outline" data-name="457-shield-security-outline" clip-path="url(#clip-path)">
+      <path id="Path_47577" data-name="Path 47577" d="M252,420.5c154.421-96.565,143-268.261,143-296.874C349.171,116.173,252,76.5,252,76.5s-97.171,39.671-143,47.122C109,152.237,97.579,323.933,252,420.5Z" fill="none" stroke="#121331" stroke-linecap="round" stroke-linejoin="round" stroke-width="12.6"/>
+      <path id="Path_47578" data-name="Path 47578" d="M179.766,248.467l45.14,45.14L331.914,186.246" fill="none" stroke="#2f4ccc" stroke-linecap="round" stroke-linejoin="round" stroke-width="12.6"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,254 @@
+@import "../../../styles/typography.scss";
+@import "../../../styles/variables.scss";
+@import "../../../styles/media.scss";
+
+
+.salesforce-inbox-banner-section {
+    background-image: url("../../../assets/img/salesforce-header.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    .salesforce-inbox-banner-inner {
+        position: relative;
+    }
+
+    h1 {
+        @extend .H1heading;
+    }
+
+    p {
+        @extend .ptxtMediumWhite;
+    }
+
+    .banner-bg-overlay {
+        background-color: #000000;
+        opacity: 0.5;
+        transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        position: absolute;
+    }
+
+    .banner-inner-container {
+        position: relative;
+    }
+}
+
+// salesforce inbox intro css starts here
+.salesforce-inbox-intro {
+    padding: 80px 0 80px 0;
+    background: $color__fill-box;
+
+    .salesforce-inbox-intro-inner {
+        h2 {
+            @extend .mainHeading;
+        }
+
+        .sub-column {
+            color: $secondryColor;
+        }
+
+        p {
+            @extend .txtDescription;
+            padding: 10px 0 0px 0;
+        }
+
+        .align-vt_center {
+            align-items: center;
+        }
+
+        button {
+            @extend .btnbase;
+            text-transform: capitalize;
+        }
+
+        button:hover {
+            @extend .btnhover;
+        }
+
+        img {
+            border-radius: 20px;
+            width: 70%;
+        }
+    }
+}
+// salesforce inbox intro css ends here
+
+// salesforce inbox services css starts here
+.salesforce-inbox-services {
+    padding: 80px 0 80px 0;
+
+    .salesforce-inbox-services-inner {
+        h2 {
+            @extend .mainHeading;
+        }
+
+        .sub-column {
+            color: $secondryColor;
+        }
+
+        p {
+            @extend .txtDescription;
+            padding: 0px 0 10px 0;
+        }
+
+        .align-vt_center {
+            align-items: center;
+        }
+
+        button {
+            @extend .btnbase;
+            text-transform: capitalize;
+        }
+
+        button:hover {
+            @extend .btnhover;
+        }
+
+        .count-box {
+            box-shadow: 8px 8px 30px 0px #2a43712e;
+            border-radius: 15px;
+            padding: 10px 32px 0px 32px;
+            height: 100%;
+        }
+    }
+}
+// salesforce inbox services css ends here
+
+// salesforce inbox benefits css starts here
+.salesforce__inbox-benefits {
+    padding: 0px 0 80px 0;
+
+    .salesforce__inbox-benefits-inner {
+        h2 {
+            @extend .mainHeading;
+        }
+
+        .sub-column {
+            color: $secondryColor;
+        }
+
+        p {
+            @extend .txtDescription;
+            padding: 0px 0 10px 0;
+        }
+
+        .align-vt_center {
+            align-items: center;
+        }
+
+        button {
+            @extend .btnbase;
+            text-transform: capitalize;
+        }
+
+        button:hover {
+            @extend .btnhover;
+        }
+
+        .salesforce__inbox-benefits-box {
+            border-radius: 15px;
+            padding: 10px 32px 0px 32px;
+            height: 100%;
+
+            p {
+                font-size: 16px;
+            }
+
+            h4 {
+                @extend .boxsubHeading;
+            }
+        }
+    }
+}
+
+// salesforce inbox benefits css ends here
+
+// salesforce-consultancy partner css starts here
+.salesforce-inbox__partner {
+    padding: 0px 0 0px 0;
+
+    .salesforce-inbox__partner-inner {
+        h2 {
+            @extend .mainHeading;
+        }
+
+        .sub-column {
+            color: $secondryColor;
+        }
+
+        p {
+            @extend .txtDescription;
+            padding: 0px 0 10px 0;
+        }
+
+        .align-vt_center {
+            align-items: center;
+        }
+
+        button {
+            @extend .btnbase;
+            text-transform: capitalize;
+        }
+
+        button:hover {
+            @extend .btnhover;
+        }
+
+        .salesforce-inbox__partner-main {
+            border: 1px solid $color__fill-dark-grey;
+            padding: 16px 0;
+            margin: -0.5px;
+            flex: 0 0 26%;
+        }
+
+        .salesforce-inbox__partner-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .salesforce-inbox__partner-box {
+            border-radius: 15px;
+            padding: 10px 32px 0px 32px;
+            height: 100%;
+
+            p {
+                font-size: 16px;
+            }
+
+            img {
+                border-radius: 10px;
+            }
+
+            i {
+                font-size: 60px;
+                color: $primaryColor;
+                margin: 0 0 15px 0;
+            }
+        }
+
+        .salesforce-inbox__partner-description {
+            p {
+                font-size: 27px;
+            }
+
+            .salesforce-inbox__partner-divider {
+                height: 4px;
+                background: $secondryColor;
+                width: 100px;
+                text-align: center;
+                margin: 22px auto 14px 0;
+            }
+        }
+    }
+}
+
+// salesforce-consultancy partner css ends here

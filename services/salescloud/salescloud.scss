@@ -1,0 +1,315 @@
+@import "../../styles/typography.scss";
+@import "../../styles/variables.scss";
+@import "../../styles/media.scss";
+
+
+.sales-cloud-banner-section {
+  background: url("../../../assets/img/salesforce-header.png");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  position: relative;
+  position: relative;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  h1 {
+    @extend .H1heading;
+    font-size: 50px;
+  }
+  .heading-title {
+    h4 {
+      @extend .slidersubHeading;
+    }
+  }
+  p {
+    @extend .ptxtMediumWhite;
+  }
+  .banner-bg-overlay {
+    background-color: $color__fill-black;
+    opacity: 0.5;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+  .banner-inner-container {
+    position: relative;
+  }
+  button {
+    @extend .btnbase;
+    font-weight: 500;
+  }
+  button:hover {
+    @extend .btnhover;
+  }
+}
+
+// salescloud intro css starts here
+.salescloud-intro {
+  padding: 80px 0 80px 0;
+  background: $color__fill-box;
+  .salescloud-intro-inner {
+    h2 {
+      @extend .mainHeading;
+    }
+    .sub-column {
+      color: $secondryColor;
+    }
+    p {
+      @extend .txtDescription;
+      padding: 10px 0 0px 0;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    button {
+      @extend .btnbase;
+      text-transform: capitalize;
+    }
+    button:hover {
+      @extend .btnhover;
+    }
+    img {
+      border-radius: 20px;
+      width: 70%;
+    }
+  }
+}
+// salescloud intro css ends here
+
+// salescloud productivity css starts here
+.salescloud-productivity {
+  padding: 80px 0 80px 0;
+  .salescloud-productivity-inner {
+    h2 {
+      @extend .mainHeading;
+    }
+    .sub-column {
+      color: $secondryColor;
+    }
+    p {
+      @extend .txtDescription;
+      padding: 0px 0 10px 0;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    button {
+      @extend .btnbase;
+      text-transform: capitalize;
+    }
+    button:hover {
+      @extend .btnhover;
+    }
+    .count-box {
+      box-shadow: 8px 8px 30px 0px $primary__box-shadow;
+      border-radius: 15px;
+      padding: 10px 32px 0px 32px;
+      height: 100%;
+    }
+  }
+}
+// salescloud productivity css ends here
+
+// salescloud services css starts here
+.salescloud__services {
+  padding: 0px 0 80px 0;
+  .salescloud__services-inner {
+    h2 {
+      @extend .mainHeading;
+    }
+    .sub-column {
+      color: $secondryColor;
+    }
+    p {
+      @extend .txtDescription;
+      padding: 0px 0 10px 0;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    button {
+      @extend .btnbase;
+      text-transform: capitalize;
+    }
+    button:hover {
+      @extend .btnhover;
+    }
+    .salescloud__services-box {
+      border-radius: 15px;
+      padding: 10px 32px 0px 32px;
+      height: 100%;
+      p {
+        font-size: 16px;
+      }
+      h4{
+        @extend .boxsubHeading;
+      }
+    }
+  }
+}
+// salescloud services css ends here
+
+// salescloud solution css starts here
+.salescloud__solution {
+  padding: 0px 0 0px 0;
+  .salescloud__solution-inner {
+    h2 {
+      @extend .mainHeading;
+    }
+    .sub-column {
+      color: $secondryColor;
+    }
+    p {
+      @extend .txtDescription;
+      padding: 0px 0 10px 0;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    button {
+      @extend .btnbase;
+      text-transform: capitalize;
+    }
+    button:hover {
+      @extend .btnhover;
+    }
+    .salescloud__solution-box {
+      border-radius: 15px;
+      height: 100%;
+      p {
+        font-size: 16px;
+      }
+      img {
+        border-radius: 10px;
+      }
+      h4{
+        @extend .boxsubHeading;
+      }
+    }
+  }
+}
+// salescloud solution css ends here
+
+// salescloud teams css starts here
+.salescloud__teams {
+  padding: 0px 0 0px 0;
+  .salescloud__teams-inner {
+    h2 {
+      @extend .mainHeading;
+    }
+    .sub-column {
+      color: $secondryColor;
+    }
+    p {
+      @extend .txtDescription;
+      padding: 0px 0 10px 0;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    button {
+      @extend .btnbase;
+      text-transform: capitalize;
+    }
+    button:hover {
+      @extend .btnhover;
+    }
+    .salescloud__teams-box {
+      border-radius: 15px;
+      padding: 10px 32px 0px 32px;
+      height: 100%;
+      p {
+        font-size: 16px;
+      }
+      img {
+        border-radius: 10px;
+      }
+    }
+    .salescloud__teams-description {
+      p {
+        @extend .boxsubHeading;
+      }
+      .salescloud__teams-divider {
+        height: 4px;
+        background: $secondryColor;
+        width: 100px;
+        text-align: center;
+        margin: 22px auto 14px 0;
+      }
+    }
+  }
+}
+// salescloud teams css ends here
+
+// salescloud partner css starts here
+.salescloud__partner {
+  padding: 0px 0 0px 0;
+  .salescloud__partner-inner {
+    h2 {
+      @extend .mainHeading;
+    }
+    .sub-column {
+      color: $secondryColor;
+    }
+    p {
+      @extend .txtDescription;
+      padding: 0px 0 10px 0;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    button {
+      @extend .btnbase;
+      text-transform: capitalize;
+    }
+    button:hover {
+      @extend .btnhover;
+    }
+    .salescloud__partner-main {
+      border: 1px solid $color__fill-dark-grey;
+      padding: 16px 0;
+      margin: -0.5px;
+      flex: 0 0 26%;
+    }
+    .salescloud__partner-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .salescloud__partner-box {
+      border-radius: 15px;
+      padding: 10px 32px 0px 32px;
+      height: 100%;
+      p {
+        font-size: 16px;
+      }
+      img {
+        border-radius: 10px;
+      }
+      i {
+        font-size: 60px;
+        color: $primaryColor;
+        margin: 0 0 15px 0;
+      }
+    }
+    .salescloud__partner-description {
+      p {
+        font-size: 27px;
+      }
+      .salescloud__partner-divider {
+        height: 4px;
+        background: $secondryColor;
+        width: 100px;
+        text-align: center;
+        margin: 22px auto 14px 0;
+      }
+    }
+  }
+}
+// salescloud partner css ends here
+

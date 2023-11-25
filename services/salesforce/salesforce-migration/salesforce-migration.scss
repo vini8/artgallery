@@ -1,0 +1,330 @@
+@import "../../../styles/typography.scss";
+@import "../../../styles/variables.scss";
+@import "../../../styles/media.scss";
+
+.home-section {
+    position: relative;
+
+    .banner-overlay {
+        background: $color__fill-black;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0.4;
+    }
+
+    .carousel-caption {
+        top: 42% !important;
+        text-align: left !important;
+        width: 26%;
+
+        h3 {
+            @extend .sliderHeading;
+        }
+    }
+}
+
+// integration service banner css starts here
+.salesforce-migration-banner-section {
+    background: url("../../../assets/img/salesforce-header.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    position: relative;
+    position: relative;
+    height: 600px;
+    display: flex;
+    align-items: center;
+
+    h1 {
+        @extend .H1heading;
+        font-size: 50px;
+    }
+
+    .heading-title {
+        h4 {
+            @extend .slidersubHeading;
+        }
+    }
+
+    p {
+        @extend .ptxtMediumWhite;
+    }
+
+    .banner-bg-overlay {
+        background-color: $color__fill-black;
+        opacity: 0.5;
+        transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        position: absolute;
+    }
+
+    .banner-inner-container {
+        position: relative;
+    }
+
+    button {
+        @extend .btnbase;
+        font-weight: 500;
+    }
+
+    button:hover {
+        @extend .btnhover;
+    }
+}
+
+// integration service banner css ends here
+
+// salesforce migration intro css starts here
+.salesforce-migration-intro {
+    padding: 80px 0 80px 0;
+    background: $color__fill-box;
+
+    .salesforce-migration-intro-inner {
+        h2 {
+            @extend .mainHeading;
+        }
+
+        .sub-column {
+            color: $secondryColor;
+        }
+
+        p {
+            @extend .txtDescription;
+            padding: 10px 0 0px 0;
+        }
+
+        .align-vt_center {
+            align-items: center;
+        }
+
+        button {
+            @extend .btnbase;
+            text-transform: capitalize;
+        }
+
+        button:hover {
+            @extend .btnhover;
+        }
+
+        img {
+            border-radius: 20px;
+            width: 70%;
+        }
+    }
+}
+
+// salesforce migration intro css ends here
+
+// salesforce migration css starts here
+.salesforce-migration-services {
+    padding: 100px 0;
+
+    h2{
+        @extend .mainHeading;
+    }
+    h4{
+        @extend .boxsubHeading;
+    }
+
+    .salesforce_cloud-box-list {
+        ul {
+            list-style: none;
+            padding: 0;
+
+            li {
+                @extend .miniDescription;
+                padding: 3px 0px;
+            }
+        }
+    }
+
+    img {
+        width: 80%;
+    }
+
+    .salesforce_cloud-box {
+        padding: 22px 10px 0px 10px;
+        border-radius: 15px;
+        margin-bottom: 25px;
+        height: 100%;
+
+        p {
+            font-size: 15px;
+            margin: 0;
+        }
+
+        .description {
+            padding: 0;
+        }
+
+        .salesforce_cloud-box-inner {
+            display: flex;
+            flex-wrap: nowrap;
+            margin: 6px 0 33px 0;
+
+            .salesforce-cloud-icon {
+                min-width: 60px;
+                height: 55px;
+                float: left;
+                text-align: center;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 0 18px 0 0;
+                border-radius: 8px;
+                padding: 2px 6px 2px 6px;
+            }
+        }
+    }
+
+    button {
+        @extend .btnbase;
+        text-transform: capitalize;
+    }
+
+    .sub-column {
+        color: $secondryColor;
+    }
+}
+
+// salesforce migration css ends here
+
+// salesforce migration specialisation css starts here
+.salesforce-migration__speciallisation {
+    padding: 0px 0 0px 0;
+
+    .salesforce-migration__speciallisation-inner {
+        h2 {
+            @extend .mainHeading;
+        }
+
+        .sub-column {
+            color: $secondryColor;
+        }
+
+        p {
+            @extend .txtDescription;
+            padding: 0px 0 10px 0;
+        }
+
+        .align-vt_center {
+            align-items: center;
+        }
+
+        button {
+            @extend .btnbase;
+            text-transform: capitalize;
+        }
+
+        button:hover {
+            @extend .btnhover;
+        }
+
+        .salesforce-migration__speciallisation-box {
+            border-radius: 15px;
+            height: 100%;
+
+            h4{
+                @extend .boxsubHeading;
+            }
+            p {
+                font-size: 16px;
+            }
+
+            img {
+                border-radius: 10px;
+            }
+        }
+    }
+}
+
+// salesforce migration specialisation css ends here
+
+// salesforce migration partner css starts here
+.salesforce-migration__partner {
+    padding: 0px 0 0px 0;
+
+    .salesforce-migration__partner-inner {
+        h2 {
+            @extend .mainHeading;
+        }
+
+        .sub-column {
+            color: $secondryColor;
+        }
+
+        p {
+            @extend .txtDescription;
+            padding: 0px 0 10px 0;
+        }
+
+        .align-vt_center {
+            align-items: center;
+        }
+
+        button {
+            @extend .btnbase;
+            text-transform: capitalize;
+        }
+
+        button:hover {
+            @extend .btnhover;
+        }
+
+        .salesforce-migration__partner-main {
+            border: 1px solid $color__fill-dark-grey;
+            padding: 16px 0;
+            margin: -0.5px;
+            flex: 0 0 26%;
+        }
+
+        .salesforce-migration__partner-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .salesforce-migration__partner-box {
+            border-radius: 15px;
+            padding: 10px 32px 0px 32px;
+            height: 100%;
+
+            p {
+                @extend .miniDescription;
+                padding: 0;
+            }
+
+            img {
+                border-radius: 10px;
+            }
+
+            i {
+                font-size: 60px;
+                color: $primaryColor;
+                margin: 0 0 15px 0;
+            }
+        }
+
+        .salesforce-migration__partner-description {
+            p {
+                font-size: 27px;
+            }
+
+            .salesforce-migration__partner-divider {
+                height: 4px;
+                background: $secondryColor;
+                width: 100px;
+                text-align: center;
+                margin: 22px auto 14px 0;
+            }
+        }
+    }
+}
+
+// salesforce migration partner css ends here

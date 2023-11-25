@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="150" height="90" viewBox="0 0 150 90">
+  <defs>
+    <clipPath id="clip-logo-color">
+      <rect width="150" height="90"/>
+    </clipPath>
+  </defs>
+  <g id="logo-color" clip-path="url(#clip-logo-color)">
+    <g id="Group_1123" data-name="Group 1123" transform="translate(-161.361 -263)">
+      <g id="Group_1118" data-name="Group 1118" transform="translate(161.361 265)">
+        <g id="Group_1117" data-name="Group 1117" transform="translate(17.306 0)">
+          <path id="Path_862" data-name="Path 862" d="M742.022,83.885a21.916,21.916,0,0,0-40.437-10.223,15.195,15.195,0,0,0-19.538,8.613h4.2a1.645,1.645,0,0,1,0,3.29h-5.095a15.187,15.187,0,0,0-8.525,5.482H697.5a1.644,1.644,0,1,1,0,3.289h-31.36a1.644,1.644,0,1,0,0,3.289h18.383a1.653,1.653,0,0,1,0,3.307H659.2a1.644,1.644,0,0,0,0,3.289h5.315c.056-.005.11-.017.168-.017h30.425a1.645,1.645,0,1,1,0,3.29H671.22a15.182,15.182,0,0,0,13.4,8.047c.24,0,.477-.005.715-.017h54.1a15.924,15.924,0,0,0,2.583-31.638Zm-36.312,1.68H694.746a1.645,1.645,0,0,1,0-3.29H705.71a1.645,1.645,0,0,1,0,3.29Z" transform="translate(-642.484 -63.389)" fill="#181836"/>
+          <g id="Group_1116" data-name="Group 1116" transform="translate(0 22.404)">
+            <path id="Path_863" data-name="Path 863" d="M677.114,134.764h-7.082a1.645,1.645,0,1,0,0,3.29h7.082a1.645,1.645,0,0,0,0-3.29Z" transform="translate(-649.913 -134.764)" fill="#ec0000"/>
+            <path id="Path_864" data-name="Path 864" d="M620.081,182.992h-8.907a1.644,1.644,0,1,0,0,3.289h8.907a1.644,1.644,0,1,0,0-3.289Z" transform="translate(-609.529 -167.854)" fill="#ec0000"/>
+            <path id="Path_865" data-name="Path 865" d="M640.047,161.98h-9.962a1.644,1.644,0,1,0,0,3.289h9.962a1.644,1.644,0,1,0,0-3.289Z" transform="translate(-622.505 -153.437)" fill="#ec0000"/>
+            <path id="Path_866" data-name="Path 866" d="M802.789,193.417h-6.921a1.645,1.645,0,1,0,0,3.29h6.921a1.645,1.645,0,0,0,0-3.29Z" transform="translate(-736.25 -175.007)" fill="#ec0000"/>
+            <path id="Path_867" data-name="Path 867" d="M770.095,174.158a1.644,1.644,0,0,0-1.644-1.644h-8.908a1.644,1.644,0,1,0,0,3.289h8.908A1.644,1.644,0,0,0,770.095,174.158Z" transform="translate(-711.327 -160.665)" fill="#ec0000"/>
+          </g>
+        </g>
+        <text id="Oak_Tree_Software" data-name="Oak Tree Software" transform="translate(74.084 67.837)" fill="#181836" font-size="16" font-family="Impact"><tspan x="-63.879" y="0">OAK TREE</tspan><tspan y="0" fill="#1981d4"> </tspan><tspan y="0" fill="#ec0000">SOFTWARE</tspan></text>
+        <text id="INNOVATION_IN_CLOUD" data-name="INNOVATION IN CLOUD" transform="translate(73.746 84.717)" fill="#181836" font-size="10" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-52.9" y="0">INNOVATION IN CLOUD</tspan></text>
+        <line id="Line_10" data-name="Line 10" x2="150" transform="translate(0 73.843)" fill="#181836"/>
+      </g>
+      <path id="Path_875" data-name="Path 875" d="M0,0H114.026" transform="translate(178.491 339.551)" fill="none" stroke="#181836" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,464 @@
+@import "../../../styles/typography.scss";
+@import "../../../styles/variables.scss";
+@font-face {
+  font-family: "NovemberPro";
+  src: url("../../../assets/fonts/november-pro/NovemberPro-Reg.eot");
+  src: url("../../../assets/fonts/november-pro/NovemberPro.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../../assets/fonts/november-pro/NovemberPro.svg#NovemberPro")
+      format("svg"),
+    url("../../../assets/fonts/november-pro/NovemberPro.ttf") format("truetype"),
+    url("../../../assets/fonts/november-pro/NovemberPro.woff") format("woff"),
+    url("../../../assets/fonts/november-pro/NovemberPro.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NovemberPro-Reg";
+  src: url("../../../assets/fonts/november-pro/NovemberPro-Reg.eot");
+  src: url("../../../assets/fonts/november-pro/NovemberPro-Reg.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../../assets/fonts/november-pro/NovemberPro-Reg.svg#NovemberPro-Reg")
+      format("svg"),
+    url("../../../assets/fonts/november-pro/NovemberPro-Reg.ttf")
+      format("truetype"),
+    url("../../../assets/fonts/november-pro/NovemberPro-Reg.woff")
+      format("woff"),
+    url("../../../assets/fonts/november-pro/NovemberPro-Reg.woff2")
+      format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+button,
+p {
+  font-family: "NovemberPro-Reg" !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
+  font-family: "NovemberPro";
+}
+
+.header-container {
+  font-family: "NovemberPro-Reg";
+  .header-inner-container {
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  .mh-auto {
+    margin: 0 auto 0 auto;
+  }
+  .contact-btn {
+    @extend .btnbase;
+  }
+  .contact-btn:hover {
+    @extend .btnhover;
+  }
+  .nav-item.active {
+    a {
+      color: $color__fill-white !important;
+      background: $primaryColor;
+      border-radius: 4px;
+      padding-right: 0.7rem;
+      padding-left: 0.8rem;
+    }
+  }
+  .nav-item {
+    .nav-link {
+      font-family: "NovemberPro-Reg";
+      text-transform: uppercase;
+      color: #fff !important;
+      font-size: 14px;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-family: Open Sans;
+      letter-spacing: 2.8px;
+      letter-spacing: normal;
+    }
+  }
+  .dropdown-submenu {
+    position: relative;
+  }
+  .dropdown-menu {
+    min-width: 215px;
+  }
+  .dropdown-submenu > .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -7px;
+  }
+  .dropdown:hover > .dropdown-menu {
+    display: block;
+  }
+  .dropdown-submenu:hover > .dropdown-menu {
+    display: block;
+  }
+  .dropdown-submenu > a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+  }
+  .dropdown-submenu:hover > a:after {
+    border-left-color: #fff;
+  }
+  .multi-level {
+    padding: 10px 23px 10px 18px;
+    font-size: 14px;
+    border-radius: 18px;
+  }
+  .dropdown-submenu {
+    padding: 6px 0;
+    .dropdown-toggle {
+      text-decoration: none;
+      color: $color__fill-black;
+    }
+  }
+  .pre-menu-icon {
+    margin-right: 10px;
+    width: 0.3rem;
+  }
+  .pre-menu-icon:hover {
+    fill: $primaryColor;
+  }
+  .single-level {
+    font-size: 14px;
+    padding: 10px 23px 10px 18px;
+    border-radius: 18px;
+    li {
+      padding: 6px 0;
+      a {
+        text-decoration: none;
+        color: $color__fill-black;
+        span {
+          transition: transform 0.2s ease-out;
+        }
+      }
+      a:hover {
+        color: $primaryColor;
+      }
+    }
+  }
+  .nav-sub-item {
+    padding: 7px 0;
+    a {
+      text-decoration: none;
+    }
+  }
+  .dropdown-toggle {
+    color: $color__fill-black;
+  }
+  .dropdown-toggle:hover {
+    color: $primaryColor;
+  }
+}
+
+.home-section {
+  position: relative;
+  .banner-overlay {
+    background: #000;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+  }
+  .carousel-caption {
+    top: 42% !important;
+    text-align: left !important;
+    width: 26%;
+    h3 {
+      @extend .sliderHeading;
+    }
+  }
+}
+
+.banner-section {
+  background-image: url("../../../assets/img/slide2.webp");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  padding: 245px 0px 190px 0px;
+  position: relative;
+  h1 {
+    @extend .H1heading;
+  }
+  p {
+    @extend .ptxtMediumWhite;
+  }
+  .banner-bg-overlay {
+    background-color: $color__fill-black;
+    opacity: 0.5;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+  .banner-inner-container {
+    position: relative;
+  }
+}
+
+.marketing-cloud-benefit {
+  padding: 100px 0 40px 0;
+  .marketing-cloud-benefit-inner {
+    .blue-column {
+      color: $primaryColor;
+    }
+    h2 {
+      @extend .mainHeading;
+    }
+    p {
+      @extend .txtDescription;
+      padding: 6px 0 0px 0;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    button {
+      @extend .btnbase;
+    }
+    button:hover {
+      @extend .btnhover;
+    }
+    img {
+      border-radius: 20px;
+    }
+  }
+}
+
+.marketing-cloud-work {
+  padding: 100px 0 0px 0;
+  .marketing-cloud-work-inner {
+    h2 {
+      @extend .mainHeading;
+    }
+    p {
+      @extend .txtDescription;
+      padding: 30px 0 30px 0;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    button {
+      @extend .btnbase;
+    }
+    button:hover {
+      @extend .btnhover;
+    }
+    img {
+      border-radius: 20px;
+    }
+    .box {
+      box-shadow: 4px 3px 18px -8px #00000099;
+      border-radius: 20px;
+      padding: 50px 10px 50px 10px;
+      margin: 0 0 30px 0;
+    }
+  }
+}
+
+.marketing-cloud-case-study {
+  padding: 0px 0 75px 0;
+  .marketing-cloud-case-study-inner {
+    h2 {
+      @extend .miniHeading;
+    }
+    h4 {
+      @extend .miniHeading;
+    }
+    p {
+      @extend .txtDescription;
+      padding: 10px 0 0px 0;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    button {
+      @extend .btnbase;
+    }
+    button:hover {
+      @extend .btnhover;
+    }
+    img {
+      border-radius: 20px;
+    }
+    .box {
+      box-shadow: 4px 3px 18px -8px #00000099;
+      border-radius: 20px;
+      padding: 4px 34px 10px 34px;
+      margin: 0 0 30px 0;
+      transition: all 0.3s ease-in-out;
+      p {
+        font-size: 15px;
+      }
+    }
+    .box:hover {
+      margin-top: -20px;
+    }
+  }
+}
+
+.quote-marketing-cloud {
+  padding: 100px 0px 0px 0px;
+  background: url("../../../assets/img/home-bg-08.png");
+  background-repeat: no-repeat;
+  .quote-title {
+    margin-bottom: 20px;
+    max-width: 615px;
+    margin: auto;
+  }
+  .quote-sub-title {
+    font-weight: bold;
+    max-width: 615px;
+    margin: auto;
+  }
+  .mini-description {
+    font-size: 16px;
+    color: $color__fill-grey;
+    line-height: 1.3;
+    padding: 0 0 14px 0;
+  }
+  h4 {
+    @extend .subHeading;
+  }
+  h2 {
+    padding: 0 0 30px 0;
+    @extend .mainHeading;
+  }
+  .description {
+    @extend .txtDescription;
+    max-width: 800px;
+    margin: auto;
+  }
+}
+
+.quote-boost-sales {
+  padding: 100px 0px 0px 0px;
+  .quote-title {
+    margin-bottom: 20px;
+  }
+  .quote-sub-title {
+    font-weight: bold;
+    max-width: 615px;
+    margin: auto;
+  }
+  .mini-description {
+    font-size: 16px;
+    color: $color__fill-grey;
+    line-height: 1.3;
+    padding: 0 0 14px 0;
+  }
+  h4 {
+    @extend .subHeading;
+  }
+  h2 {
+    padding: 0 0 30px 0;
+    @extend .mainHeading;
+  }
+  .description {
+    @extend .txtDescription;
+  }
+  .blue-column {
+    color: $primaryColor;
+  }
+}
+
+.marketing-cloud-conclusion {
+  padding: 0px 0 100px 0;
+  .marketing-cloud-conclusion-inner {
+    .blue-column {
+      color: $primaryColor;
+    }
+    h2 {
+      @extend .mainHeading;
+    }
+    p {
+      @extend .txtDescription;
+      padding: 6px 0 0px 0;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    button {
+      @extend .btnbase;
+    }
+    button:hover {
+      @extend .btnhover;
+    }
+    img {
+      border-radius: 20px;
+    }
+  }
+}
+
+footer {
+  padding: 50px 0px 25px 0px;
+  color: $color__fill-description;
+  font-size: 14px;
+  line-height: 1.6rem;
+  a {
+    color: $color__fill-description;
+    font-family: "NovemberPro-Reg";
+  }
+  ul {
+    font-family: "NovemberPro-Reg";
+    list-style-type: none;
+    padding: 0;
+  }
+  li {
+    a {
+      text-decoration: none;
+    }
+  }
+  h4 {
+    color: $color__fill-black;
+  }
+  .footer-logo {
+    width: 58%;
+  }
+}
+@media (max-width: 768px) {
+  .home-logo {
+    width: 100%;
+  }
+  .navbar-brand {
+    width: 28%;
+  }
+  .carousel-control-next,
+  .carousel-control-prev {
+    height: 20% !important;
+    top: 50% !important;
+  }
+  .about-asset-sec img {
+    width: 100%;
+  }
+  .home-service-asset-sec img {
+    width: 100%;
+  }
+
+  .testimonial {
+    padding: 0 !important;
+  }
+}
+@media (max-width: 558px) {
+  #mynavbar {
+    background: $color__fill-black;
+  }
+}

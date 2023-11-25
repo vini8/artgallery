@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_47669" data-name="Path 47669" d="M0,0H500V500H0Z"/>
+    </clipPath>
+    <clipPath id="clip-layer">
+      <rect width="500" height="500"/>
+    </clipPath>
+  </defs>
+  <g id="layer" clip-path="url(#clip-layer)">
+    <g id="_12-layes-outline" data-name="12-layes-outline" clip-path="url(#clip-path)">
+      <path id="Path_47666" data-name="Path 47666" d="M413.184,278.839l17.889,7.661L250,364.063h0L68.927,286.5l18.32-7.847" fill="none" stroke="#121331" stroke-linecap="round" stroke-linejoin="round" stroke-width="12.775"/>
+      <path id="Path_47667" data-name="Path 47667" d="M413.184,242.339,431.073,250,250,327.563h0L68.927,250l18.32-7.847" fill="none" stroke="#2f4ccc" stroke-linecap="round" stroke-linejoin="round" stroke-width="12.775"/>
+      <path id="Path_47668" data-name="Path 47668" d="M250,291.063,68.927,213.5,250,135.938,431.073,213.5Z" fill="none" stroke="#121331" stroke-linecap="round" stroke-linejoin="round" stroke-width="12.775"/>
+    </g>
+  </g>
+</svg>

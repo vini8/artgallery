@@ -1,0 +1,3702 @@
+@import "../styles/typography.scss";
+@import "../styles/media.scss";
+@import "../styles/variables.scss";
+@import "../styles/footer.scss";
+@import "../styles/header.scss";
+
+
+.banner-section-online-scholarship {
+  background-image: url("../assets/img/start-up-slide3.webp");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  position: relative;
+  height: 600px;
+  align-items: center;
+  display: flex;
+  h1 {
+    @extend .H1heading;
+    font-size: 50px;
+  }
+  .heading-title {
+    h4 {
+      @extend .slidersubHeading;
+    }
+  }
+  p {
+    @extend .ptxtMediumWhite;
+  }
+  .banner-bg-overlay {
+    background-color: $color__fill-black;
+    opacity: 0.5;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+  .banner-inner-container {
+    position: relative;
+  }
+  button {
+    @extend .btnbase;
+    font-weight: 500;
+  }
+  button:hover {
+    @extend .btnhover;
+  }
+}
+
+.online-scholarship-product-goals {
+  padding: 100px 0 100px 0;
+  background: $bg__casestudy-grey;
+  .online-scholarship-product-goals-inner {
+    h2 {
+      @extend .mainHeading;
+    }
+    p {
+      @extend .txtDescription;
+      padding: 10px 0 10px 0;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    button {
+      @extend .btnbase;
+      text-transform: capitalize;
+    }
+    button:hover {
+      @extend .btnhover;
+    }
+    img {
+      border-radius: 20px;
+    }
+  }
+}
+
+.portal {
+  padding: 20px 0 20px 0;
+  background: $bg__soft-white;
+  .portal-inner {
+    h2 {
+      @extend .mainHeading;
+    }
+    p {
+      @extend .txtDescription;
+      padding: 4px 0 0px 0;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    button {
+      @extend .btnbase;
+    }
+    button:hover {
+      @extend .btnhover;
+    }
+    img {
+      width: 70%;
+    }
+  }
+}
+
+.online-scholarship-client-achievement {
+  background: $primaryColor;
+  padding: 100px 0 100px 0;
+  .online-scholarship-client-achievement-inner {
+    h2 {
+      @extend .mainHeading;
+      color: $color__fill-white;
+    }
+    .description {
+      max-width: 750px;
+      margin: auto;
+    }
+    p {
+      @extend .txtDescription;
+      padding: 4px 0 0px 0;
+      color: $color__fill-white;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    button {
+      @extend .btnbase;
+    }
+    button:hover {
+      @extend .btnhover;
+    }
+    .icon-container {
+      background: $color__fill-white;
+      padding: 18px 13px;
+      border-radius: 50%;
+    }
+    .icon-img {
+      width: 2rem;
+    }
+    .integrated__stack-container {
+      .stack-box {
+        background: $color__fill-white;
+        border-radius: 8px;
+        margin: 0 10px;
+        padding: 20px 18px 3px 18px;
+        height: 100%;
+        img {
+          width: 75px;
+          height: 75px;
+        }
+      }
+      h6 {
+        color: $primaryColor;
+      }
+      p {
+        @extend .txtDescription;
+        padding: 0;
+      }
+      h4 {
+        color: $color__fill-white;
+      }
+    }
+  }
+}
+
+.client {
+  padding: 0px 0 0px 0;
+  background-color: $primaryColor;
+  .client-inner {
+    h2 {
+      @extend .mainHeading;
+      color: $color__fill-white;
+    }
+    p {
+      @extend .txtDescription;
+      padding: 4px 0 0px 0;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    button {
+      @extend .btnbase;
+    }
+    button:hover {
+      @extend .btnhover;
+    }
+    img {
+      width: 10%;
+    }
+  }
+}
+
+.solution-online-scholarship {
+  padding: 100px 0 100px 0;
+  .solution-online-scholarship-inner {
+    h2 {
+      @extend .mainHeading;
+    }
+    p {
+      @extend .ptxtMediumWhite;
+      padding: 0px 0 0px 0;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    img {
+      border-radius: 20px;
+    }
+    ul {
+      @extend .bannerList;
+      @extend .miniDescription;
+      color: $color__fill-white;
+    }
+    .carousel-indicators,
+    .carousel-control-prev,
+    .carousel-control-next {
+      visibility: hidden;
+    }
+  }
+}
+
+.quote {
+  padding: 190px 0px 120px 0px;
+  .quote-title {
+    margin-bottom: 20px;
+  }
+  .quote-sub-title {
+    font-weight: bold;
+  }
+  .mini-description {
+    font-size: 16px;
+    color: $color__fill-grey;
+    line-height: 1.3;
+    padding: 0 0 14px 0;
+  }
+  h4 {
+    @extend .subHeading;
+  }
+  h2 {
+    padding: 0 0 30px 0;
+    @extend .mainHeading;
+  }
+  .description {
+    @extend .txtDescription;
+  }
+}
+
+// full fledged css starts here
+.banner-section-full-fledged {
+  background-image: url("../assets/img/start-up-slide4.webp");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  position: relative;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  h1 {
+    @extend .H1heading;
+    font-size: 50px;
+  }
+  .heading-title {
+    h4 {
+      @extend .slidersubHeading;
+    }
+  }
+  p {
+    @extend .ptxtMediumWhite;
+  }
+  .banner-bg-overlay {
+    background-color: $color__fill-black;
+    opacity: 0.5;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+  .banner-inner-container {
+    position: relative;
+  }
+  button {
+    @extend .btnbase;
+    font-weight: 500;
+  }
+  button:hover {
+    @extend .btnhover;
+  }
+}
+
+.full-fledged-product-goals {
+  padding: 100px 0 100px 0;
+  background: $bg__casestudy-grey;
+  .full-fledged-product-goals-inner {
+    h2 {
+      @extend .mainHeading;
+    }
+    p {
+      @extend .txtDescription;
+      padding: 2px 0 0px 0;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    button {
+      @extend .btnbase;
+      text-transform: capitalize;
+    }
+    button:hover {
+      @extend .btnhover;
+    }
+    img {
+      border-radius: 20px;
+    }
+  }
+}
+
+.solution-full-fledged {
+  padding: 100px 0 100px 0;
+  .solution-full-fledged-inner {
+    h2 {
+      @extend .mainHeading;
+    }
+    h4{
+      @extend .boxsubHeading;
+    }
+    h5{
+      @extend .boxminiHeading;
+    }
+    p {
+      @extend .ptxtMediumWhite;
+      padding: 0px 0 0px 0;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    img {
+      border-radius: 20px;
+    }
+    ul {
+      @extend .bannerList;
+    }
+    .carousel-indicators,
+    .carousel-control-prev,
+    .carousel-control-next {
+      visibility: hidden;
+    }
+    .quote-sub-title {
+      max-width: 800px;
+      margin: auto;
+    }
+  }
+}
+
+.full-fledged-project-idea {
+  padding: 100px 0 0 0;
+  .full-fledged-project-idea-inner {
+    margin-bottom: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url("../assets/img/cta-background.jpg");
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    h2 {
+      @extend .mainHeading;
+      color: $color__fill-white;
+    }
+    p {
+      @extend .txtDescription;
+      padding: 4px 0 0px 0;
+      color: $color__fill-white;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    .btn-idea-popup {
+      background: $color__fill-white;
+      color: $primaryColor;
+      padding: 8px 18px;
+      border: 1px solid transparent;
+    }
+    .btn-idea-popup:hover {
+      background: $primaryColor;
+      color: $color__fill-white;
+    }
+    .btn-idea-popup:focus {
+      box-shadow: none;
+    }
+  }
+}
+
+.full-fledged-client-achievement {
+  background: $primaryColor;
+  padding: 100px 0 100px 0;
+  .full-fledged-client-achievement-inner {
+    h2 {
+      @extend .mainHeading;
+      color: $color__fill-white;
+    }
+    .description {
+      max-width: 750px;
+      margin: auto;
+    }
+    p {
+      @extend .txtDescription;
+      padding: 4px 0 0px 0;
+      color: $color__fill-white;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    button {
+      @extend .btnbase;
+    }
+    button:hover {
+      @extend .btnhover;
+    }
+    .icon-container {
+      background: $color__fill-white;
+      padding: 18px 13px;
+      border-radius: 50%;
+    }
+    .icon-img {
+      width: 2rem;
+    }
+    .integrated__stack-container {
+      .stack-box {
+        background: $color__fill-white;
+        border-radius: 8px;
+        margin: 0 10px;
+        padding: 20px 18px 3px 18px;
+        height: 100%;
+        img {
+          width: 75px;
+          height: 75px;
+        }
+      }
+      h6 {
+        color: $primaryColor;
+      }
+      p {
+        @extend .txtDescription;
+        padding: 0;
+      }
+      h4 {
+        color: $color__fill-white;
+      }
+    }
+  }
+}
+
+// Biodiversity css starts here
+.biodiversity-banner-section {
+  background-image: url("../assets/img/start-up-slide5.webp");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  position: relative;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  h1 {
+    @extend .H1heading;
+    font-size: 50px;
+  }
+  .heading-title {
+    h4 {
+      @extend .slidersubHeading;
+    }
+  }
+  p {
+    @extend .ptxtMediumWhite;
+  }
+  .banner-bg-overlay {
+    background-color: $color__fill-black;
+    opacity: 0.5;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+  .banner-inner-container {
+    position: relative;
+  }
+  button {
+    @extend .btnbase;
+    font-weight: 500;
+  }
+  button:hover {
+    @extend .btnhover;
+  }
+}
+
+.biodiversity-product-goals {
+  padding: 100px 0 100px 0;
+  background: $bg__casestudy-grey;
+  .biodiversity-product-goals-inner {
+    h2 {
+      @extend .mainHeading;
+    }
+    p {
+      @extend .txtDescription;
+      padding: 26px 0 16px 0;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    button {
+      @extend .btnbase;
+      text-transform: capitalize;
+    }
+    button:hover {
+      @extend .btnhover;
+    }
+    img {
+      border-radius: 20px;
+    }
+  }
+}
+
+.biodiversity-solution {
+  padding: 100px 0 100px 0;
+  .biodiversity-solution-inner {
+    h2 {
+      @extend .mainHeading;
+    }
+    h4{
+      @extend .boxsubHeading;
+    }
+    p {
+      @extend .ptxtMediumWhite;
+      padding: 0px 0 0px 0;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    img {
+      border-radius: 20px;
+    }
+    ul {
+      @extend .bannerList;
+    }
+    .carousel-indicators,
+    .carousel-control-prev,
+    .carousel-control-next {
+      visibility: hidden;
+    }
+    .quote-sub-title {
+      max-width: 890px;
+      margin: auto;
+    }
+  }
+}
+
+.biodiversity-product-highlights {
+  padding: 100px 0 0 0;
+  .biodiversity-product-highlights-inner {
+    h2 {
+      @extend .mainHeading;
+    }
+    p {
+      @extend .txtDescription;
+    }
+    .biodiversity-feature-box {
+      border: 1px solid $color__fill-box;
+      border-radius: 15px;
+      padding: 30px 16px 15px 16px;
+      height: 100%;
+      p {
+        padding: 0;
+        @extend .txtDescription;
+      }
+      h4{
+        @extend .boxsubHeading;
+      }
+    }
+    .biodiversity-feature-box:hover {
+      box-shadow: 8px 8px 30px 0px $primary__box-shadow;
+    }
+  }
+}
+
+.biodiversity-project-idea {
+  padding: 74px 0 100px 0;
+  .biodiversity-project-idea-inner {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url("../assets/img/cta-background.jpg");
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    h2 {
+      @extend .mainHeading;
+      color: $color__fill-white;
+    }
+    p {
+      @extend .txtDescription;
+      padding: 4px 0 0px 0;
+      color: $color__fill-white;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    .btn-idea-popup {
+      background: $color__fill-white;
+      color: $primaryColor;
+      padding: 8px 18px;
+      border: 1px solid transparent;
+    }
+    .btn-idea-popup:hover {
+      background: $primaryColor;
+      color: $color__fill-white;
+    }
+    .btn-idea-popup:focus {
+      box-shadow: none;
+    }
+  }
+}
+
+.biodiversity-client-achievement {
+  background: $primaryColor;
+  padding: 100px 0 100px 0;
+  .biodiversity-client-achievement-inner {
+    h2 {
+      @extend .mainHeading;
+      color: $color__fill-white;
+    }
+    .description {
+      max-width: 750px;
+      margin: auto;
+    }
+    p {
+      @extend .txtDescription;
+      padding: 4px 0 0px 0;
+      color: $color__fill-white;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    button {
+      @extend .btnbase;
+    }
+    button:hover {
+      @extend .btnhover;
+    }
+    .icon-container {
+      background: $color__fill-white;
+      padding: 18px 13px;
+      border-radius: 50%;
+    }
+    .icon-img {
+      width: 2rem;
+    }
+    .integrated__stack-container {
+      .stack-box {
+        background: $color__fill-white;
+        border-radius: 8px;
+        margin: 0 10px;
+        padding: 20px 18px 3px 18px;
+        height: 100%;
+        img {
+          width: 75px;
+          height: 75px;
+        }
+      }
+      h6 {
+        color: $primaryColor;
+      }
+      p {
+        @extend .txtDescription;
+        padding: 0;
+      }
+      h4 {
+        color: $color__fill-white;
+      }
+    }
+  }
+}
+
+// Football css starts here
+.football-banner-section {
+  background-image: url("../assets/img/start-up-slide6.webp");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  padding: 165px 0px 165px 0px;
+  position: relative;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  h1 {
+    @extend .H1heading;
+    font-size: 50px;
+  }
+  .heading-title {
+    h4 {
+      @extend .slidersubHeading;
+    }
+  }
+  p {
+    @extend .ptxtMediumWhite;
+  }
+  .banner-bg-overlay {
+    background-color: $color__fill-black;
+    opacity: 0.5;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+  .banner-inner-container {
+    position: relative;
+  }
+  button {
+    @extend .btnbase;
+    font-weight: 500;
+  }
+  button:hover {
+    @extend .btnhover;
+  }
+}
+
+.football-product-goals {
+  padding: 100px 0 100px 0;
+  background: $bg__casestudy-grey;
+  .football-product-goals-inner {
+    h2 {
+      @extend .mainHeading;
+    }
+    p {
+      @extend .txtDescription;
+      padding: 6px 0 8px 0;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    button {
+      @extend .btnbase;
+      text-transform: capitalize;
+    }
+    button:hover {
+      @extend .btnhover;
+    }
+    img {
+      border-radius: 20px;
+    }
+  }
+}
+
+.football-solution {
+  padding: 100px 0 100px 0;
+  .football-solution-inner {
+    h2 {
+      @extend .mainHeading;
+    }
+    p {
+      @extend .ptxtMediumWhite;
+      padding: 0px 0 0px 0;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    img {
+      border-radius: 20px;
+    }
+    ul {
+      @extend .bannerList;
+    }
+    .carousel-indicators,
+    .carousel-control-prev,
+    .carousel-control-next {
+      visibility: hidden;
+    }
+    .quote-sub-title {
+      max-width: 890px;
+      margin: auto;
+    }
+  }
+}
+
+.football-product-highlights {
+  padding: 100px 0 0 0;
+  background: $bg__soft-white;
+  .football-product-highlights-inner {
+    h2 {
+      @extend .mainHeading;
+    }
+    p {
+      @extend .txtDescription;
+    }
+    .blue-column {
+      color: $primaryColor;
+    }
+    .football-feature-box {
+      border: 1px solid $color__fill-box;
+      border-radius: 15px;
+      padding: 30px 30px 15px 30px;
+      height: 100%;
+      p {
+        padding: 0;
+        @extend .txtDescription;
+      }
+      h4{
+        @extend .boxsubHeading;
+      }
+    }
+    .football-feature-box:hover {
+      box-shadow: 8px 8px 30px 0px $primary__box-shadow;
+    }
+  }
+}
+
+.football-project-idea {
+  padding: 74px 0 100px 0;
+  .football-project-idea-inner {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url("../assets/img/cta-background.jpg");
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    h2 {
+      @extend .mainHeading;
+      color: $color__fill-white;
+    }
+    p {
+      @extend .txtDescription;
+      padding: 4px 0 0px 0;
+      color: $color__fill-white;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    .btn-idea-popup {
+      background: $color__fill-white;
+      color: $primaryColor;
+      padding: 8px 18px;
+      border: 1px solid transparent;
+    }
+    .btn-idea-popup:hover {
+      background: $primaryColor;
+      color: $color__fill-white;
+    }
+    .btn-idea-popup:focus {
+      box-shadow: none;
+    }
+  }
+}
+
+.football-client-achievement {
+  background: $primaryColor;
+  padding: 100px 0 100px 0;
+  .football-client-achievement-inner {
+    h2 {
+      @extend .mainHeading;
+      color: $color__fill-white;
+    }
+    .description {
+      max-width: 750px;
+      margin: auto;
+    }
+    p {
+      @extend .txtDescription;
+      padding: 4px 0 0px 0;
+      color: $color__fill-white;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    button {
+      @extend .btnbase;
+    }
+    button:hover {
+      @extend .btnhover;
+    }
+    .icon-container {
+      background: $color__fill-white;
+      padding: 18px 13px;
+      border-radius: 50%;
+    }
+    .icon-img {
+      width: 2rem;
+    }
+    .integrated__stack-container {
+      .stack-box {
+        background: $color__fill-white;
+        border-radius: 8px;
+        margin: 0 10px;
+        padding: 20px 18px 3px 18px;
+        height: 100%;
+        img {
+          width: 75px;
+          height: 75px;
+        }
+      }
+      h6 {
+        color: $primaryColor;
+      }
+      p {
+        @extend .txtDescription;
+        padding: 0;
+      }
+      h4 {
+        color: $color__fill-white;
+      }
+    }
+  }
+}
+
+// Digital payment css starts here
+.digital-payment-banner-section {
+  background-image: url("../assets/img/start-up-slide1.webp");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  position: relative;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  h1 {
+    @extend .H1heading;
+    font-size: 50px;
+  }
+  .heading-title {
+    h4 {
+      @extend .slidersubHeading;
+    }
+  }
+  p {
+    @extend .ptxtMediumWhite;
+  }
+  .banner-bg-overlay {
+    background-color: $color__fill-black;
+    opacity: 0.5;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+  .banner-inner-container {
+    position: relative;
+  }
+  button {
+    @extend .btnbase;
+    font-weight: 500;
+  }
+  button:hover {
+    @extend .btnhover;
+  }
+}
+
+.digital-payments-product-goals {
+  padding: 100px 0 100px 0;
+  background: #ececec;
+  .digital-payments-product-goals-inner {
+    h2 {
+      @extend .mainHeading;
+    }
+    p {
+      @extend .txtDescription;
+      padding: 6px 0 8px 0;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    button {
+      @extend .btnbase;
+      text-transform: capitalize;
+    }
+    button:hover {
+      @extend .btnhover;
+    }
+    img {
+      border-radius: 20px;
+    }
+  }
+}
+
+.digital-payments-solution {
+  padding: 100px 0 100px 0;
+  .digital-payments-solution-inner {
+    h2 {
+      @extend .mainHeading;
+    }
+    p {
+      @extend .ptxtMediumWhite;
+      padding: 0px 0 0px 0;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    img {
+      border-radius: 20px;
+    }
+    ul {
+      @extend .bannerList;
+    }
+    .carousel-indicators,
+    .carousel-control-prev,
+    .carousel-control-next {
+      visibility: hidden;
+    }
+    .quote-sub-title {
+      max-width: 890px;
+      margin: auto;
+    }
+  }
+}
+
+.digital-payments-product-highlights {
+  padding: 100px 0 0 0;
+  background: $bg__soft-white;
+  .digital-payments-product-highlights-inner {
+    h2 {
+      @extend .mainHeading;
+    }
+    p {
+      @extend .txtDescription;
+    }
+    .blue-column {
+      color: $primaryColor;
+    }
+    .digital-payments-feature-box {
+      border: 1px solid $color__fill-box;
+      border-radius: 15px;
+      padding: 30px 16px 15px 16px;
+      height: 100%;
+      h4{
+        @extend .boxsubHeading;
+      }
+    }
+    .digital-payments-feature-box:hover {
+      box-shadow: 8px 8px 30px 0px $primary__box-shadow;
+    }
+  }
+}
+
+.digital-payments-project-idea {
+  padding: 74px 0 100px 0;
+  .digital-payments-project-idea-inner {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url("../assets/img/cta-background.jpg");
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    h2 {
+      @extend .mainHeading;
+      color: $color__fill-white;
+    }
+    p {
+      @extend .txtDescription;
+      padding: 4px 0 0px 0;
+      color: $color__fill-white;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    .btn-idea-popup {
+      background: $color__fill-white;
+      color: $primaryColor;
+      padding: 8px 18px;
+      border: 1px solid transparent;
+    }
+    .btn-idea-popup:hover {
+      background: $primaryColor;
+      color: $color__fill-white;
+    }
+    .btn-idea-popup:focus {
+      box-shadow: none;
+    }
+  }
+}
+
+.digital-payments-client-achievement {
+  background: $primaryColor;
+  padding: 100px 0 100px 0;
+  .digital-payments-client-achievement-inner {
+    h2 {
+      @extend .mainHeading;
+      color: $color__fill-white;
+    }
+    .description {
+      max-width: 750px;
+      margin: auto;
+    }
+    p {
+      @extend .txtDescription;
+      padding: 4px 0 0px 0;
+      color: $color__fill-white;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    button {
+      @extend .btnbase;
+    }
+    button:hover {
+      @extend .btnhover;
+    }
+    .icon-container {
+      background: $color__fill-white;
+      padding: 18px 13px;
+      border-radius: 50%;
+    }
+    .icon-img {
+      width: 2rem;
+    }
+    .integrated__stack-container {
+      .stack-box {
+        background: $color__fill-white;
+        border-radius: 8px;
+        margin: 0 10px;
+        padding: 20px 18px 3px 18px;
+        height: 100%;
+        img {
+          width: 75px;
+          height: 75px;
+        }
+      }
+      h6 {
+        color: $primaryColor;
+      }
+      p {
+        @extend .txtDescription;
+        padding: 0;
+      }
+      h4 {
+        color: $color__fill-white;
+      }
+    }
+  }
+}
+
+// A reliable sholarship css starts here
+.reliable-scholarship-banner-section {
+  background-image: url("../assets/img/start-up-slide2.webp");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  padding: 165px 0px 165px 0px;
+  position: relative;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  h1 {
+    @extend .H1heading;
+    font-size: 50px;
+  }
+  .heading-title {
+    h4 {
+      @extend .slidersubHeading;
+    }
+  }
+  p {
+    @extend .ptxtMediumWhite;
+  }
+  .banner-bg-overlay {
+    background-color: $color__fill-black;
+    opacity: 0.5;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+  .banner-inner-container {
+    position: relative;
+  }
+  button {
+    @extend .btnbase;
+    font-weight: 500;
+  }
+  button:hover {
+    @extend .btnhover;
+  }
+}
+
+.reliable-scholarship-product-goals {
+  padding: 0px 0 0px 0;
+  background: $bg__soft-white;
+  .reliable-scholarship-product-goals-inner {
+    h2 {
+      @extend .mainHeading;
+    }
+    p {
+      @extend .txtDescription;
+      padding: 6px 0 8px 0;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    button {
+      @extend .btnbase;
+      text-transform: capitalize;
+    }
+    button:hover {
+      @extend .btnhover;
+    }
+    img {
+      border-radius: 20px;
+    }
+  }
+}
+.reliable-scholarship-challenges {
+  padding: 0px 0 80px 0;
+  background: $bg__soft-white;
+  .reliable-scholarship-challenges-inner {
+    h2 {
+      @extend .mainHeading;
+    }
+    p {
+      @extend .txtDescription;
+      padding: 6px 0 8px 0;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    button {
+      @extend .btnbase;
+      text-transform: capitalize;
+    }
+    button:hover {
+      @extend .btnhover;
+    }
+    img {
+      border-radius: 20px;
+    }
+    .reliable-scholarship-challenges-box {
+      background: $primary__light-Color;
+      padding: 40px 40px 10px 40px;
+      border-radius: 10px;
+      height: 100%;
+      h5{
+        @extend .boxsubHeading;
+      }
+    }
+  }
+}
+
+.reliable-scholarship-solution {
+  padding: 100px 0 100px 0;
+  .reliable-scholarship-solution-inner {
+    h2 {
+      @extend .mainHeading;
+    }
+    p {
+      @extend .ptxtMediumWhite;
+      padding: 0px 0 0px 0;
+    }
+    h5{
+      @extend .boxsubHeading;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    img {
+      border-radius: 20px;
+    }
+    ul {
+      @extend .bannerList;
+    }
+    .carousel-indicators,
+    .carousel-control-prev,
+    .carousel-control-next {
+      visibility: hidden;
+    }
+    .quote-sub-title {
+      max-width: 890px;
+      margin: auto;
+    }
+  }
+}
+
+.reliable-scholarship-product-highlights {
+  padding: 100px 0 0 0;
+  background: $bg__soft-white;
+  .reliable-scholarship-product-highlights-inner {
+    .reliable-scholarship-quote-sub-title {
+      max-width: 400px;
+      margin: auto;
+    }
+    h2 {
+      @extend .mainHeading;
+    }
+    p {
+      @extend .miniDescription;
+    }
+    .reliable_scholarship-main {
+      border: 1px solid $color__fill-box;
+      border-radius: 15px;
+      padding: 30px 16px 0px 16px;
+      height: 100%;
+      h4{
+        @extend .boxsubHeading;
+      }
+      h5{
+        @extend .boxminiHeading;
+      }
+    }
+    .reliable_scholarship-main:hover {
+      box-shadow: 8px 8px 30px 0px $primary__box-shadow;
+    }
+  }
+}
+
+.reliable-scholarship-project-idea {
+  padding: 74px 0 100px 0;
+  .reliable-scholarship-project-idea-inner {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url("../assets/img/cta-background.jpg");
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    h2 {
+      @extend .mainHeading;
+      color: $color__fill-white;
+    }
+    p {
+      @extend .txtDescription;
+      padding: 4px 0 0px 0;
+      color: $color__fill-white;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    .btn-idea-popup {
+      background: $color__fill-white;
+      color: $primaryColor;
+      padding: 8px 18px;
+      border: 1px solid transparent;
+    }
+    .btn-idea-popup:hover {
+      background: $primaryColor;
+      color: $color__fill-white;
+    }
+    .btn-idea-popup:focus {
+      box-shadow: none;
+    }
+  }
+}
+
+.reliable-scholarship-client-achievement {
+  background: $primaryColor;
+  padding: 100px 0 100px 0;
+  .reliable-scholarship-client-achievement-inner {
+    .reliable-scholarship-quote-sub-title {
+      max-width: 800px;
+      margin: auto;
+    }
+    h2 {
+      @extend .mainHeading;
+      color: $color__fill-white;
+    }
+    .description {
+      max-width: 750px;
+      margin: auto;
+    }
+    p {
+      @extend .txtDescription;
+      padding: 4px 0 0px 0;
+      color: $color__fill-white;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    button {
+      @extend .btnbase;
+    }
+    button:hover {
+      @extend .btnhover;
+    }
+    .icon-container {
+      background: $color__fill-white;
+      padding: 18px 13px;
+      border-radius: 50%;
+    }
+    .icon-img {
+      width: 2rem;
+    }
+    .integrated__stack-container {
+      .stack-box {
+        background: $color__fill-white;
+        border-radius: 8px;
+        margin: 0 10px;
+        padding: 20px 18px 3px 18px;
+        height: 100%;
+        img {
+          width: 75px;
+          height: 75px;
+        }
+      }
+      h6 {
+        color: $primaryColor;
+      }
+      p {
+        @extend .txtDescription;
+        padding: 0;
+      }
+      h4 {
+        color: $color__fill-white;
+      }
+    }
+  }
+}
+
+// charge point css starts here
+
+.charge-point-banner-section {
+  background-image: url("../assets/img/charge-point-banner.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  position: relative;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  h1 {
+    @extend .H1heading;
+    font-size: 50px;
+  }
+  .heading-title {
+    h4 {
+      @extend .slidersubHeading;
+    }
+  }
+  p {
+    @extend .ptxtMediumWhite;
+  }
+  .banner-bg-overlay {
+    background-color: $color__fill-black;
+    opacity: 0.5;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+  .banner-inner-container {
+    position: relative;
+  }
+  button {
+    @extend .btnbase;
+    font-weight: 500;
+  }
+  button:hover {
+    @extend .btnhover;
+  }
+}
+
+.charge-point-about-section {
+  padding: 40px 0 60px 0;
+  .charge-point-about-section-inner {
+    h2 {
+      @extend .mainHeading;
+    }
+    p {
+      @extend .txtDescription;
+      padding: 6px 0 8px 0;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    button {
+      @extend .btnbase;
+      text-transform: capitalize;
+    }
+    button:hover {
+      @extend .btnhover;
+    }
+    img {
+      border-radius: 20px;
+    }
+  }
+}
+
+.charge-point-overview {
+  padding: 100px 0 70px 0;
+  background: $bg__casestudy-grey;
+  .charge-point-overview-inner {
+    h2 {
+      @extend .mainHeading;
+    }
+    p {
+      @extend .txtDescription;
+    }
+    .quote-sub-title {
+      max-width: 800px;
+      margin: auto;
+    }
+  }
+}
+
+.charge-point-challenges {
+  padding: 80px 0 80px 0;
+  background: $bg__soft-white;
+  .charge-point-challenges-inner {
+    h2 {
+      @extend .mainHeading;
+    }
+    p {
+      @extend .txtDescription;
+      padding: 6px 0 8px 0;
+      color: $color__fill-white;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    button {
+      @extend .btnbase;
+      text-transform: capitalize;
+    }
+    button:hover {
+      @extend .btnhover;
+    }
+    img {
+      border-radius: 20px;
+    }
+    .charge-point-challenges-box {
+      background: $primarylightColor;
+      padding: 40px 40px 10px 40px;
+      border-radius: 10px;
+      height: 100%;
+    }
+  }
+}
+
+.charge-point-technology {
+  padding: 100px 0 100px 0;
+  .charge-point-technology-inner {
+    h2 {
+      @extend .mainHeading;
+    }
+    .charge-point-technology-box {
+      border: 1px solid $color__fill-box;
+      border-radius: 15px;
+      padding: 30px 16px 15px 16px;
+      height: 100%;
+    }
+    .charge-point-technology-box:hover {
+      box-shadow: 8px 8px 30px 0px $primary__box-shadow;
+    }
+  }
+}
+
+.charge-point-solution {
+  padding: 100px 0 100px 0;
+  .charge-point-solution-inner {
+    h2 {
+      @extend .mainHeading;
+    }
+    p {
+      @extend .ptxtMediumWhite;
+      padding: 0px 0 0px 0;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    img {
+      border-radius: 20px;
+    }
+    ul {
+      @extend .bannerList;
+    }
+    .carousel-indicators,
+    .carousel-control-prev,
+    .carousel-control-next {
+      visibility: hidden;
+    }
+    .quote-sub-title {
+      max-width: 890px;
+      margin: auto;
+    }
+  }
+}
+
+.charge-point-client-goals {
+  background: $primaryColor;
+  padding: 100px 0 100px 0;
+  .charge-point-client-goals-inner {
+    .charge-point-client-goals-quote-sub-title {
+      max-width: 800px;
+      margin: auto;
+    }
+    h2 {
+      @extend .mainHeading;
+      color: $color__fill-white;
+    }
+    .description {
+      max-width: 750px;
+      margin: auto;
+    }
+    p {
+      @extend .txtDescription;
+      padding: 4px 0 0px 0;
+      color: $color__fill-white;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    button {
+      @extend .btnbase;
+    }
+    button:hover {
+      @extend .btnhover;
+    }
+    .icon-container {
+      background: $color__fill-white;
+      padding: 18px 13px;
+      border-radius: 50%;
+    }
+    .icon-img {
+      width: 2rem;
+    }
+    .integrated__stack-container {
+      .stack-box {
+        background: $color__fill-white;
+        border-radius: 8px;
+        margin: 0 10px;
+        padding: 20px 18px 3px 18px;
+        height: 100%;
+        img {
+          width: 75px;
+          height: 75px;
+        }
+      }
+      h6 {
+        color: $primaryColor;
+      }
+      p {
+        @extend .txtDescription;
+        padding: 0;
+      }
+      h4 {
+        color: $color__fill-white;
+      }
+    }
+  }
+}
+
+// real estate banner css starts here
+.real-estate-banner-section {
+  background-image: url("../assets/img/start-up-slide3.webp");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  position: relative;
+  height: 600px;
+  align-items: center;
+  display: flex;
+  .real-estate-banner-inner {
+    position: relative;
+  }
+  h1 {
+    @extend .H1heading;
+    font-size: 50px;
+  }
+  .heading-title {
+    h4 {
+      @extend .slidersubHeading;
+    }
+  }
+  p {
+    @extend .ptxtMediumWhite;
+  }
+  .banner-bg-overlay {
+    background-color: $color__fill-black;
+    opacity: 0.5;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+  .banner-inner-container {
+    position: relative;
+  }
+  button {
+    @extend .btnbase;
+    font-weight: 500;
+  }
+  button:hover {
+    @extend .btnhover;
+  }
+}
+
+.real-estate-goals {
+  padding: 100px 0 100px 0;
+  background: $bg__casestudy-grey;
+  .real-estate-goals-inner {
+    h2 {
+      @extend .mainHeading;
+    }
+    button {
+      @extend .btnbase;
+      font-weight: 500;
+    }
+    button:hover {
+      @extend .btnhover;
+    }
+    p {
+      @extend .txtDescription;
+      padding: 0 0 0 0;
+    }
+    ul {
+      @extend .txtDescription;
+      list-style: none;
+      li {
+        padding: 3px 0;
+      }
+      i {
+        color: $secondryColor;
+      }
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+  }
+}
+.real-estate-client-achievement {
+  background: $primaryColor;
+  padding: 100px 0 100px 0;
+  .real-estate-client-achievement-inner {
+    h2 {
+      @extend .mainHeading;
+      color: $color__fill-white;
+    }
+    .description {
+      max-width: 750px;
+      margin: auto;
+    }
+    p {
+      @extend .txtDescription;
+      padding: 4px 0 0px 0;
+      color: $color__fill-white;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    button {
+      @extend .btnbase;
+    }
+    button:hover {
+      @extend .btnhover;
+    }
+    .icon-container {
+      background: $color__fill-white;
+      padding: 18px 13px;
+      border-radius: 50%;
+    }
+    .icon-img {
+      width: 2rem;
+    }
+    .integrated__stack-container {
+      .stack-box {
+        background: $color__fill-white;
+        border-radius: 8px;
+        margin: 0 10px;
+        padding: 20px 18px 3px 18px;
+        height: 100%;
+        img {
+          width: 75px;
+          height: 75px;
+        }
+      }
+      h6 {
+        color: $primaryColor;
+      }
+      p {
+        @extend .txtDescription;
+        padding: 0;
+      }
+      h4 {
+        color: $color__fill-white;
+      }
+    }
+  }
+}
+.solution-real-estate {
+  padding: 100px 0 100px 0;
+  .solution-real-estate-inner {
+    h2 {
+      @extend .mainHeading;
+    }
+    p {
+      @extend .ptxtMediumWhite;
+      padding: 0px 0 0px 0;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    img {
+      border-radius: 20px;
+    }
+    h5{
+      @extend .boxsubHeading;
+    }
+    ul {
+      @extend .bannerList;
+      @extend .miniDescription;
+      color: $color__fill-white;
+    }
+    .carousel-indicators,
+    .carousel-control-prev,
+    .carousel-control-next {
+      visibility: hidden;
+    }
+  }
+}
+
+// case studies css starts here
+
+.case-studies-banner-section {
+  background-image: url("../assets/img/case-study.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  .case-studies-banner-inner {
+    position: relative;
+  }
+  h1 {
+    @extend .H1heading;
+  }
+  .heading-title {
+    h4 {
+      @extend .slidersubHeading;
+    }
+  }
+  p {
+    @extend .ptxtMediumWhite;
+  }
+  .banner-bg-overlay {
+    background-color: $color__fill-black;
+    opacity: 0.5;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+  .banner-inner-container {
+    position: relative;
+  }
+  button {
+    @extend .btnbase;
+    font-weight: 500;
+  }
+  button:hover {
+    @extend .btnhover;
+  }
+}
+
+.case-studies-filter-section {
+  padding: 100px 0 100px 0;
+  .case-studies-filter-inner {
+    .fade:not(.show) {
+      opacity: 1;
+    }
+    .case-studies-tabs {
+      li {
+        a {
+          @extend .mainHeading;
+          font-weight: bold !important;
+          color: $color__fill-black !important;
+          text-decoration: none !important;
+          margin: 0 25px 0 0 !important;
+          font-family: "NovemberPro" !important;
+        }
+      }
+      li {
+        a.active {
+          color: $secondryColor !important;
+        }
+      }
+    }
+    .case-studies-categories-items {
+      background-color: $color__fill-box;
+      color: #323232;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 400;
+      margin-bottom: 8px;
+      margin-right: 8px;
+      padding: 5px 10px;
+      text-decoration: none;
+      border-radius: 6px;
+    }
+    .case-studies-categories {
+      .active {
+        background: $primaryColor;
+        color: $color__fill-white;
+      }
+    }
+    .filter_categories-box {
+      border: 1px solid $color__fill-box;
+      height: 100%;
+      margin: 0 15px;
+      display: block;
+      position: relative;
+      overflow: hidden;
+    }
+    .filter_categories-box img {
+      transition: all 0.65s ease-in-out;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: 50% 50%;
+      max-width: 100%;
+      min-height: 100%;
+      height: 160px;
+    }
+    .filter_categories-box:hover img {
+      opacity: 0.6;
+      transform: scale(1.15, 1.15);
+    }
+    .filter_categories_inner-box {
+      padding: 30px 20px;
+      p {
+        margin: 0;
+        font-size: 14px;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      }
+      h4 {
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      }
+    }
+    .filter_categories-main {
+      text-decoration: none;
+      color: $color__fill-black;
+    }
+    .filter_categories-main:hover {
+      box-shadow: 8px 8px 30px 0px $primary__box-shadow;
+    }
+    .ct-salesforce-img-blog {
+      height: 160px;
+      position: relative;
+      overflow: hidden;
+    }
+    button {
+      @extend .btnbase;
+    }
+    button:hover {
+      @extend .btnhover;
+    }
+    button:focus {
+      @extend .btnfocus;
+    }
+    button:active:focus {
+      @extend .btnactivefocus;
+    }
+  }
+}
+// contact modal css
+.contact-modal {
+  .contact-modal-header {
+    border: none;
+  }
+  .contact-modal-footer {
+    border: none;
+    padding: 0px 40px 0 40px;
+  }
+  .contact-modal-overlay {
+    background: #ffffff99;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    width: 100%;
+    left: 0;
+  }
+  .contact-modal-body {
+    padding: 0px 40px 0 40px;
+  }
+  .modal-title {
+    @extend .mainHeading;
+  }
+  .form-group {
+    position: relative;
+  }
+  .contact-input-custom {
+    border: none !important;
+    border-bottom: 1px solid #dbd3d3 !important;
+    border-radius: 0px !important;
+    box-shadow: none !important;
+    margin-bottom: 1.6rem !important;
+    @extend .txtDescription;
+    font-size: 14px;
+    padding: 12px 20px 12px 28px;
+  }
+  .contact-custom-txt-area {
+    border: none !important;
+    border-bottom: 1px solid #dbd3d3 !important;
+    margin-bottom: 2rem !important;
+    @extend .txtDescription;
+    font-size: 14px;
+    padding: 12px 20px 12px 28px;
+  }
+  .contact-custom-txt-area:focus {
+    box-shadow: none !important;
+  }
+  .contact-btn-close {
+    background-color: #e2e3e8;
+    border-radius: 50%;
+    position: absolute;
+    right: 16px;
+    top: 17px;
+  }
+  .contact-info-img {
+    width: 28px;
+  }
+  .contact-check-btn {
+    background: $primaryColor;
+    border: none;
+    padding: 6px 24px;
+    color: $color__fill-white;
+  }
+  .contact-check-btn:hover {
+    color: $color__fill-white;
+    opacity: 0.9;
+  }
+  .share-info-txt {
+    font-size: 17px;
+    color: #9ea4a9;
+  }
+  .contact-pre-icon {
+    position: absolute;
+    top: 16px;
+    color: #9ea4a9;
+    margin: 0 12px 0 5px;
+  }
+}
+
+// unv case study css starts here
+
+.banner-section-unv {
+  background-image: url("../assets/img/start-up-slide3.webp");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  position: relative;
+  height: 600px;
+  align-items: center;
+  display: flex;
+  h1 {
+    @extend .H1heading;
+    font-size: 50px;
+  }
+  .heading-title {
+    h4 {
+      @extend .slidersubHeading;
+    }
+  }
+  p {
+    @extend .ptxtMediumWhite;
+  }
+  .banner-bg-overlay {
+    background-color: $color__fill-black;
+    opacity: 0.5;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+  .banner-inner-container {
+    position: relative;
+  }
+  button {
+    @extend .btnbase;
+    font-weight: 500;
+  }
+  button:hover {
+    @extend .btnhover;
+  }
+}
+
+.unv-intro {
+  padding: 100px 0 100px 0;
+  background: $bg__casestudy-grey;
+  .unv-intro-inner {
+    h2 {
+      @extend .mainHeading;
+    }
+    .sub-column {
+      color: $secondryColor;
+    }
+    p {
+      @extend .txtDescription;
+      padding: 10px 0 10px 0;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    button {
+      @extend .btnbase;
+      text-transform: capitalize;
+    }
+    button:hover {
+      @extend .btnhover;
+    }
+    img {
+      border-radius: 20px;
+    }
+  }
+}
+
+.online-scholarship-project-idea {
+  .online-scholarship-project-idea-inner {
+    margin-bottom: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url("../assets/img/cta-background.jpg");
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    h2 {
+      @extend .mainHeading;
+      color: $color__fill-white;
+    }
+    p {
+      @extend .txtDescription;
+      padding: 4px 0 0px 0;
+      color: $color__fill-white;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    .btn-idea-popup {
+      background: $color__fill-white;
+      color: $primaryColor;
+      padding: 8px 18px;
+      border: 1px solid transparent;
+    }
+    .btn-idea-popup:hover {
+      background: $primaryColor;
+      color: $color__fill-white;
+    }
+    .btn-idea-popup:focus {
+      box-shadow: none;
+    }
+  }
+}
+
+.unv-client-achievement {
+  background: $primaryColor;
+  padding: 100px 0 100px 0;
+  .unv-client-achievement-inner {
+    h2 {
+      @extend .mainHeading;
+      color: $color__fill-white;
+    }
+    .description {
+      max-width: 750px;
+      margin: auto;
+    }
+    p {
+      @extend .txtDescription;
+      padding: 4px 0 0px 0;
+      color: $color__fill-white;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    button {
+      @extend .btnbase;
+    }
+    button:hover {
+      @extend .btnhover;
+    }
+    .icon-container {
+      background: $color__fill-white;
+      padding: 18px 13px;
+      border-radius: 50%;
+    }
+    .icon-img {
+      width: 2rem;
+    }
+    .integrated__stack-container {
+      .stack-box {
+        background: $color__fill-white;
+        border-radius: 8px;
+        margin: 0 10px;
+        padding: 20px 18px 3px 18px;
+        height: 100%;
+        img {
+          width: 75px;
+          height: 75px;
+        }
+      }
+      h6 {
+        color: $primaryColor;
+      }
+      p {
+        @extend .txtDescription;
+        padding: 0;
+      }
+      h4 {
+        color: $color__fill-white;
+      }
+    }
+  }
+}
+
+.solution-unv {
+  padding: 100px 0 100px 0;
+  .solution-unv-inner {
+    h2 {
+      @extend .mainHeading;
+    }
+    p {
+      @extend .ptxtMediumWhite;
+      padding: 0px 0 0px 0;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    img {
+      border-radius: 20px;
+    }
+    h5{
+      @extend .boxsubHeading;
+    }
+    ul {
+      @extend .bannerList;
+      @extend .miniDescription;
+      color: $color__fill-white;
+    }
+    .carousel-indicators,
+    .carousel-control-prev,
+    .carousel-control-next {
+      visibility: hidden;
+    }
+  }
+}
+
+// hotel booking case study css starts here
+
+.banner-section-hotel-booking {
+  background-image: url("../assets/img/slide3.webp");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  position: relative;
+  height: 600px;
+  align-items: center;
+  display: flex;
+  h1 {
+    @extend .H1heading;
+    font-size: 50px;
+  }
+  .heading-title {
+    h4 {
+      @extend .slidersubHeading;
+    }
+  }
+  p {
+    @extend .ptxtMediumWhite;
+  }
+  .banner-bg-overlay {
+    background-color: $color__fill-black;
+    opacity: 0.5;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+  .banner-inner-container {
+    position: relative;
+  }
+  button {
+    @extend .btnbase;
+    font-weight: 500;
+  }
+  button:hover {
+    @extend .btnhover;
+  }
+}
+
+.hotel-booking-intro {
+  padding: 100px 0 100px 0;
+  background: $bg__casestudy-grey;
+  .hotel-booking-intro-inner {
+    h2 {
+      @extend .mainHeading;
+    }
+    .sub-column {
+      color: $secondryColor;
+    }
+    p {
+      @extend .txtDescription;
+      padding: 10px 0 10px 0;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    button {
+      @extend .btnbase;
+      text-transform: capitalize;
+    }
+    button:hover {
+      @extend .btnhover;
+    }
+    img {
+      border-radius: 20px;
+    }
+  }
+}
+
+.solution-hotel-booking {
+  padding: 100px 0 100px 0;
+  .solution-hotel-booking-inner {
+    h2 {
+      @extend .mainHeading;
+    }
+    p {
+      @extend .ptxtMediumWhite;
+      padding: 0px 0 0px 0;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    img {
+      border-radius: 20px;
+    }
+    h5{
+      @extend .boxsubHeading;
+    }
+    ul {
+      @extend .bannerList;
+      @extend .miniDescription;
+      color: $color__fill-white;
+    }
+    .carousel-indicators,
+    .carousel-control-prev,
+    .carousel-control-next {
+      visibility: hidden;
+    }
+  }
+}
+
+.hotel-booking-client-achievement {
+  background: $primaryColor;
+  padding: 100px 0 100px 0;
+  .hotel-booking-client-achievement-inner {
+    h2 {
+      @extend .mainHeading;
+      color: $color__fill-white;
+    }
+    .description {
+      max-width: 750px;
+      margin: auto;
+    }
+    p {
+      @extend .txtDescription;
+      padding: 4px 0 0px 0;
+      color: $color__fill-white;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    button {
+      @extend .btnbase;
+    }
+    button:hover {
+      @extend .btnhover;
+    }
+    .icon-container {
+      background: $color__fill-white;
+      padding: 18px 13px;
+      border-radius: 50%;
+    }
+    .icon-img {
+      width: 2rem;
+    }
+    .integrated__stack-container {
+      .stack-box {
+        background: $color__fill-white;
+        border-radius: 8px;
+        margin: 0 10px;
+        padding: 20px 18px 3px 18px;
+        height: 100%;
+        img {
+          width: 75px;
+          height: 75px;
+        }
+      }
+      h6 {
+        color: $primaryColor;
+      }
+      p {
+        @extend .txtDescription;
+        padding: 0;
+      }
+      h4 {
+        color: $color__fill-white;
+      }
+    }
+  }
+}
+
+.hotel-booking-product-highlights {
+  padding: 100px 0 0 0;
+  background: $bg__soft-white;
+  .hotel-booking-product-highlights-inner {
+    h2 {
+      @extend .mainHeading;
+    }
+    p {
+      @extend .txtDescription;
+    }
+    .hotel-booking-feature-box {
+      border: 1px solid $color__fill-box;
+      border-radius: 15px;
+      padding: 30px 16px 15px 16px;
+      height: 100%;
+      p {
+        padding: 0;
+      }
+      h4{
+        @extend .boxsubHeading;
+      }
+    }
+    .hotel-booking-feature-box:hover {
+      box-shadow: 8px 8px 30px 0px $primary__box-shadow;
+    }
+  }
+}
+
+// heroku platform case study css starts here
+
+.banner-section-heroku-platform {
+  background-image: url("../assets/img/ror-header.webp");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  position: relative;
+  height: 600px;
+  align-items: center;
+  display: flex;
+  h1 {
+    @extend .H1heading;
+    font-size: 50px;
+  }
+  .heading-title {
+    h4 {
+      @extend .slidersubHeading;
+    }
+  }
+  p {
+    @extend .ptxtMediumWhite;
+  }
+  .banner-bg-overlay {
+    background-color: $color__fill-black;
+    opacity: 0.5;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+  .banner-inner-container {
+    position: relative;
+  }
+  button {
+    @extend .btnbase;
+    font-weight: 500;
+  }
+  button:hover {
+    @extend .btnhover;
+  }
+}
+
+.heroku-platform-intro {
+  padding: 70px 0 80px 0;
+  background: $bg__casestudy-grey;
+  .heroku-platform-intro-inner {
+    h2 {
+      @extend .mainHeading;
+    }
+    .sub-column {
+      color: $secondryColor;
+    }
+    p {
+      @extend .txtDescription;
+      padding: 10px 0 10px 0;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    button {
+      @extend .btnbase;
+      text-transform: capitalize;
+    }
+    button:hover {
+      @extend .btnhover;
+    }
+    img {
+      border-radius: 20px;
+    }
+  }
+}
+
+.solution-heroku-platform {
+  padding: 100px 0 100px 0;
+  .solution-heroku-platform-inner {
+    h2 {
+      @extend .mainHeading;
+    }
+    h5{
+      @extend .boxsubHeading;
+    }
+    p {
+      @extend .ptxtMediumWhite;
+      padding: 0px 0 0px 0;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    img {
+      border-radius: 20px;
+    }
+    ul {
+      @extend .bannerList;
+      @extend .miniDescription;
+      color: $color__fill-white;
+    }
+    .carousel-indicators,
+    .carousel-control-prev,
+    .carousel-control-next {
+      visibility: hidden;
+    }
+  }
+}
+
+.heroku-platform-client-achievement {
+  background: $primaryColor;
+  padding: 100px 0 100px 0;
+  .heroku-platform-client-achievement-inner {
+    h2 {
+      @extend .mainHeading;
+      color: $color__fill-white;
+    }
+    .description {
+      max-width: 750px;
+      margin: auto;
+    }
+    p {
+      @extend .txtDescription;
+      padding: 4px 0 0px 0;
+      color: $color__fill-white;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    button {
+      @extend .btnbase;
+    }
+    button:hover {
+      @extend .btnhover;
+    }
+    .icon-container {
+      background: $color__fill-white;
+      padding: 18px 13px;
+      border-radius: 50%;
+    }
+    .icon-img {
+      width: 2rem;
+    }
+    .integrated__stack-container {
+      .stack-box {
+        background: $color__fill-white;
+        border-radius: 8px;
+        margin: 0 10px;
+        padding: 20px 18px 3px 18px;
+        height: 100%;
+        img {
+          width: 75px;
+          height: 75px;
+        }
+      }
+      h6 {
+        color: $primaryColor;
+      }
+      p {
+        @extend .txtDescription;
+        padding: 0;
+      }
+      h4 {
+        color: $color__fill-white;
+      }
+    }
+  }
+}
+
+// ladyboss case study css starts here
+
+.banner-section-ladyboss {
+  background-image: url("../assets/img/contact-form-bg.webp");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  position: relative;
+  height: 600px;
+  align-items: center;
+  display: flex;
+  h1 {
+    @extend .H1heading;
+    font-size: 50px;
+  }
+  .heading-title {
+    h4 {
+      @extend .slidersubHeading;
+    }
+  }
+  p {
+    @extend .ptxtMediumWhite;
+  }
+  .banner-bg-overlay {
+    background-color: $color__fill-black;
+    opacity: 0.5;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+  .banner-inner-container {
+    position: relative;
+  }
+  button {
+    @extend .btnbase;
+    font-weight: 500;
+  }
+  button:hover {
+    @extend .btnhover;
+  }
+}
+
+.ladyboss-intro {
+  padding: 80px 0 80px 0;
+  background: $bg__casestudy-grey;
+  .ladyboss-intro-inner {
+    h2 {
+      @extend .mainHeading;
+    }
+    .sub-column {
+      color: $secondryColor;
+    }
+    p {
+      @extend .txtDescription;
+      padding: 10px 0 10px 0;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    button {
+      @extend .btnbase;
+      text-transform: capitalize;
+    }
+    button:hover {
+      @extend .btnhover;
+    }
+    img {
+      border-radius: 20px;
+    }
+  }
+}
+
+.solution-ladyboss {
+  padding: 100px 0 100px 0;
+  .solution-ladyboss-inner {
+    h2 {
+      @extend .mainHeading;
+    }
+    p {
+      @extend .ptxtMediumWhite;
+      padding: 0px 0 0px 0;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    img {
+      border-radius: 20px;
+    }
+    h5{
+      @extend .boxsubHeading;
+    }
+    ul {
+      @extend .bannerList;
+      @extend .miniDescription;
+      color: $color__fill-white;
+    }
+    .carousel-indicators,
+    .carousel-control-prev,
+    .carousel-control-next {
+      visibility: hidden;
+    }
+  }
+}
+
+.ladyboss-client-achievement {
+  background: $primaryColor;
+  padding: 100px 0 100px 0;
+  .ladyboss-client-achievement-inner {
+    h2 {
+      @extend .mainHeading;
+      color: $color__fill-white;
+    }
+    .description {
+      max-width: 750px;
+      margin: auto;
+    }
+    p {
+      @extend .txtDescription;
+      padding: 4px 0 0px 0;
+      color: $color__fill-white;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    button {
+      @extend .btnbase;
+    }
+    button:hover {
+      @extend .btnhover;
+    }
+    .icon-container {
+      background: $color__fill-white;
+      padding: 18px 13px;
+      border-radius: 50%;
+    }
+    .icon-img {
+      width: 2rem;
+    }
+    .integrated__stack-container {
+      .stack-box {
+        background: $color__fill-white;
+        border-radius: 8px;
+        margin: 0 10px;
+        padding: 20px 18px 3px 18px;
+        height: 100%;
+        img {
+          width: 75px;
+          height: 75px;
+        }
+      }
+      h6 {
+        color: $primaryColor;
+      }
+      p {
+        @extend .txtDescription;
+        padding: 0;
+      }
+      h4 {
+        color: $color__fill-white;
+      }
+    }
+  }
+}
+
+.ladyboss-problems {
+  padding: 100px 0 0 0;
+  background: $bg__soft-white;
+  .ladyboss-problems-inner {
+    h2 {
+      @extend .mainHeading;
+    }
+    p {
+      @extend .txtDescription;
+    }
+    .hotel-booking-feature-box {
+      border: 1px solid $color__fill-box;
+      border-radius: 15px;
+      padding: 30px 16px 15px 16px;
+      height: 100%;
+      p {
+        padding: 0;
+      }
+      h4{
+        @extend .boxsubHeading;
+      }
+    }
+    .hotel-booking-feature-box:hover {
+      box-shadow: 8px 8px 30px 0px $primary__box-shadow;
+    }
+  }
+}
+// ladyboss case study css ends here
+
+// dot case study css starts here
+
+.banner-section-dot {
+  background-image: url("../assets/img/home-blog4.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  // padding: 165px 0px 165px 0px;
+  position: relative;
+  height: 600px;
+  align-items: center;
+  display: flex;
+  h1 {
+    @extend .H1heading;
+    font-size: 50px;
+  }
+  .heading-title {
+    h4 {
+      @extend .slidersubHeading;
+    }
+  }
+  p {
+    @extend .ptxtMediumWhite;
+  }
+  .banner-bg-overlay {
+    background-color: $color__fill-black;
+    opacity: 0.5;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+  .banner-inner-container {
+    position: relative;
+  }
+  button {
+    @extend .btnbase;
+    font-weight: 500;
+  }
+  button:hover {
+    @extend .btnhover;
+  }
+}
+
+.dot-intro {
+  padding: 80px 0 80px 0;
+  background: $bg__casestudy-grey;
+  .dot-intro-inner {
+    h2 {
+      @extend .mainHeading;
+    }
+    .sub-column {
+      color: $secondryColor;
+    }
+    p {
+      @extend .txtDescription;
+      padding: 10px 0 10px 0;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    button {
+      @extend .btnbase;
+      text-transform: capitalize;
+    }
+    button:hover {
+      @extend .btnhover;
+    }
+    img {
+      border-radius: 20px;
+    }
+  }
+}
+
+.solution-dot {
+  padding: 80px 0 70px 0;
+  .solution-dot-inner {
+    h2 {
+      @extend .mainHeading;
+    }
+    p {
+      @extend .ptxtMediumWhite;
+      padding: 0px 0 0px 0;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    img {
+      border-radius: 20px;
+    }
+    ul {
+      @extend .bannerList;
+    }
+    .carousel-indicators,
+    .carousel-control-prev,
+    .carousel-control-next {
+      visibility: hidden;
+    }
+  }
+}
+
+.dot-client-achievement {
+  background: $primaryColor;
+  padding: 100px 0 100px 0;
+  .dot-client-achievement-inner {
+    h2 {
+      @extend .mainHeading;
+      color: $color__fill-white;
+    }
+    .description {
+      max-width: 750px;
+      margin: auto;
+    }
+    p {
+      @extend .txtDescription;
+      padding: 4px 0 0px 0;
+      color: $color__fill-white;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    button {
+      @extend .btnbase;
+    }
+    button:hover {
+      @extend .btnhover;
+    }
+    .icon-container {
+      background: $color__fill-white;
+      padding: 18px 13px;
+      border-radius: 50%;
+    }
+    .icon-img {
+      width: 2rem;
+    }
+    .integrated__stack-container {
+      .stack-box {
+        background: $color__fill-white;
+        border-radius: 8px;
+        margin: 0 10px;
+        padding: 20px 18px 3px 18px;
+        height: 100%;
+        img {
+          width: 75px;
+          height: 75px;
+        }
+      }
+      h6 {
+        color: $primaryColor;
+      }
+      p {
+        @extend .txtDescription;
+        padding: 0;
+      }
+      h4 {
+        color: $color__fill-white;
+      }
+    }
+  }
+}
+.dot-features {
+  padding: 100px 0 0 0;
+  background: $bg__soft-white;
+  .dot-features-inner {
+    h2 {
+      @extend .mainHeading;
+    }
+    p {
+      @extend .txtDescription;
+    }
+    .blue-column {
+      color: $primaryColor;
+    }
+    .hotel-booking-feature-box {
+      border: 1px solid $color__fill-box;
+      border-radius: 15px;
+      padding: 30px 16px 15px 16px;
+      height: 100%;
+      p {
+        padding: 0;
+      }
+      h4{
+        @extend .boxsubHeading;
+      }
+    }
+    .hotel-booking-feature-box:hover {
+      box-shadow: 8px 8px 30px 0px $primary__box-shadow;
+    }
+  }
+}
+// dot case study css starts here
+
+// retail company geared up css starts here
+.retail-company-cs-banner-section {
+  background-image: url("../assets/img/retail-company.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  position: relative;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  h1 {
+    @extend .H1heading;
+    font-size: 50px;
+  }
+  .heading-title {
+    h4 {
+      @extend .slidersubHeading;
+    }
+  }
+  p {
+    @extend .ptxtMediumWhite;
+  }
+  .banner-bg-overlay {
+    background-color: $color__fill-black;
+    opacity: 0.5;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+  .banner-inner-container {
+    position: relative;
+  }
+  button {
+    @extend .btnbase;
+    font-weight: 500;
+  }
+  button:hover {
+    @extend .btnhover;
+  }
+}
+
+.retail-company__client-overview {
+  padding: 100px 0 100px 0;
+  background: $bg__casestudy-grey;
+  .retail-company__client-overview-inner {
+    h2 {
+      @extend .mainHeading;
+    }
+    p {
+      @extend .txtDescription;
+      padding: 10px 0 0px 0;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    button {
+      @extend .btnbase;
+      text-transform: capitalize;
+    }
+    button:hover {
+      @extend .btnhover;
+    }
+    img {
+      border-radius: 20px;
+    }
+  }
+}
+
+.retail-company-cs-project__insights {
+  background: $primaryColor;
+  padding: 70px 0 100px 0;
+  .retail-company-cs-project__insights-inner {
+    h2 {
+      @extend .mainHeading;
+      color: $color__fill-white;
+    }
+    .description {
+      max-width: 750px;
+      margin: auto;
+    }
+    p {
+      @extend .txtDescription;
+      padding: 4px 0 0px 0;
+      color: $color__fill-white;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    button {
+      @extend .btnbase;
+    }
+    button:hover {
+      @extend .btnhover;
+    }
+    .icon-container {
+      background: $color__fill-white;
+      padding: 18px 13px;
+      border-radius: 50%;
+    }
+    .icon-img {
+      width: 2rem;
+    }
+    .integrated__stack-container {
+      .stack-box {
+        background: $color__fill-white;
+        border-radius: 8px;
+        margin: 0 10px;
+        padding: 20px 18px 3px 18px;
+        height: 100%;
+        img {
+          width: 75px;
+          height: 75px;
+        }
+      }
+      h6 {
+        color: $primaryColor;
+      }
+      p {
+        @extend .txtDescription;
+        padding: 0;
+      }
+      h4 {
+        color: $color__fill-white;
+      }
+    }
+  }
+}
+
+.retail-company-cs-problems-section {
+  padding: 80px 0 60px 0;
+  .retail-company-cs-problems-section-inner {
+    .sub-column{
+      color: $secondryColor;
+    }
+    h2 {
+      @extend .mainHeading;
+    }
+    p {
+      @extend .txtDescription;
+    }
+    .feature-box {
+      border: 1px solid $color__fill-box;
+      border-radius: 15px;
+      padding: 30px 16px 15px 16px;
+      height: 100%;
+      p {
+        padding: 0;
+        @extend .txtDescription;
+      }
+      h4{
+        @extend .boxsubHeading;
+      }
+    }
+    .feature-box:hover {
+      box-shadow: 8px 8px 30px 0px $primary__box-shadow;
+    }
+    .fa-dot-circle{
+      font-size: 23px;
+      color: #ec0000;
+      box-shadow: 0px 0px 12px #d92f2f;
+      border-radius: 50%;
+    }
+  }
+}
+
+.retail-company-cs-solution {
+  padding: 80px 0 80px 0;
+  .retail-company-cs-solution-inner {
+    h2 {
+      @extend .mainHeading;
+    }
+    h4{
+      @extend .boxsubHeading;
+    }
+    p {
+      @extend .ptxtMediumWhite;
+      padding: 0px 0 0px 0;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    img {
+      border-radius: 20px;
+    }
+    ul {
+      @extend .bannerList;
+    }
+    .carousel-indicators,
+    .carousel-control-prev,
+    .carousel-control-next {
+      visibility: hidden;
+    }
+    .quote-sub-title {
+      max-width: 890px;
+      margin: auto;
+    }
+  }
+}
+
+// electronice giant css starts here
+.electronic-giant-cs-banner-section {
+  background-image: url("../assets/img/electronic-giant.avif");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  position: relative;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  h1 {
+    @extend .H1heading;
+    font-size: 50px;
+  }
+  .heading-title {
+    h4 {
+      @extend .slidersubHeading;
+    }
+  }
+  p {
+    @extend .ptxtMediumWhite;
+  }
+  .banner-bg-overlay {
+    background-color: $color__fill-black;
+    opacity: 0.5;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+  .banner-inner-container {
+    position: relative;
+  }
+  button {
+    @extend .btnbase;
+    font-weight: 500;
+  }
+  button:hover {
+    @extend .btnhover;
+  }
+}
+
+.cm__client-overview {
+  padding: 100px 0 100px 0;
+  background: $bg__casestudy-grey;
+  .cm__client-overview-inner {
+    .w-90{
+      width: 90%;
+    }
+    h2 {
+      @extend .mainHeading;
+    }
+    p {
+      @extend .txtDescription;
+      padding: 10px 0 0px 0;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    button {
+      @extend .btnbase;
+      text-transform: capitalize;
+    }
+    button:hover {
+      @extend .btnhover;
+    }
+    img {
+      border-radius: 20px;
+    }
+  }
+}
+
+.cm-cs-problems-section {
+  padding: 80px 0 60px 0;
+  .cm-cs-problems-section-inner {
+    .sub-column{
+      color: $secondryColor;
+    }
+    h2 {
+      @extend .mainHeading;
+    }
+    p {
+      @extend .txtDescription;
+    }
+    .feature-box {
+      border: 1px solid $color__fill-box;
+      border-radius: 15px;
+      padding: 30px 16px 15px 16px;
+      height: 100%;
+      p {
+        padding: 0;
+        @extend .txtDescription;
+      }
+      h4{
+        @extend .boxsubHeading;
+      }
+    }
+    .feature-box:hover {
+      box-shadow: 8px 8px 30px 0px $primary__box-shadow;
+    }
+    .fa-dot-circle{
+      font-size: 23px;
+      color: #ec0000;
+      box-shadow: 0px 0px 12px #d92f2f;
+      border-radius: 50%;
+    }
+  }
+}
+
+.cm-cs-solution {
+  padding: 80px 0 80px 0;
+  .cm-cs-solution-inner {
+    h2 {
+      @extend .mainHeading;
+    }
+    h4{
+      @extend .boxsubHeading;
+    }
+    p {
+      @extend .ptxtMediumWhite;
+      padding: 0px 0 0px 0;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    img {
+      border-radius: 20px;
+    }
+    ul {
+      @extend .bannerList;
+    }
+    .carousel-indicators,
+    .carousel-control-prev,
+    .carousel-control-next {
+      visibility: hidden;
+    }
+    .quote-sub-title {
+      max-width: 890px;
+      margin: auto;
+    }
+  }
+}
+
+.cm-cs-project__insights {
+  background: $primaryColor;
+  padding: 70px 0 100px 0;
+  .cm-cs-project__insights-inner {
+    h2 {
+      @extend .mainHeading;
+      color: $color__fill-white;
+    }
+    .description {
+      max-width: 750px;
+      margin: auto;
+    }
+    p {
+      @extend .txtDescription;
+      padding: 4px 0 0px 0;
+      color: $color__fill-white;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    button {
+      @extend .btnbase;
+    }
+    button:hover {
+      @extend .btnhover;
+    }
+    .icon-container {
+      background: $color__fill-white;
+      padding: 18px 13px;
+      border-radius: 50%;
+    }
+    .icon-img {
+      width: 2rem;
+    }
+    .integrated__stack-container {
+      .stack-box {
+        background: $color__fill-white;
+        border-radius: 8px;
+        margin: 0 10px;
+        padding: 20px 18px 3px 18px;
+        height: 100%;
+        img {
+          width: 75px;
+          height: 75px;
+        }
+      }
+      h6 {
+        color: $primaryColor;
+      }
+      p {
+        @extend .txtDescription;
+        padding: 0;
+      }
+      h4 {
+        color: $color__fill-white;
+      }
+    }
+  }
+}
+
+// health are company css starts here
+.health-care-company-cs-banner-section {
+  background-image: url("../assets/img/health-care-banner.svg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  position: relative;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  h1 {
+    @extend .H1heading;
+    font-size: 50px;
+  }
+  .heading-title {
+    h4 {
+      @extend .slidersubHeading;
+    }
+  }
+  p {
+    @extend .ptxtMediumWhite;
+  }
+  .banner-bg-overlay {
+    background-color: $color__fill-black;
+    opacity: 0.5;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+  .banner-inner-container {
+    position: relative;
+  }
+  button {
+    @extend .btnbase;
+    font-weight: 500;
+  }
+  button:hover {
+    @extend .btnhover;
+  }
+}
+
+// salesforce service cloud banner css starts here
+.salesforce-service-cloud-cs-banner-section {
+  background-image: url("../assets/img/home-banner-cs.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  position: relative;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  h1 {
+    @extend .H1heading;
+    font-size: 50px;
+  }
+  .heading-title {
+    h4 {
+      @extend .slidersubHeading;
+    }
+  }
+  p {
+    @extend .ptxtMediumWhite;
+  }
+  .banner-bg-overlay {
+    background-color: $color__fill-black;
+    opacity: 0.5;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+  .banner-inner-container {
+    position: relative;
+  }
+  button {
+    @extend .btnbase;
+    font-weight: 500;
+  }
+  button:hover {
+    @extend .btnhover;
+  }
+}
+
+// a prominent bank achieved banner css starts here
+.a-prominent-bank-achieved-cs-banner-section {
+  background-image: url("../assets/img/bank-analytics.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  position: relative;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  h1 {
+    @extend .H1heading;
+    font-size: 50px;
+  }
+  .heading-title {
+    h4 {
+      @extend .slidersubHeading;
+    }
+  }
+  p {
+    @extend .ptxtMediumWhite;
+  }
+  .banner-bg-overlay {
+    background-color: $color__fill-black;
+    opacity: 0.5;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+  .banner-inner-container {
+    position: relative;
+  }
+  button {
+    @extend .btnbase;
+    font-weight: 500;
+  }
+  button:hover {
+    @extend .btnhover;
+  }
+}
+
+// pardot case study banner css starts here
+.pardot-cs-banner-section {
+  background-image: url("../assets/img/manufacture-machine.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  position: relative;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  h1 {
+    @extend .H1heading;
+    font-size: 50px;
+  }
+  .heading-title {
+    h4 {
+      @extend .slidersubHeading;
+    }
+  }
+  p {
+    @extend .ptxtMediumWhite;
+  }
+  .banner-bg-overlay {
+    background-color: $color__fill-black;
+    opacity: 0.5;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+  .banner-inner-container {
+    position: relative;
+  }
+  button {
+    @extend .btnbase;
+    font-weight: 500;
+  }
+  button:hover {
+    @extend .btnhover;
+  }
+}
+
+// microsoft crm migration cs banner section
+
+.microsoft-salesforce-crm-migration-cs-banner-section {
+  background-image: url("../assets/img/salesforce-crm.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  position: relative;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  h1 {
+    @extend .H1heading;
+    font-size: 50px;
+  }
+  .heading-title {
+    h4 {
+      @extend .slidersubHeading;
+    }
+  }
+  p {
+    @extend .ptxtMediumWhite;
+  }
+  .banner-bg-overlay {
+    background-color: $color__fill-black;
+    opacity: 0.5;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+  .banner-inner-container {
+    position: relative;
+  }
+  button {
+    @extend .btnbase;
+    font-weight: 500;
+  }
+  button:hover {
+    @extend .btnhover;
+  }
+}
+
+// a beauty and wellness company banner section
+
+.a-beauty-wellness-company-cs-banner-section {
+  background-image: url("../assets/img/beauty-banner.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  position: relative;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  h1 {
+    @extend .H1heading;
+    font-size: 50px;
+  }
+  .heading-title {
+    h4 {
+      @extend .slidersubHeading;
+    }
+  }
+  p {
+    @extend .ptxtMediumWhite;
+  }
+  .banner-bg-overlay {
+    background-color: $color__fill-black;
+    opacity: 0.5;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+  .banner-inner-container {
+    position: relative;
+  }
+  button {
+    @extend .btnbase;
+    font-weight: 500;
+  }
+  button:hover {
+    @extend .btnhover;
+  }
+}

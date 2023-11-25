@@ -1,0 +1,3524 @@
+@font-face {
+  font-family: "NovemberPro";
+  src: url("../assets/fonts/november-pro/NovemberPro.eot");
+  src: url("../assets/fonts/november-pro/NovemberPro.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/november-pro/NovemberPro.svg#NovemberPro") format("svg"), url("../assets/fonts/november-pro/NovemberPro.ttf") format("truetype"), url("../assets/fonts/november-pro/NovemberPro.woff") format("woff"), url("../assets/fonts/november-pro/NovemberPro.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NovemberPro-Reg";
+  src: url("../assets/fonts/november-pro/NovemberPro-Reg.eot");
+  src: url("../assets/fonts/november-pro/NovemberPro-Reg.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/november-pro/NovemberPro-Reg.svg#NovemberPro-Reg") format("svg"), url("../assets/fonts/november-pro/NovemberPro-Reg.ttf") format("truetype"), url("../assets/fonts/november-pro/NovemberPro-Reg.woff") format("woff"), url("../assets/fonts/november-pro/NovemberPro-Reg.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Graphik;
+  src: url("../assets/fonts/circular-std/Graphik-Regular.woff2") format("woff2");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: CircularStd;
+  src: url("../assets/fonts/circular-std/CircularStd-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+button, p {
+  font-family: "NovemberPro-Reg" !important;
+}
+
+h1, h2, h3, h4, h5, h5 {
+  font-family: "NovemberPro";
+}
+
+body {
+  font-family: "NovemberPro" !important;
+}
+
+.H1DesktopGreen {
+  font-family: Boxout02;
+  font-size: 54px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  color: #008067;
+}
+
+.H1DesktopBlack {
+  font-family: Boxout02;
+  font-size: 54px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.H1DesktopWhite {
+  font-family: Boxout02;
+  font-size: 54px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  color: #f6f6f6;
+}
+
+.H2Desktop {
+  font-family: Boxout02;
+  font-size: 36px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+}
+
+.H2DesktopGreen {
+  font-family: Boxout02;
+  font-size: 36px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  color: #008067;
+}
+
+.H2DesktopWhite {
+  font-family: Boxout02;
+  font-size: 36px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.H3Desktop {
+  font-family: Boxout02;
+  font-size: 30px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.07;
+  letter-spacing: normal;
+}
+
+.H3BlackDesktop {
+  font-size: 30px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.07;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.sliderHeading {
+  font-family: "NovemberPro";
+  font-size: 40px;
+}
+
+@media (max-width: 1400px) {
+  .sliderHeading {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 992px) {
+  .sliderHeading {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 576px) {
+  .sliderHeading {
+    font-size: 15px;
+  }
+}
+
+.slidersubHeading {
+  font-family: "NovemberPro";
+  font-size: 30px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 1400px) {
+  .slidersubHeading {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 992px) {
+  .slidersubHeading {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 576px) {
+  .slidersubHeading {
+    font-size: 20px;
+  }
+}
+
+.sliderDescription {
+  font-family: Graphik;
+  font-size: 22px;
+  margin: 30px 0 0 0;
+  font-weight: normal;
+}
+
+@media (max-width: 1400px) {
+  .sliderDescription {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 992px) {
+  .sliderDescription {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 576px) {
+  .sliderDescription {
+    font-size: 10px;
+  }
+}
+
+.menuList {
+  font-size: 16px;
+}
+
+@media (max-width: 1400px) {
+  .menuList {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 992px) {
+  .menuList {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 576px) {
+  .menuList {
+    font-size: 10px;
+  }
+}
+
+.largeHeading {
+  font-family: "NovemberPro";
+  font-size: 3.5rem;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #000000;
+}
+
+@media (max-width: 1400px) {
+  .largeHeading {
+    font-size: 2.3rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .largeHeading {
+    font-size: 2.3rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .largeHeading {
+    font-size: 2rem;
+  }
+}
+
+.mainHeading, .python-developer_intro .python-developer_intro-inner h2, .python-developer_concept .python-developer_concept-inner h2, .python-development-responsibility .heading-sub-title h2, .python-developer_services .python-developer_services-inner h2, .python-developer_models .python-developer_models-inner h2, .python-developer_hire-cost .python-developer_hire-cost-inner h2, .hire-python_developer .hire-python_developer-inner h2, .python-developer_faq .python-developer_faq-inner h2 {
+  font-family: "NovemberPro";
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #000000;
+}
+
+@media (max-width: 1400px) {
+  .mainHeading, .python-developer_intro .python-developer_intro-inner h2, .python-developer_concept .python-developer_concept-inner h2, .python-development-responsibility .heading-sub-title h2, .python-developer_services .python-developer_services-inner h2, .python-developer_models .python-developer_models-inner h2, .python-developer_hire-cost .python-developer_hire-cost-inner h2, .hire-python_developer .hire-python_developer-inner h2, .python-developer_faq .python-developer_faq-inner h2 {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 992px) {
+  .mainHeading, .python-developer_intro .python-developer_intro-inner h2, .python-developer_concept .python-developer_concept-inner h2, .python-development-responsibility .heading-sub-title h2, .python-developer_services .python-developer_services-inner h2, .python-developer_models .python-developer_models-inner h2, .python-developer_hire-cost .python-developer_hire-cost-inner h2, .hire-python_developer .hire-python_developer-inner h2, .python-developer_faq .python-developer_faq-inner h2 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 576px) {
+  .mainHeading, .python-developer_intro .python-developer_intro-inner h2, .python-developer_concept .python-developer_concept-inner h2, .python-development-responsibility .heading-sub-title h2, .python-developer_services .python-developer_services-inner h2, .python-developer_models .python-developer_models-inner h2, .python-developer_hire-cost .python-developer_hire-cost-inner h2, .hire-python_developer .hire-python_developer-inner h2, .python-developer_faq .python-developer_faq-inner h2 {
+    font-size: 12px;
+  }
+}
+
+.subHeading, .python-development-responsibility .heading-title h4 {
+  font-family: "NovemberPro";
+  font-size: 40px;
+  line-height: 1;
+  letter-spacing: 2px;
+  color: #000000;
+}
+
+@media (max-width: 1400px) {
+  .subHeading, .python-development-responsibility .heading-title h4 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  .subHeading, .python-development-responsibility .heading-title h4 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 576px) {
+  .subHeading, .python-development-responsibility .heading-title h4 {
+    font-size: 10px;
+  }
+}
+
+.boxsubHeading, .python-developer_faq .python-developer_faq-inner .collapse-section a, .python-developer_faq .python-developer_faq-inner .collapse-section a[aria-expanded="false"]::before, .python-developer_faq .python-developer_faq-inner .collapse-section a[aria-expanded="true"]::before {
+  font-size: 24px;
+}
+
+@media (max-width: 1400px) {
+  .boxsubHeading, .python-developer_faq .python-developer_faq-inner .collapse-section a, .python-developer_faq .python-developer_faq-inner .collapse-section a[aria-expanded="false"]::before, .python-developer_faq .python-developer_faq-inner .collapse-section a[aria-expanded="true"]::before {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 992px) {
+  .boxsubHeading, .python-developer_faq .python-developer_faq-inner .collapse-section a, .python-developer_faq .python-developer_faq-inner .collapse-section a[aria-expanded="false"]::before, .python-developer_faq .python-developer_faq-inner .collapse-section a[aria-expanded="true"]::before {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .boxsubHeading, .python-developer_faq .python-developer_faq-inner .collapse-section a, .python-developer_faq .python-developer_faq-inner .collapse-section a[aria-expanded="false"]::before, .python-developer_faq .python-developer_faq-inner .collapse-section a[aria-expanded="true"]::before {
+    font-size: 10px;
+  }
+}
+
+.boxminiHeading, .python-development-responsibility .box h5 {
+  font-size: 18px;
+}
+
+@media (max-width: 1400px) {
+  .boxminiHeading, .python-development-responsibility .box h5 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 992px) {
+  .boxminiHeading, .python-development-responsibility .box h5 {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 576px) {
+  .boxminiHeading, .python-development-responsibility .box h5 {
+    font-size: 8px;
+  }
+}
+
+.txtDescription, .python-developer_intro .python-developer_intro-inner p, .python-developer_intro .python-developer_intro-inner ul, .python-developer_concept .python-developer_concept-inner p, .python-developer_concept .python-developer_concept-inner ul, .python-development-responsibility .description, .python-development-responsibility .ror-development-solution_name, .python-developer_services .python-developer_services-inner p, .python-developer_services .python-developer_services-inner .service-offered_container p, .python-developer_models .python-developer_models-inner p, .python-developer_hire-cost .python-developer_hire-cost-inner p, .hire-python_developer .hire-python_developer-inner ul, .hire-python_developer .hire-python_developer-inner p {
+  font-family: "NovemberPro-Reg";
+  font-size: 18px;
+  color: #333;
+  line-height: 1.5;
+  padding: 0px 0px 30px 0px;
+}
+
+@media (max-width: 1400px) {
+  .txtDescription, .python-developer_intro .python-developer_intro-inner p, .python-developer_intro .python-developer_intro-inner ul, .python-developer_concept .python-developer_concept-inner p, .python-developer_concept .python-developer_concept-inner ul, .python-development-responsibility .description, .python-development-responsibility .ror-development-solution_name, .python-developer_services .python-developer_services-inner p, .python-developer_services .python-developer_services-inner .service-offered_container p, .python-developer_models .python-developer_models-inner p, .python-developer_hire-cost .python-developer_hire-cost-inner p, .hire-python_developer .hire-python_developer-inner ul, .hire-python_developer .hire-python_developer-inner p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 992px) {
+  .txtDescription, .python-developer_intro .python-developer_intro-inner p, .python-developer_intro .python-developer_intro-inner ul, .python-developer_concept .python-developer_concept-inner p, .python-developer_concept .python-developer_concept-inner ul, .python-development-responsibility .description, .python-development-responsibility .ror-development-solution_name, .python-developer_services .python-developer_services-inner p, .python-developer_services .python-developer_services-inner .service-offered_container p, .python-developer_models .python-developer_models-inner p, .python-developer_hire-cost .python-developer_hire-cost-inner p, .hire-python_developer .hire-python_developer-inner ul, .hire-python_developer .hire-python_developer-inner p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 576px) {
+  .txtDescription, .python-developer_intro .python-developer_intro-inner p, .python-developer_intro .python-developer_intro-inner ul, .python-developer_concept .python-developer_concept-inner p, .python-developer_concept .python-developer_concept-inner ul, .python-development-responsibility .description, .python-development-responsibility .ror-development-solution_name, .python-developer_services .python-developer_services-inner p, .python-developer_services .python-developer_services-inner .service-offered_container p, .python-developer_models .python-developer_models-inner p, .python-developer_hire-cost .python-developer_hire-cost-inner p, .hire-python_developer .hire-python_developer-inner ul, .hire-python_developer .hire-python_developer-inner p {
+    font-size: 10px;
+  }
+}
+
+.miniDescription, .python-developer_intro .python-developer_intro-inner form label, .python-developer_faq .python-developer_faq-inner ul, .python-developer_faq .python-developer_faq-inner .collapse-section .card-body {
+  font-family: "NovemberPro-Reg";
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+  padding: 0px 0px 30px 0px;
+}
+
+@media (max-width: 1400px) {
+  .miniDescription, .python-developer_intro .python-developer_intro-inner form label, .python-developer_faq .python-developer_faq-inner ul, .python-developer_faq .python-developer_faq-inner .collapse-section .card-body {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 992px) {
+  .miniDescription, .python-developer_intro .python-developer_intro-inner form label, .python-developer_faq .python-developer_faq-inner ul, .python-developer_faq .python-developer_faq-inner .collapse-section .card-body {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 576px) {
+  .miniDescription, .python-developer_intro .python-developer_intro-inner form label, .python-developer_faq .python-developer_faq-inner ul, .python-developer_faq .python-developer_faq-inner .collapse-section .card-body {
+    font-size: 10px;
+  }
+}
+
+.boxHeading {
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 23px;
+  color: #000000;
+  padding: 0px 0px 15px 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+@media (max-width: 1400px) {
+  .boxHeading {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 992px) {
+  .boxHeading {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .boxHeading {
+    font-size: 10px;
+  }
+}
+
+.miniHeading {
+  font-family: "NovemberPro";
+  color: #000000;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+@media (max-width: 1400px) {
+  .miniHeading {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 992px) {
+  .miniHeading {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .miniHeading {
+    font-size: 8px;
+  }
+}
+
+.btnbase, .header-container .contact-btn, .python-developer_intro .python-developer_intro-inner button, .python-developer_concept .python-developer_concept-inner button {
+  border: none;
+  padding: 8px 18px;
+  border: 1px solid transparent;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.btnhover, .header-container .contact-btn:hover, .python-developer_intro .python-developer_intro-inner button:hover, .python-developer_concept .python-developer_concept-inner button:hover {
+  background: #ffffff !important;
+  color: #000000 !important;
+  border: 1px solid !important;
+}
+
+.btnfocus {
+  background: #ffffff !important;
+  color: #000000 !important;
+  border: 1px solid !important;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.btnactivefocus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.H1heading, .python-developer_banner-section h1 {
+  font-size: 70px;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 0px 0px 15px 0px;
+}
+
+@media (max-width: 1400px) {
+  .H1heading, .python-developer_banner-section h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 992px) {
+  .H1heading, .python-developer_banner-section h1 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .H1heading, .python-developer_banner-section h1 {
+    font-size: 20px;
+  }
+}
+
+.ptxtMediumBlack {
+  font-size: 18px;
+  letter-spacing: 0.22px;
+}
+
+@media (max-width: 1400px) {
+  .ptxtMediumBlack {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 992px) {
+  .ptxtMediumBlack {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 576px) {
+  .ptxtMediumBlack {
+    font-size: 10px;
+  }
+}
+
+.ptxtMediumWhite, .python-developer_banner-section p {
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0.22px;
+}
+
+@media (max-width: 1400px) {
+  .ptxtMediumWhite, .python-developer_banner-section p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 992px) {
+  .ptxtMediumWhite, .python-developer_banner-section p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 576px) {
+  .ptxtMediumWhite, .python-developer_banner-section p {
+    font-size: 10px;
+  }
+}
+
+.bannerList, .python-developer_intro .python-developer_intro-inner ul, .python-developer_concept .python-developer_concept-inner ul {
+  list-style: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+}
+
+.H3WhiteDesktop {
+  font-family: Boxout02;
+  font-size: 30px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.07;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.H5DesktopGreen {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #008067;
+}
+
+.H5DesktopGrey {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #748494;
+}
+
+.H5DesktopBlack {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.H4DesktopWhite {
+  font-family: Boxout02;
+  font-size: 21px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.52;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.H4DesktopBlack {
+  font-family: Boxout02;
+  font-size: 21px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.52;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.H6Desktop {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+}
+
+.H6DesktopGrey {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #748494;
+}
+
+.H6DesktopBlack {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.H6DesktopGreen {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #008067;
+}
+
+.H6DesktopWhite {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.BodyLargeWhite {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.BodyDefault {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+
+.BodyDefaultBold {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+
+.BodyDefaultBoldGrey {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #748494;
+}
+
+.BodyDefaultBoldWhite {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.BodyDefaultBoldBlack {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.BodyDefaultRegularGrey {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #748494;
+}
+
+.BodyDefaultRegularBlack {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.BodySmallMediumGrey {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #748494;
+}
+
+.BodySmallMediumWhite {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.BodySmallMediumBlack {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.BodySmallMedium {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+}
+
+.CTA {
+  font-family: Hatch;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1.14;
+  letter-spacing: 0.5px;
+}
+
+.CTABlue {
+  font-family: Hatch;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1.14;
+  letter-spacing: 0.5px;
+  color: #3035ff;
+}
+
+.CTAGrey {
+  font-family: Hatch;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1.14;
+  letter-spacing: 0.5px;
+  color: #737373;
+}
+
+.CTAGreen {
+  font-family: Hatch;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1.14;
+  letter-spacing: 0.5px;
+  color: #008067;
+}
+
+.CTABlack {
+  font-family: Hatch;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1.14;
+  letter-spacing: 0.5px;
+  color: #000000;
+}
+
+.CTARed {
+  font-family: Hatch;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1.14;
+  letter-spacing: 0.5px;
+  color: #ff542d;
+}
+
+.CTAWhite {
+  font-family: Hatch;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1.14;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+}
+
+.CTAYellow {
+  font-family: Hatch;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1.14;
+  letter-spacing: 0.5px;
+  color: #ffcd00;
+}
+
+.BodySmallRegular {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+}
+
+.BodySmallRegularWhite {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.BodySmallRegularGrey {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #737373;
+}
+
+.BodySmallRegularGreen {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #008067;
+}
+
+.BodySmallRegularBlack {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.LabelGrey {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #737373;
+}
+
+.LabelWhite {
+  font-family: "NovemberPro-Reg";
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.EyebrowBlack {
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: 0.75px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.EyebrowWhite {
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: 0.75px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.EyebrowGreen {
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: 0.75px;
+  color: #008067;
+  text-transform: uppercase;
+}
+
+.EyebrowGrey {
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: 0.75px;
+  color: #737373;
+  text-transform: uppercase;
+}
+
+.text-description {
+  color: #333 !important;
+  font-family: 'November-pro';
+}
+
+p {
+  font-family: 'November-pro';
+}
+
+@font-face {
+  font-family: "NovemberPro";
+  src: url("../assets/fonts/november-pro/NovemberPro.eot");
+  src: url("../assets/fonts/november-pro/NovemberPro.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/november-pro/NovemberPro.svg#NovemberPro") format("svg"), url("../assets/fonts/november-pro/NovemberPro.ttf") format("truetype"), url("../assets/fonts/november-pro/NovemberPro.woff") format("woff"), url("../assets/fonts/november-pro/NovemberPro.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NovemberPro-Reg";
+  src: url("../assets/fonts/november-pro/NovemberPro-Reg.eot");
+  src: url("../assets/fonts/november-pro/NovemberPro-Reg.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/november-pro/NovemberPro-Reg.svg#NovemberPro-Reg") format("svg"), url("../assets/fonts/november-pro/NovemberPro-Reg.ttf") format("truetype"), url("../assets/fonts/november-pro/NovemberPro-Reg.woff") format("woff"), url("../assets/fonts/november-pro/NovemberPro-Reg.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Graphik;
+  src: url("../assets/fonts/circular-std/Graphik-Regular.woff2") format("woff2");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: CircularStd;
+  src: url("../assets/fonts/circular-std/CircularStd-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+button, p {
+  font-family: "NovemberPro-Reg" !important;
+}
+
+h1, h2, h3, h4, h5, h5 {
+  font-family: "NovemberPro";
+}
+
+body {
+  font-family: "NovemberPro" !important;
+}
+
+.H1DesktopGreen {
+  font-family: Boxout02;
+  font-size: 54px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  color: #008067;
+}
+
+.H1DesktopBlack {
+  font-family: Boxout02;
+  font-size: 54px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.H1DesktopWhite {
+  font-family: Boxout02;
+  font-size: 54px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  color: #f6f6f6;
+}
+
+.H2Desktop {
+  font-family: Boxout02;
+  font-size: 36px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+}
+
+.H2DesktopGreen {
+  font-family: Boxout02;
+  font-size: 36px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  color: #008067;
+}
+
+.H2DesktopWhite {
+  font-family: Boxout02;
+  font-size: 36px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.H3Desktop {
+  font-family: Boxout02;
+  font-size: 30px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.07;
+  letter-spacing: normal;
+}
+
+.H3BlackDesktop {
+  font-size: 30px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.07;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.sliderHeading {
+  font-family: "NovemberPro";
+  font-size: 40px;
+}
+
+@media (max-width: 1400px) {
+  .sliderHeading {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 992px) {
+  .sliderHeading {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 576px) {
+  .sliderHeading {
+    font-size: 15px;
+  }
+}
+
+.slidersubHeading {
+  font-family: "NovemberPro";
+  font-size: 30px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 1400px) {
+  .slidersubHeading {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 992px) {
+  .slidersubHeading {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 576px) {
+  .slidersubHeading {
+    font-size: 20px;
+  }
+}
+
+.sliderDescription {
+  font-family: Graphik;
+  font-size: 22px;
+  margin: 30px 0 0 0;
+  font-weight: normal;
+}
+
+@media (max-width: 1400px) {
+  .sliderDescription {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 992px) {
+  .sliderDescription {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 576px) {
+  .sliderDescription {
+    font-size: 10px;
+  }
+}
+
+.menuList {
+  font-size: 16px;
+}
+
+@media (max-width: 1400px) {
+  .menuList {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 992px) {
+  .menuList {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 576px) {
+  .menuList {
+    font-size: 10px;
+  }
+}
+
+.largeHeading {
+  font-family: "NovemberPro";
+  font-size: 3.5rem;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #000000;
+}
+
+@media (max-width: 1400px) {
+  .largeHeading {
+    font-size: 2.3rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .largeHeading {
+    font-size: 2.3rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .largeHeading {
+    font-size: 2rem;
+  }
+}
+
+.mainHeading, .python-developer_intro .python-developer_intro-inner h2, .python-developer_concept .python-developer_concept-inner h2, .python-development-responsibility .heading-sub-title h2, .python-developer_services .python-developer_services-inner h2, .python-developer_models .python-developer_models-inner h2, .python-developer_hire-cost .python-developer_hire-cost-inner h2, .hire-python_developer .hire-python_developer-inner h2, .python-developer_faq .python-developer_faq-inner h2 {
+  font-family: "NovemberPro";
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #000000;
+}
+
+@media (max-width: 1400px) {
+  .mainHeading, .python-developer_intro .python-developer_intro-inner h2, .python-developer_concept .python-developer_concept-inner h2, .python-development-responsibility .heading-sub-title h2, .python-developer_services .python-developer_services-inner h2, .python-developer_models .python-developer_models-inner h2, .python-developer_hire-cost .python-developer_hire-cost-inner h2, .hire-python_developer .hire-python_developer-inner h2, .python-developer_faq .python-developer_faq-inner h2 {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 992px) {
+  .mainHeading, .python-developer_intro .python-developer_intro-inner h2, .python-developer_concept .python-developer_concept-inner h2, .python-development-responsibility .heading-sub-title h2, .python-developer_services .python-developer_services-inner h2, .python-developer_models .python-developer_models-inner h2, .python-developer_hire-cost .python-developer_hire-cost-inner h2, .hire-python_developer .hire-python_developer-inner h2, .python-developer_faq .python-developer_faq-inner h2 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 576px) {
+  .mainHeading, .python-developer_intro .python-developer_intro-inner h2, .python-developer_concept .python-developer_concept-inner h2, .python-development-responsibility .heading-sub-title h2, .python-developer_services .python-developer_services-inner h2, .python-developer_models .python-developer_models-inner h2, .python-developer_hire-cost .python-developer_hire-cost-inner h2, .hire-python_developer .hire-python_developer-inner h2, .python-developer_faq .python-developer_faq-inner h2 {
+    font-size: 12px;
+  }
+}
+
+.subHeading, .python-development-responsibility .heading-title h4 {
+  font-family: "NovemberPro";
+  font-size: 40px;
+  line-height: 1;
+  letter-spacing: 2px;
+  color: #000000;
+}
+
+@media (max-width: 1400px) {
+  .subHeading, .python-development-responsibility .heading-title h4 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  .subHeading, .python-development-responsibility .heading-title h4 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 576px) {
+  .subHeading, .python-development-responsibility .heading-title h4 {
+    font-size: 10px;
+  }
+}
+
+.boxsubHeading, .python-developer_faq .python-developer_faq-inner .collapse-section a, .python-developer_faq .python-developer_faq-inner .collapse-section a[aria-expanded="false"]::before, .python-developer_faq .python-developer_faq-inner .collapse-section a[aria-expanded="true"]::before {
+  font-size: 24px;
+}
+
+@media (max-width: 1400px) {
+  .boxsubHeading, .python-developer_faq .python-developer_faq-inner .collapse-section a, .python-developer_faq .python-developer_faq-inner .collapse-section a[aria-expanded="false"]::before, .python-developer_faq .python-developer_faq-inner .collapse-section a[aria-expanded="true"]::before {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 992px) {
+  .boxsubHeading, .python-developer_faq .python-developer_faq-inner .collapse-section a, .python-developer_faq .python-developer_faq-inner .collapse-section a[aria-expanded="false"]::before, .python-developer_faq .python-developer_faq-inner .collapse-section a[aria-expanded="true"]::before {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .boxsubHeading, .python-developer_faq .python-developer_faq-inner .collapse-section a, .python-developer_faq .python-developer_faq-inner .collapse-section a[aria-expanded="false"]::before, .python-developer_faq .python-developer_faq-inner .collapse-section a[aria-expanded="true"]::before {
+    font-size: 10px;
+  }
+}
+
+.boxminiHeading, .python-development-responsibility .box h5 {
+  font-size: 18px;
+}
+
+@media (max-width: 1400px) {
+  .boxminiHeading, .python-development-responsibility .box h5 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 992px) {
+  .boxminiHeading, .python-development-responsibility .box h5 {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 576px) {
+  .boxminiHeading, .python-development-responsibility .box h5 {
+    font-size: 8px;
+  }
+}
+
+.txtDescription, .python-developer_intro .python-developer_intro-inner p, .python-developer_intro .python-developer_intro-inner ul, .python-developer_concept .python-developer_concept-inner p, .python-developer_concept .python-developer_concept-inner ul, .python-development-responsibility .description, .python-development-responsibility .ror-development-solution_name, .python-developer_services .python-developer_services-inner p, .python-developer_services .python-developer_services-inner .service-offered_container p, .python-developer_models .python-developer_models-inner p, .python-developer_hire-cost .python-developer_hire-cost-inner p, .hire-python_developer .hire-python_developer-inner ul, .hire-python_developer .hire-python_developer-inner p {
+  font-family: "NovemberPro-Reg";
+  font-size: 18px;
+  color: #333;
+  line-height: 1.5;
+  padding: 0px 0px 30px 0px;
+}
+
+@media (max-width: 1400px) {
+  .txtDescription, .python-developer_intro .python-developer_intro-inner p, .python-developer_intro .python-developer_intro-inner ul, .python-developer_concept .python-developer_concept-inner p, .python-developer_concept .python-developer_concept-inner ul, .python-development-responsibility .description, .python-development-responsibility .ror-development-solution_name, .python-developer_services .python-developer_services-inner p, .python-developer_services .python-developer_services-inner .service-offered_container p, .python-developer_models .python-developer_models-inner p, .python-developer_hire-cost .python-developer_hire-cost-inner p, .hire-python_developer .hire-python_developer-inner ul, .hire-python_developer .hire-python_developer-inner p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 992px) {
+  .txtDescription, .python-developer_intro .python-developer_intro-inner p, .python-developer_intro .python-developer_intro-inner ul, .python-developer_concept .python-developer_concept-inner p, .python-developer_concept .python-developer_concept-inner ul, .python-development-responsibility .description, .python-development-responsibility .ror-development-solution_name, .python-developer_services .python-developer_services-inner p, .python-developer_services .python-developer_services-inner .service-offered_container p, .python-developer_models .python-developer_models-inner p, .python-developer_hire-cost .python-developer_hire-cost-inner p, .hire-python_developer .hire-python_developer-inner ul, .hire-python_developer .hire-python_developer-inner p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 576px) {
+  .txtDescription, .python-developer_intro .python-developer_intro-inner p, .python-developer_intro .python-developer_intro-inner ul, .python-developer_concept .python-developer_concept-inner p, .python-developer_concept .python-developer_concept-inner ul, .python-development-responsibility .description, .python-development-responsibility .ror-development-solution_name, .python-developer_services .python-developer_services-inner p, .python-developer_services .python-developer_services-inner .service-offered_container p, .python-developer_models .python-developer_models-inner p, .python-developer_hire-cost .python-developer_hire-cost-inner p, .hire-python_developer .hire-python_developer-inner ul, .hire-python_developer .hire-python_developer-inner p {
+    font-size: 10px;
+  }
+}
+
+.miniDescription, .python-developer_intro .python-developer_intro-inner form label, .python-developer_faq .python-developer_faq-inner ul, .python-developer_faq .python-developer_faq-inner .collapse-section .card-body {
+  font-family: "NovemberPro-Reg";
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+  padding: 0px 0px 30px 0px;
+}
+
+@media (max-width: 1400px) {
+  .miniDescription, .python-developer_intro .python-developer_intro-inner form label, .python-developer_faq .python-developer_faq-inner ul, .python-developer_faq .python-developer_faq-inner .collapse-section .card-body {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 992px) {
+  .miniDescription, .python-developer_intro .python-developer_intro-inner form label, .python-developer_faq .python-developer_faq-inner ul, .python-developer_faq .python-developer_faq-inner .collapse-section .card-body {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 576px) {
+  .miniDescription, .python-developer_intro .python-developer_intro-inner form label, .python-developer_faq .python-developer_faq-inner ul, .python-developer_faq .python-developer_faq-inner .collapse-section .card-body {
+    font-size: 10px;
+  }
+}
+
+.boxHeading {
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 23px;
+  color: #000000;
+  padding: 0px 0px 15px 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+@media (max-width: 1400px) {
+  .boxHeading {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 992px) {
+  .boxHeading {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .boxHeading {
+    font-size: 10px;
+  }
+}
+
+.miniHeading {
+  font-family: "NovemberPro";
+  color: #000000;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+@media (max-width: 1400px) {
+  .miniHeading {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 992px) {
+  .miniHeading {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .miniHeading {
+    font-size: 8px;
+  }
+}
+
+.btnbase, .header-container .contact-btn, .python-developer_intro .python-developer_intro-inner button, .python-developer_concept .python-developer_concept-inner button {
+  border: none;
+  padding: 8px 18px;
+  border: 1px solid transparent;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.btnhover, .header-container .contact-btn:hover, .python-developer_intro .python-developer_intro-inner button:hover, .python-developer_concept .python-developer_concept-inner button:hover {
+  background: #ffffff !important;
+  color: #000000 !important;
+  border: 1px solid !important;
+}
+
+.btnfocus {
+  background: #ffffff !important;
+  color: #000000 !important;
+  border: 1px solid !important;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.btnactivefocus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.H1heading, .python-developer_banner-section h1 {
+  font-size: 70px;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 0px 0px 15px 0px;
+}
+
+@media (max-width: 1400px) {
+  .H1heading, .python-developer_banner-section h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 992px) {
+  .H1heading, .python-developer_banner-section h1 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .H1heading, .python-developer_banner-section h1 {
+    font-size: 20px;
+  }
+}
+
+.ptxtMediumBlack {
+  font-size: 18px;
+  letter-spacing: 0.22px;
+}
+
+@media (max-width: 1400px) {
+  .ptxtMediumBlack {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 992px) {
+  .ptxtMediumBlack {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 576px) {
+  .ptxtMediumBlack {
+    font-size: 10px;
+  }
+}
+
+.ptxtMediumWhite, .python-developer_banner-section p {
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0.22px;
+}
+
+@media (max-width: 1400px) {
+  .ptxtMediumWhite, .python-developer_banner-section p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 992px) {
+  .ptxtMediumWhite, .python-developer_banner-section p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 576px) {
+  .ptxtMediumWhite, .python-developer_banner-section p {
+    font-size: 10px;
+  }
+}
+
+.bannerList, .python-developer_intro .python-developer_intro-inner ul, .python-developer_concept .python-developer_concept-inner ul {
+  list-style: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+}
+
+.H3WhiteDesktop {
+  font-family: Boxout02;
+  font-size: 30px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.07;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.H5DesktopGreen {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #008067;
+}
+
+.H5DesktopGrey {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #748494;
+}
+
+.H5DesktopBlack {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.H4DesktopWhite {
+  font-family: Boxout02;
+  font-size: 21px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.52;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.H4DesktopBlack {
+  font-family: Boxout02;
+  font-size: 21px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.52;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.H6Desktop {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+}
+
+.H6DesktopGrey {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #748494;
+}
+
+.H6DesktopBlack {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.H6DesktopGreen {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #008067;
+}
+
+.H6DesktopWhite {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.BodyLargeWhite {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.BodyDefault {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+
+.BodyDefaultBold {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+
+.BodyDefaultBoldGrey {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #748494;
+}
+
+.BodyDefaultBoldWhite {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.BodyDefaultBoldBlack {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.BodyDefaultRegularGrey {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #748494;
+}
+
+.BodyDefaultRegularBlack {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.BodySmallMediumGrey {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #748494;
+}
+
+.BodySmallMediumWhite {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.BodySmallMediumBlack {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.BodySmallMedium {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+}
+
+.CTA {
+  font-family: Hatch;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1.14;
+  letter-spacing: 0.5px;
+}
+
+.CTABlue {
+  font-family: Hatch;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1.14;
+  letter-spacing: 0.5px;
+  color: #3035ff;
+}
+
+.CTAGrey {
+  font-family: Hatch;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1.14;
+  letter-spacing: 0.5px;
+  color: #737373;
+}
+
+.CTAGreen {
+  font-family: Hatch;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1.14;
+  letter-spacing: 0.5px;
+  color: #008067;
+}
+
+.CTABlack {
+  font-family: Hatch;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1.14;
+  letter-spacing: 0.5px;
+  color: #000000;
+}
+
+.CTARed {
+  font-family: Hatch;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1.14;
+  letter-spacing: 0.5px;
+  color: #ff542d;
+}
+
+.CTAWhite {
+  font-family: Hatch;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1.14;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+}
+
+.CTAYellow {
+  font-family: Hatch;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1.14;
+  letter-spacing: 0.5px;
+  color: #ffcd00;
+}
+
+.BodySmallRegular {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+}
+
+.BodySmallRegularWhite {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.BodySmallRegularGrey {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #737373;
+}
+
+.BodySmallRegularGreen {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #008067;
+}
+
+.BodySmallRegularBlack {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.LabelGrey {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #737373;
+}
+
+.LabelWhite {
+  font-family: "NovemberPro-Reg";
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.EyebrowBlack {
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: 0.75px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.EyebrowWhite {
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: 0.75px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.EyebrowGreen {
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: 0.75px;
+  color: #008067;
+  text-transform: uppercase;
+}
+
+.EyebrowGrey {
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: 0.75px;
+  color: #737373;
+  text-transform: uppercase;
+}
+
+.text-description {
+  color: #333 !important;
+  font-family: 'November-pro';
+}
+
+p {
+  font-family: 'November-pro';
+}
+
+@media (max-width: 1180px) {
+  .navbar-toggler {
+    background: #000000 !important;
+    border-radius: 50% !important;
+    padding: 10px 11px !important;
+  }
+  .navbar-toggler-icon {
+    width: 0.9em !important;
+    height: 0.9em !important;
+    border-radius: 4px;
+    padding: 5px 5px;
+  }
+  #mynavbar {
+    display: none !important;
+  }
+  .home-mobile-toggle {
+    display: block;
+  }
+}
+
+@media (min-width: 576) {
+  .navbar-expand-sm .offcanvas {
+    position: fixed !important;
+    left: 0 !important;
+    background: #ffffff !important;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+    -ms-flex-direction: column !important;
+    flex-direction: column !important;
+    max-width: 100% !important;
+    z-index: 9999 !important;
+    width: 50% !important;
+  }
+}
+
+@media (min-width: 576px) {
+  .navbar-expand-sm .navbar-nav {
+    padding: 0;
+  }
+  .start-up-carousel-caption {
+    top: 10% !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .home-logo {
+    width: 72px !important;
+  }
+  .header-container .nav-item .nav-link,
+  .header-container ul li {
+    font-size: 8px !important;
+  }
+  .subHeading, .python-development-responsibility .heading-title h4,
+  .sliderHeading, .H1heading, .python-developer_banner-section h1 {
+    font-size: 28px !important;
+  }
+  .sliderDescription,
+  p, .txtDescription, .python-developer_intro .python-developer_intro-inner p, .python-developer_intro .python-developer_intro-inner ul, .python-developer_concept .python-developer_concept-inner p, .python-developer_concept .python-developer_concept-inner ul, .python-development-responsibility .description, .python-development-responsibility .ror-development-solution_name, .python-developer_services .python-developer_services-inner p, .python-developer_services .python-developer_services-inner .service-offered_container p, .python-developer_models .python-developer_models-inner p, .python-developer_hire-cost .python-developer_hire-cost-inner p, .hire-python_developer .hire-python_developer-inner ul, .hire-python_developer .hire-python_developer-inner p,
+  h6 {
+    font-size: 14px !important;
+  }
+  .mainHeading, .python-developer_intro .python-developer_intro-inner h2, .python-developer_concept .python-developer_concept-inner h2, .python-development-responsibility .heading-sub-title h2, .python-developer_services .python-developer_services-inner h2, .python-developer_models .python-developer_models-inner h2, .python-developer_hire-cost .python-developer_hire-cost-inner h2, .hire-python_developer .hire-python_developer-inner h2, .python-developer_faq .python-developer_faq-inner h2,
+  h3,
+  h4,
+  h5 {
+    font-size: 22px !important;
+  }
+  .navbar-brand {
+    width: 13%;
+  }
+  .sliderDescription {
+    font-size: 22px;
+    margin: 0px 0 0 0;
+  }
+  #home .carousel-caption-slide1,
+  .carousel-caption-slide2,
+  .carousel-caption-slide3,
+  .carousel-caption-slide4,
+  .carousel-caption-slide5,
+  .carousel-caption-slide6 {
+    min-height: 560px !important;
+    max-height: 560px !important;
+  }
+  .header-container .nav-item .nav-link {
+    font-size: 9px;
+  }
+  .contact-btn {
+    font-size: 9px;
+  }
+  .fixed-top .home-logo {
+    display: none;
+  }
+  .home-logo-black {
+    position: absolute;
+    left: 4px;
+    top: 15px;
+    width: 50px;
+  }
+  .about-asset-sec img {
+    width: 100%;
+  }
+  .home-service-asset-sec img {
+    width: 100%;
+  }
+  .testimonial {
+    padding: 0 !important;
+  }
+  .list::before {
+    width: 90% !important;
+  }
+  .technology .technology-list-img {
+    padding: 5px !important;
+  }
+  .technology .technology-list-img img {
+    min-height: 50px !important;
+    max-height: 50px !important;
+  }
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+    width: 1.5rem !important;
+    height: 1.5rem !important;
+  }
+  .start-up-carousel-item1,
+  .start-up-carousel-item2,
+  .start-up-carousel-item3,
+  .start-up-carousel-item4,
+  .start-up-carousel-item5,
+  .start-up-carousel-item6 {
+    height: 560px !important;
+  }
+  .home-section .home-carousel-control-next,
+  .home-section .home-carousel-control-prev {
+    width: 3% !important;
+  }
+}
+
+@media (max-width: 667px) {
+  .carousel-control-next,
+  .carousel-control-prev {
+    width: 5% !important;
+  }
+  .home-mobile-slider-right-chevron {
+    right: 5px !important;
+  }
+  .home-mobile-slider-left-chevron {
+    left: 5px !important;
+  }
+  .subHeading, .python-development-responsibility .heading-title h4 {
+    font-size: 25px !important;
+  }
+  .salesforce-consulting-main {
+    -webkit-box-flex: 0 !important;
+        -ms-flex: 0 0 100% !important;
+            flex: 0 0 100% !important;
+  }
+}
+
+@media (max-width: 576px) {
+  #mynavbar {
+    background: #000000;
+    z-index: 999;
+  }
+  .home-section .carousel-caption button {
+    margin: 0rem 0 !important;
+    border-radius: 32px !important;
+    padding: 4px 12px 4px 25px;
+    font-size: 8px !important;
+  }
+  .home-section .carousel-caption-slide1 button img {
+    background: #ffffff;
+    border-radius: 50%;
+    padding: 5px 5px;
+    margin-left: 10px;
+  }
+  .home-section .carousel-caption .next-arrow-slide {
+    padding: 4px 4px !important;
+    width: 0.9rem !important;
+  }
+  .header-container .nav-item .nav-link {
+    font-size: 8px;
+    padding: 4px 5px;
+  }
+  .navbar-toggler {
+    background: #000000 !important;
+    border-radius: 50% !important;
+    padding: 10px 11px !important;
+  }
+  .navbar-toggler-icon {
+    width: 0.9em !important;
+    height: 0.9em !important;
+    border-radius: 4px;
+    padding: 5px 5px;
+  }
+  .navbar-nav {
+    padding: 5px 5px !important;
+  }
+  .contact-btn {
+    font-size: 10px !important;
+  }
+  .navbar-collapse {
+    z-index: 1;
+  }
+  #navbar-collapse {
+    overflow: hidden !important;
+  }
+  .navbar-toggler:focus {
+    -webkit-box-shadow: 0 0 0 0.1rem !important;
+            box-shadow: 0 0 0 0.1rem !important;
+  }
+  .home-logo-black {
+    position: absolute;
+    left: 4px;
+    top: 0px;
+  }
+  .home-logo {
+    width: 110px;
+  }
+  .fixed-top #mynavbar {
+    background: #fff;
+  }
+  .header-container ul a {
+    font-size: 9px !important;
+  }
+  .mega-dropdown-menu {
+    padding: 0 !important;
+  }
+  .technology__verticals {
+    -ms-grid-columns: (minmax(240px, 2fr))[1] !important;
+        grid-template-columns: repeat(1, minmax(240px, 2fr)) !important;
+  }
+  .industries ul li {
+    width: 100% !important;
+    -webkit-box-flex: 0 !important;
+        -ms-flex: none !important;
+            flex: none !important;
+    margin: 0 0 12px 0 !important;
+  }
+  .start-up-carousel-item {
+    min-height: 380px !important;
+    max-height: 380px !important;
+    height: 380px !important;
+    background-color: #000000 !important;
+  }
+  .salescloud-tabs .blog-tab-section .active::after {
+    right: 0px !important;
+  }
+  .homemobile-carousel-control-prev {
+    left: 5px !important;
+  }
+  .homemobile-carousel-control-next {
+    right: 5px !important;
+  }
+  .carousel-control-next,
+  .carousel-control-prev {
+    width: auto !important;
+  }
+  .home-slider-mobile-heading,
+  .startup-slider-mobile-heading {
+    font-size: 22px !important;
+  }
+  .home-slider-mobile-description,
+  .startup-slider-mobile-description {
+    font-size: 14px !important;
+  }
+  .startup-slider-mobile-description {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+  .startup-slider-mobile-btn {
+    font-size: 14px !important;
+    margin: 0 !important;
+  }
+  .about-banner-section,
+  .case-studies-banner-section,
+  .contact-banner-section,
+  .blog-banner-section,
+  .whitepaper-banner-section,
+  .ror-banner-section,
+  .reactjs-banner-section,
+  .full-stack-banner-section,
+  .banner-section-online-scholarship,
+  .real-estate-banner-section,
+  .charge-point-banner-section,
+  .digital-payment-banner-section,
+  .reliable-scholarship-banner-section,
+  .banner-section-full-fledged,
+  .biodiversity-banner-section,
+  .football-banner-section,
+  .banner-section-hotel-booking,
+  .banner-section-unv,
+  .blog-salesforce-marketing-cloud-banner-section,
+  .blog-salesforce-npo-banner-section,
+  .blog-why-choose-salesforce-npo-banner-section,
+  .blog-what-is-ror-and-best-project-section,
+  .banner-section,
+  .salesforce-startup-banner-section,
+  .aws-development-banner-section,
+  .nodejs-banner-section,
+  .banner-section-ladyboss,
+  .blog-react-native-game-changer-banner-section,
+  .banner-section-dot,
+  .banner-section-salesforce-development,
+  .npsp-banner-section,
+  .marketing-cloud-banner-section,
+  .sales-cloud-banner-section,
+  .servie-cloud-banner-section,
+  .salesforce-force-com-banner-section,
+  .integration-service-banner-section,
+  .blog-salesforce-marketing-cloud-transform-banner-section,
+  .salesforce-consultancy-banner-section,
+  .salesforce-appexchange-banner-section,
+  .salesforce-pardot-banner-section,
+  .salesforce-commercecloud-banner-section,
+  .salesforce-migration-banner-section,
+  .salesforce-field-service-lightning-banner-section,
+  .salesforce-financial-cloud-banner-section,
+  .salesforce-inbox-banner-section,
+  .salesforce-service-cloud-cs-banner-section,
+  .retail-company-cs-banner-section,
+  .electronic-giant-cs-banner-section,
+  .health-care-company-cs-banner-section,
+  .a-prominent-bank-achieved-cs-banner-section,
+  .pardot-cs-banner-section,
+  .microsoft-salesforce-crm-migration-cs-banner-section,
+  .a-beauty-wellness-company-cs-banner-section {
+    height: 380px !important;
+  }
+  .reactjs-developer_intro ul {
+    margin: 0;
+    padding: 0;
+  }
+  .meanstack-developer_intro ul {
+    margin: 0;
+    padding: 0;
+  }
+  .ror-developer_banner-section {
+    height: 35px !important;
+  }
+  .ror-developer_intro {
+    padding: 50px 0 30px 0 !important;
+  }
+  .ror-developer_concept {
+    padding: 35px 0 0px 0 !important;
+  }
+  .ror-developer_concept ul {
+    padding: 0 !important;
+  }
+  .ror-devloper_growth {
+    padding: 30px 0 0px 0 !important;
+  }
+  .ror-devloper_growth p {
+    padding: 0 !important;
+  }
+  .ror-developer_services {
+    padding: 45px 0 25px 0 !important;
+  }
+  .ror-developer_models {
+    padding: 0px 0 10px 0 !important;
+  }
+  .ror-developer_hire-cost {
+    padding: 0px 0 20px 0 !important;
+  }
+  .hire-ror_developer {
+    padding: 40px 0 0px 0 !important;
+  }
+  .hire-ror_developer ul {
+    padding: 0 !important;
+  }
+  .ror-developer_faq {
+    padding: 10px 0 10px 0 !important;
+  }
+  .ror-development-responsibility {
+    padding: 45px 0 20px 0 !important;
+  }
+  .mernstack-developer_banner-section {
+    height: 35px !important;
+  }
+  .mernstack-developer_intro ul {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .mernstack-developer_concept {
+    padding: 50px 0 40px 0 !important;
+  }
+  .mernstack-developer_concept ul {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .mernstack-developer_services {
+    padding: 0px 0 18px 0 !important;
+  }
+  .mernstack-development-responsibility {
+    padding: 35px 0 35px 0 !important;
+  }
+  .mernstack-developer_models {
+    padding: 42px 0 0px 0 !important;
+  }
+  .hire-mernstack_developer {
+    padding: 40px 0 0px 0 !important;
+  }
+  .hire-mernstack_developer ul {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .mernstack-developer_hire-cost {
+    padding: 25px 0 20px 0 !important;
+  }
+  .mernstack-developer_faq {
+    padding: 20px 0 20px 0 !important;
+  }
+  .mernstack-developer_faq .collapse-section {
+    padding-bottom: 0 !important;
+  }
+  .expressjs-developer_banner-section {
+    height: 39px !important;
+  }
+  .expressjs-developer_concept {
+    padding: 40px 0 0px 0 !important;
+  }
+  .expressjs-developer_concept ul {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .expressjs-development-responsibility {
+    padding: 50px 0 18px 0 !important;
+  }
+  .expressjs-developer_services {
+    padding: 50px 0 20px 0 !important;
+  }
+  .hire-developer_banner-section {
+    height: 39px !important;
+  }
+  .hire-developer_concept {
+    padding: 40px 0 0px 0 !important;
+  }
+  .hire-developer_concept ul {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .hire-development-responsibility {
+    padding: 50px 0 18px 0 !important;
+  }
+  .hire-developer_services {
+    padding: 50px 0 20px 0 !important;
+  }
+  .hire-developer_models {
+    padding: 25px 0 10px 0 !important;
+  }
+  .hire-developer_hire-cost {
+    padding: 0px 0 10px 0 !important;
+  }
+  .hire-technology_developer {
+    padding: 20px 0 10px 0 !important;
+  }
+  .hire-technology_developer ul {
+    padding: 0;
+  }
+  .technology-developer_faq {
+    padding: 10px 0 10px 0 !important;
+  }
+  .technology-developer_faq .collapse-section {
+    padding-bottom: 0 !important;
+  }
+  .technology-developer_faq .collapse-section .card-body {
+    padding-bottom: 10px !important;
+  }
+  .mobile-app-developer_banner-section {
+    height: 39px !important;
+  }
+  .mobile-app-developer_concept {
+    padding: 40px 0 0px 0 !important;
+  }
+  .mobile-app-developer_concept ul {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .mobile-app-developer_growth {
+    padding: 50px 0 10px 0 !important;
+  }
+  .mobile-app-development-responsibility {
+    padding: 50px 0 20px 0 !important;
+  }
+  .mobile-app-developer_services {
+    padding: 60px 0 15px 0 !important;
+  }
+  .mobile-app-developer_models {
+    padding: 40px 0 20px 0 !important;
+  }
+  .mobile-app-developer_hire-cost {
+    padding: 10px 0 20px 0 !important;
+  }
+  .hire-mobile-app_developer {
+    padding: 10px 0 10px 0 !important;
+  }
+  .hire-mobile-app_developer ul {
+    padding: 0 !important;
+  }
+  .mobile-app-developer_faq {
+    padding: 10px 0 15px 0 !important;
+  }
+  .salesforce-partner-logo img {
+    width: 50px !important;
+  }
+  .startup-slider-left-chevron,
+  .startup-slider-right-chevron {
+    padding: 5px 7px !important;
+  }
+  .subHeading, .python-development-responsibility .heading-title h4,
+  .sliderHeading, .H1heading, .python-developer_banner-section h1 {
+    font-size: 25px !important;
+  }
+  .sliderDescription,
+  p, .txtDescription, .python-developer_intro .python-developer_intro-inner p, .python-developer_intro .python-developer_intro-inner ul, .python-developer_concept .python-developer_concept-inner p, .python-developer_concept .python-developer_concept-inner ul, .python-development-responsibility .description, .python-development-responsibility .ror-development-solution_name, .python-developer_services .python-developer_services-inner p, .python-developer_services .python-developer_services-inner .service-offered_container p, .python-developer_models .python-developer_models-inner p, .python-developer_hire-cost .python-developer_hire-cost-inner p, .hire-python_developer .hire-python_developer-inner ul, .hire-python_developer .hire-python_developer-inner p {
+    font-size: 12px !important;
+  }
+  .mainHeading, .python-developer_intro .python-developer_intro-inner h2, .python-developer_concept .python-developer_concept-inner h2, .python-development-responsibility .heading-sub-title h2, .python-developer_services .python-developer_services-inner h2, .python-developer_models .python-developer_models-inner h2, .python-developer_hire-cost .python-developer_hire-cost-inner h2, .hire-python_developer .hire-python_developer-inner h2, .python-developer_faq .python-developer_faq-inner h2,
+  h3,
+  h4,
+  h5 {
+    font-size: 20px !important;
+  }
+  p {
+    font-size: 12px !important;
+  }
+  button {
+    font-size: 10px !important;
+  }
+  .home-slide-btn {
+    font-size: 10px !important;
+  }
+}
+
+@media screen and (max-width: 1366px) and (max-height: 768px) {
+  .carousel-caption-slide1,
+  .carousel-caption-slide2,
+  .carousel-caption-slide3,
+  .carousel-caption-slide4,
+  .carousel-caption-slide5,
+  .carousel-caption-slide6 {
+    min-height: 560px !important;
+  }
+  .mega-dropdown-menu {
+    min-width: 960px !important;
+  }
+}
+
+@media screen and (max-width: 1024px) and (max-height: 1366px) {
+  .header-container .nav-item .nav-link,
+  .header-container ul li {
+    font-size: 9px !important;
+  }
+  h3,
+  h4,
+  h5 {
+    font-size: 25px !important;
+  }
+  .header-container ul li {
+    padding: 11px 3px 9px 3px !important;
+  }
+  .home-slide-btn {
+    font-size: 12px !important;
+    padding: 5px 16px 4px 16px !important;
+    border-radius: 3px !important;
+  }
+  .carousel-caption-slide1,
+  .carousel-caption-slide2,
+  .carousel-caption-slide3,
+  .carousel-caption-slide4,
+  .carousel-caption-slide5,
+  .carousel-caption-slide6 {
+    min-height: 600px !important;
+  }
+  .salescloud__partner-main,
+  .servicecloud__partner-main,
+  .force-com__partner-main,
+  .reactjs__choice-main,
+  .integration-service__partner-main,
+  .salesforce-consultancy__partner-main,
+  .salesforce__appexchanges__partner-main,
+  .salesforce-pardot__partner-main,
+  .salesforce-commercecloud__partner-main,
+  .salesforce-migration__partner-main,
+  .salesforce-field-service-lightning__partner-main,
+  .salesforce-financial-cloud__partner-main,
+  .salesforce-inbox__partner-main {
+    -webkit-box-flex: 0 !important;
+        -ms-flex: 0 0 45% !important;
+            flex: 0 0 45% !important;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .salesforce-consulting-main {
+    -webkit-box-flex: 0 !important;
+        -ms-flex: 0 0 50% !important;
+            flex: 0 0 50% !important;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .salesforce-consulting-main {
+    -webkit-box-flex: 0 !important;
+        -ms-flex: 0 0 100% !important;
+            flex: 0 0 100% !important;
+  }
+}
+
+@media only screen and (min-device-width: 700px) and (max-device-width: 850px) {
+  #home .carousel-caption-slide1,
+  .carousel-caption-slide2,
+  .carousel-caption-slide3,
+  .carousel-caption-slide4,
+  .carousel-caption-slide5,
+  .carousel-caption-slide6 {
+    min-height: 500px !important;
+    max-height: 510px !important;
+  }
+  .start-up-carousel-item {
+    height: 500px !important;
+  }
+  .home-logo,
+  .home-logo-black {
+    width: 70px !important;
+  }
+  .subHeading, .python-development-responsibility .heading-title h4,
+  .sliderHeading, .H1heading, .python-developer_banner-section h1 {
+    font-size: 22px !important;
+  }
+  .sliderDescription,
+  p, .txtDescription, .python-developer_intro .python-developer_intro-inner p, .python-developer_intro .python-developer_intro-inner ul, .python-developer_concept .python-developer_concept-inner p, .python-developer_concept .python-developer_concept-inner ul, .python-development-responsibility .description, .python-development-responsibility .ror-development-solution_name, .python-developer_services .python-developer_services-inner p, .python-developer_services .python-developer_services-inner .service-offered_container p, .python-developer_models .python-developer_models-inner p, .python-developer_hire-cost .python-developer_hire-cost-inner p, .hire-python_developer .hire-python_developer-inner ul, .hire-python_developer .hire-python_developer-inner p {
+    font-size: 14px !important;
+  }
+  .mainHeading, .python-developer_intro .python-developer_intro-inner h2, .python-developer_concept .python-developer_concept-inner h2, .python-development-responsibility .heading-sub-title h2, .python-developer_services .python-developer_services-inner h2, .python-developer_models .python-developer_models-inner h2, .python-developer_hire-cost .python-developer_hire-cost-inner h2, .hire-python_developer .hire-python_developer-inner h2, .python-developer_faq .python-developer_faq-inner h2,
+  h3,
+  h4,
+  h5 {
+    font-size: 22px !important;
+  }
+  .home-section .home-carousel-control-next,
+  .home-section .home-carousel-control-prev {
+    width: 4% !important;
+  }
+  .home-section .home-slider-right-chevron,
+  .home-section .home-slider-left-chevron {
+    padding: 4px 6px !important;
+  }
+}
+
+@media only screen and (min-device-width: 300px) and (max-device-width: 414px) {
+  .home-slider-mobile-heading,
+  .startup-slider-mobile-heading {
+    font-size: 16px !important;
+  }
+  .subHeading, .python-development-responsibility .heading-title h4,
+  .sliderHeading, .H1heading, .python-developer_banner-section h1 {
+    font-size: 20px !important;
+  }
+  .sliderDescription,
+  p, .txtDescription, .python-developer_intro .python-developer_intro-inner p, .python-developer_intro .python-developer_intro-inner ul, .python-developer_concept .python-developer_concept-inner p, .python-developer_concept .python-developer_concept-inner ul, .python-development-responsibility .description, .python-development-responsibility .ror-development-solution_name, .python-developer_services .python-developer_services-inner p, .python-developer_services .python-developer_services-inner .service-offered_container p, .python-developer_models .python-developer_models-inner p, .python-developer_hire-cost .python-developer_hire-cost-inner p, .hire-python_developer .hire-python_developer-inner ul, .hire-python_developer .hire-python_developer-inner p {
+    font-size: 12px !important;
+  }
+  .mainHeading, .python-developer_intro .python-developer_intro-inner h2, .python-developer_concept .python-developer_concept-inner h2, .python-development-responsibility .heading-sub-title h2, .python-developer_services .python-developer_services-inner h2, .python-developer_models .python-developer_models-inner h2, .python-developer_hire-cost .python-developer_hire-cost-inner h2, .hire-python_developer .hire-python_developer-inner h2, .python-developer_faq .python-developer_faq-inner h2,
+  h3,
+  h4,
+  h5 {
+    font-size: 16px !important;
+  }
+  .home-slide-btn {
+    font-size: 10px !important;
+  }
+}
+
+.footer-facebook,
+.footer-instagram,
+.footer-linked,
+.footer-twitter {
+  display: inline-block;
+  background: url("../assets/img/socialicons.png") no-repeat;
+  overflow: hidden;
+  text-indent: -9999px;
+  text-align: left;
+  margin: 0 10px 0 0;
+}
+
+.footer-facebook,
+.footer-instagram,
+.footer-linked,
+.footer-twitter {
+  display: inline-block;
+  background: url("../../assets/img/socialicons.png") no-repeat;
+  overflow: hidden;
+  text-indent: -9999px;
+  text-align: left;
+  margin: 0 10px 0 0;
+}
+
+.social-icon-container a {
+  color: transparent;
+}
+
+.social-icon-container a:hover {
+  color: transparent;
+}
+
+.footer-facebook {
+  background-position: -10px -0px;
+  width: 25px;
+  height: 25px;
+}
+
+.footer-instagram {
+  background-position: -45px -0px;
+  width: 25px;
+  height: 25px;
+}
+
+.footer-linked {
+  background-position: -10px -35px;
+  width: 25px;
+  height: 25px;
+}
+
+.footer-twitter {
+  background-position: -45px -35px;
+  width: 25px;
+  height: 25px;
+}
+
+.reverse {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+
+@media (max-width: 576px) {
+  .salescloud-intro {
+    padding: 24px 0 40px 0 !important;
+  }
+  .salescloud-productivity {
+    padding: 40px 0 40px 0;
+  }
+  .salescloud__services {
+    padding: 0px 0 40px 0;
+  }
+}
+
+@font-face {
+  font-family: "NovemberPro";
+  src: url("../../../assets/fonts/november-pro/NovemberPro-Reg.eot");
+  src: url("../../../assets/fonts/november-pro/NovemberPro.eot?#iefix") format("embedded-opentype"), url("../../../assets/fonts/november-pro/NovemberPro.svg#NovemberPro") format("svg"), url("../../../assets/fonts/november-pro/NovemberPro.ttf") format("truetype"), url("../../../assets/fonts/november-pro/NovemberPro.woff") format("woff"), url("../../../assets/fonts/november-pro/NovemberPro.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NovemberPro-Reg";
+  src: url("../../../assets/fonts/november-pro/NovemberPro-Reg.eot");
+  src: url("../../../assets/fonts/november-pro/NovemberPro-Reg.eot?#iefix") format("embedded-opentype"), url("../../../assets/fonts/november-pro/NovemberPro-Reg.svg#NovemberPro-Reg") format("svg"), url("../../../assets/fonts/november-pro/NovemberPro-Reg.ttf") format("truetype"), url("../../../assets/fonts/november-pro/NovemberPro-Reg.woff") format("woff"), url("../../../assets/fonts/november-pro/NovemberPro-Reg.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+button, p {
+  font-family: "NovemberPro-Reg" !important;
+}
+
+h1, h2, h3, h4, h5, h5 {
+  font-family: "NovemberPro";
+}
+
+.header-container {
+  font-family: "NovemberPro";
+}
+
+.header-container.fixed-top {
+  height: 80px;
+}
+
+.header-container.fixed-top .navbar {
+  margin: 0px 0;
+}
+
+.header-container .header-inner-container {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.header-container .mh-auto {
+  margin: 0 auto 0 auto;
+}
+
+.header-container .nav-item.active a {
+  color: #000000 !important;
+  background: #ffffff;
+  border-radius: 4px;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.header-container .nav-item .nav-link {
+  color: #ffffff !important;
+  font-size: 16px;
+  font-family: "NovemberPro-Reg";
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.header-container .dropdown-submenu {
+  position: relative;
+}
+
+.header-container .dropdown-menu {
+  min-width: 215px;
+}
+
+.header-container .dropdown-submenu > .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -7px;
+}
+
+.header-container .dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.header-container .dropdown-submenu:hover > .dropdown-menu {
+  display: block;
+}
+
+.header-container .dropdown-submenu > a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #ccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+
+.header-container .dropdown-submenu:hover > a:after {
+  border-left-color: #fff;
+}
+
+.header-container .multi-level {
+  padding: 10px 23px 10px 18px;
+  font-size: 14px;
+  border-radius: 18px;
+}
+
+.header-container .dropdown-submenu {
+  padding: 6px 0;
+}
+
+.header-container .dropdown-submenu .dropdown-toggle {
+  text-decoration: none;
+  color: #000000;
+}
+
+.header-container .pre-menu-icon {
+  margin-right: 10px;
+  width: 0.3rem;
+}
+
+.header-container .pre-menu-icon:hover {
+  fill: #000000;
+}
+
+.header-container .single-level {
+  font-size: 14px;
+  padding: 10px 23px 10px 18px;
+  border-radius: 18px;
+}
+
+.header-container .single-level li {
+  padding: 6px 0;
+}
+
+.header-container .single-level li a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.header-container .single-level li a span {
+  -webkit-transition: -webkit-transform 0.2s ease-out;
+  transition: -webkit-transform 0.2s ease-out;
+  transition: transform 0.2s ease-out;
+  transition: transform 0.2s ease-out, -webkit-transform 0.2s ease-out;
+}
+
+.header-container .single-level li a:hover {
+  color: #000000;
+}
+
+.header-container .nav-sub-item a {
+  text-decoration: none;
+}
+
+.header-container .dropdown-toggle {
+  color: #000000;
+}
+
+.header-container .dropdown-toggle:hover {
+  color: #000000;
+}
+
+.header-container .mega-dropdown {
+  position: relative !important;
+}
+
+.header-container .mega-dropdown-menu {
+  padding: 20px 0px;
+  width: 100%;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.header-container .mega-dropdown-menu {
+  position: absolute;
+  top: 87%;
+  left: 0;
+  z-index: 1000;
+  float: left;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  max-width: 500px;
+  min-width: 160px;
+  padding: 2px 0;
+  margin: 2px 0 0;
+  font-size: 14px;
+  text-align: left;
+  list-style: none;
+  background-color: #000000;
+  background-clip: padding-box;
+  border: 1px solid #00000026;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 6px 12px #0000002e;
+          box-shadow: 0 6px 12px #0000002e;
+  background: #ffffff;
+}
+
+.header-container .mega-menu-heading {
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+.header-container ul {
+  list-style: none;
+  padding: 0 6px;
+}
+
+.header-container ul li {
+  padding: 12px 10px;
+  font-size: 14px;
+  font-family: "NovemberPro-Reg";
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.header-container ul a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.header-container ul a:hover {
+  color: #000000;
+}
+
+.header-container .navbar {
+  margin: 14px 0;
+}
+
+.header-container .sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.header-container .sticky + .content {
+  padding-top: 60px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  width: 3% !important;
+}
+
+.fixed-top {
+  height: 125px !important;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background: #ffffff;
+  left: 0;
+  z-index: 1030;
+  -webkit-box-shadow: 0px 9px 95px 13px #6e7b831a;
+          box-shadow: 0px 9px 95px 13px #6e7b831a;
+}
+
+.fixed-top .nav-link {
+  color: #000000 !important;
+}
+
+.home-logo-black {
+  display: none;
+}
+
+.fixed-top .home-logo-black {
+  display: block;
+}
+
+.fixed-top .home-logo {
+  display: none;
+}
+
+.fixed-top .navbar-dark .navbar-nav .nav-link {
+  color: #000000 !important;
+  padding: 6px 14px !important;
+}
+
+.fixed-top .navbar-dark .navbar-nav .active .nav-link {
+  color: #ffffff !important;
+  background: #000000;
+}
+
+.python-developer_banner-section {
+  -webkit-transition: background 0.3s, border 0.3s, border-radius 0.3s, -webkit-box-shadow 0.3s;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, -webkit-box-shadow 0.3s;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, -webkit-box-shadow 0.3s;
+  position: relative;
+  height: 140px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.python-developer_banner-section .banner-bg-overlay {
+  background-color: #000000;
+  -webkit-transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.python-developer_banner-section .banner-inner-container {
+  position: relative;
+}
+
+.python-developer_intro {
+  padding: 70px 0 80px 0;
+  background-color: #000000;
+}
+
+.python-developer_intro .python-developer_intro-inner {
+  background: url("../../assets/img/home-bg-10-1.png") no-repeat;
+  background-position: bottom right;
+}
+
+.python-developer_intro .python-developer_intro-inner h2 {
+  color: #ffffff;
+}
+
+.python-developer_intro .python-developer_intro-inner .sub-column {
+  color: #000000;
+}
+
+.python-developer_intro .python-developer_intro-inner p {
+  padding: 15px 0 0px 0;
+  color: #ffffff;
+}
+
+.python-developer_intro .python-developer_intro-inner h4 {
+  color: #ffffff;
+}
+
+.python-developer_intro .python-developer_intro-inner .align-vt_center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.python-developer_intro .python-developer_intro-inner img {
+  padding: 0 0px;
+}
+
+.python-developer_intro .python-developer_intro-inner ul i {
+  color: #000000;
+  margin: 0 8px 0 0;
+}
+
+.python-developer_intro .python-developer_intro-inner ul li {
+  padding: 0 0 4px 0;
+  margin-bottom: 12px;
+}
+
+.python-developer_intro .python-developer_intro-inner form {
+  background-color: #41415a;
+  padding: 1.5rem 2rem;
+  border-radius: 10px;
+  width: 80%;
+  margin: auto;
+}
+
+.python-developer_intro .python-developer_intro-inner form label {
+  padding: 0;
+  position: absolute;
+  top: -7px;
+  background-color: #41415a;
+  left: 26px;
+  font-size: 12px;
+  color: #ffffff;
+}
+
+.python-developer_intro .python-developer_intro-inner form input {
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.python-developer_intro .python-developer_intro-inner form button {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.python-developer_concept {
+  padding: 70px 0 80px 0;
+}
+
+.python-developer_concept .python-developer_concept-inner .bg-shape {
+  background-image: url("assets/img/home-bg-09.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.python-developer_concept .python-developer_concept-inner .m-b-23 {
+  margin-bottom: -23%;
+}
+
+.python-developer_concept .python-developer_concept-inner img {
+  width: 100%;
+  padding: 3rem;
+}
+
+.python-developer_concept .python-developer_concept-inner .sub-column {
+  color: #000000;
+}
+
+.python-developer_concept .python-developer_concept-inner p {
+  padding: 15px 0 0px 0;
+}
+
+.python-developer_concept .python-developer_concept-inner .align-vt_center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.python-developer_concept .python-developer_concept-inner ul .fa {
+  color: #000000;
+  margin: 0 8px 0 0;
+}
+
+.python-developer_concept .python-developer_concept-inner ul li {
+  padding: 0 0 4px 0;
+  margin-bottom: 12px;
+}
+
+.project .col-lg-4 .box {
+  background-color: #fff;
+  padding: 30px 30px 20px 30px !important;
+}
+
+.project .col-lg-4 .box img {
+  margin-bottom: 20px;
+}
+
+.python-development-responsibility {
+  padding: 94px 0 60px 0;
+  background-color: #000000;
+  background-size: 100% 100%;
+}
+
+.python-development-responsibility .heading-title {
+  margin-bottom: 20px;
+}
+
+.python-development-responsibility h3 {
+  font-weight: bold;
+  opacity: 0.1;
+}
+
+.python-development-responsibility .heading-sub-title {
+  padding: 0px 0px 10px 0px;
+}
+
+.python-development-responsibility .heading-sub-title h2 {
+  color: #ffffff;
+}
+
+.python-development-responsibility .description {
+  color: #ffffff;
+}
+
+.python-development-responsibility .ror-development-solution_name {
+  margin-top: 20px;
+  text-transform: uppercase;
+  padding: 0;
+}
+
+.python-development-responsibility .sub-column {
+  color: #000000;
+}
+
+.python-development-responsibility .box {
+  border: 1px solid #ebebeb;
+  border-radius: 0px;
+  padding: 30px 16px 0px 16px;
+  height: 100%;
+  background-color: #fff;
+}
+
+.python-development-responsibility .box:hover {
+  -webkit-box-shadow: 8px 8px 30px 0px #2a437126;
+          box-shadow: 8px 8px 30px 0px #2a437126;
+}
+
+.python-developer_services {
+  padding: 100px 0 80px 0;
+  background-image: url("../../assets/img/home-bg-08.png");
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.python-developer_services .python-developer_services-inner .sub-column {
+  color: #000000;
+}
+
+.python-developer_services .python-developer_services-inner p {
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+.python-developer_services .python-developer_services-inner .service-offered_container {
+  background-repeat-y: no-repeat;
+  background-position: bottom;
+  background-color: #f4f6f7;
+}
+
+.python-developer_services .python-developer_services-inner .service-offered_container .tab-content {
+  padding: 0 2rem;
+}
+
+.python-developer_services .python-developer_services-inner .nav-pills .nav-link {
+  border-radius: 0px;
+}
+
+.python-developer_services .python-developer_services-inner .nav-pills .nav-link.active {
+  background-color: transparent;
+  border-left: 4px solid #000000;
+}
+
+.python-developer_services .python-developer_services-inner .nav-pills p {
+  padding: 0;
+}
+
+.python-developer_services .python-developer_services-inner .box {
+  border: 1px solid #ebebeb;
+  border-radius: 15px;
+  padding: 30px 16px 20px 16px;
+  height: 100%;
+}
+
+.python-developer_services .python-developer_services-inner .price-tag {
+  background-color: #eb0101;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 22px;
+}
+
+.python-developer_models {
+  padding: 80px 0 80px 0;
+}
+
+.python-developer_models .python-developer_models-inner .sub-column {
+  color: #000000;
+}
+
+.python-developer_models .python-developer_models-inner p {
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+.python-developer_models .python-developer_models-inner .box1 {
+  background-color: #dafdf2;
+}
+
+.python-developer_models .python-developer_models-inner .box2 {
+  background-color: #dbdafd;
+}
+
+.python-developer_models .python-developer_models-inner .box3 {
+  background-color: #fddaf4;
+}
+
+.python-developer_models .python-developer_models-inner .box4 {
+  background-color: #fdf1da;
+}
+
+.python-developer_models .python-developer_models-inner .box5 {
+  background-color: #daf8fd;
+}
+
+.python-developer_models .python-developer_models-inner .box {
+  border: 1px solid #ebebeb;
+  border-radius: 15px;
+  padding: 30px 16px 20px 16px;
+  height: 100%;
+}
+
+.python-developer_models .python-developer_models-inner .price-tag {
+  background-color: #eb0101;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 22px;
+}
+
+.python-developer_hire-cost {
+  padding: 80px 0 100px 0;
+}
+
+.python-developer_hire-cost .python-developer_hire-cost-inner .sub-column {
+  color: #000000;
+}
+
+.python-developer_hire-cost .python-developer_hire-cost-inner p {
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+.python-developer_hire-cost .python-developer_hire-cost-inner .box {
+  border: 1px solid #ebebeb;
+  border-radius: 15px;
+  padding: 30px 16px 20px 16px;
+  height: 100%;
+}
+
+.python-developer_hire-cost .python-developer_hire-cost-inner .price-tag {
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 22px;
+  background-color: #000000;
+}
+
+.hire-python_developer {
+  padding: 60px 0 40px 0;
+}
+
+.hire-python_developer .hire-python_developer-inner .sub-column {
+  color: #000000;
+}
+
+.hire-python_developer .hire-python_developer-inner ul li {
+  position: relative;
+  padding-left: 2rem;
+  margin-bottom: 1.5rem;
+  width: 50%;
+}
+
+.hire-python_developer .hire-python_developer-inner ul li i {
+  position: absolute;
+  left: 0;
+  top: 5px;
+  color: #ec0000;
+}
+
+.hire-python_developer .hire-python_developer-inner p {
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+.hire-python_developer .hire-python_developer-inner .box {
+  border: 1px solid #ebebeb;
+  border-radius: 15px;
+  padding: 30px 16px 20px 16px;
+  height: 100%;
+}
+
+.hire-python_developer .hire-python_developer-inner .price-tag {
+  background-color: #eb0101;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 22px;
+}
+
+.python-developer_faq {
+  padding: 20px 0 80px 0;
+}
+
+.python-developer_faq .python-developer_faq-inner p {
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+.python-developer_faq .python-developer_faq-inner ul {
+  list-style: none;
+}
+
+.python-developer_faq .python-developer_faq-inner ul li {
+  position: relative;
+  padding-left: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.python-developer_faq .python-developer_faq-inner ul li .fa {
+  position: absolute;
+  left: 0;
+  top: 5px;
+  color: #ec0000;
+}
+
+.python-developer_faq .python-developer_faq-inner .collapse-section {
+  border-bottom: 1px solid;
+  border-color: orange;
+  padding-bottom: 16px;
+}
+
+.python-developer_faq .python-developer_faq-inner .collapse-section:last-child {
+  border-bottom: none;
+}
+
+.python-developer_faq .python-developer_faq-inner .collapse-section a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+}
+
+.python-developer_faq .python-developer_faq-inner .collapse-section a[aria-expanded="false"]::before {
+  content: '+';
+  color: #ed0e0e;
+  margin-right: 12px;
+}
+
+.python-developer_faq .python-developer_faq-inner .collapse-section a[aria-expanded="true"]::before {
+  content: '-';
+  color: #ed0e0e;
+  margin-right: 12px;
+}
+/*# sourceMappingURL=hire-python-developer.css.map */

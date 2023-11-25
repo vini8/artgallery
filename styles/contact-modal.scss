@@ -1,0 +1,96 @@
+@import "./variables";
+@import "./typography";
+
+
+// contact modal css
+.contact-modal {
+  .contact-modal-header {
+    border: none;
+  }
+
+  .contact-modal-footer {
+    border: none;
+    padding: 0px 40px 0 40px;
+  }
+
+  .contact-modal-overlay {
+    background: #ffffff99;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    width: 100%;
+    left: 0;
+  }
+
+  .contact-modal-body {
+    padding: 0px 40px 0 40px;
+  }
+
+  .modal-title {
+    @extend .mainHeading;
+  }
+
+  .form-group {
+    position: relative;
+  }
+
+  .contact-input-custom {
+    border: none !important;
+    border-bottom: 1px solid #dbd3d3 !important;
+    border-radius: 0px !important;
+    box-shadow: none !important;
+    margin-bottom: 1.6rem !important;
+    @extend .txtDescription;
+    font-size: 14px;
+    padding: 12px 20px 12px 28px;
+  }
+
+  .contact-custom-txt-area {
+    border: none !important;
+    border-bottom: 1px solid #dbd3d3 !important;
+    margin-bottom: 2rem !important;
+    @extend .txtDescription;
+    font-size: 14px;
+    padding: 12px 20px 12px 28px;
+  }
+
+  .contact-custom-txt-area:focus {
+    box-shadow: none !important;
+  }
+
+  .contact-btn-close {
+    background-color: #e2e3e8;
+    border-radius: 50%;
+    position: absolute;
+    right: 16px;
+    top: 17px;
+  }
+
+  .contact-info-img {
+    width: 28px;
+  }
+
+  .contact-check-btn {
+    background: $primaryColor;
+    border: none;
+    padding: 6px 24px;
+    color: $color__fill-white;
+  }
+
+  .contact-check-btn:hover {
+    color: $color__fill-white;
+    opacity: 0.9;
+  }
+
+  .share-info-txt {
+    font-size: 17px;
+    color: #9ea4a9;
+  }
+
+  .contact-pre-icon {
+    position: absolute;
+    top: 16px;
+    color: #9ea4a9;
+    margin: 0 12px 0 5px;
+  }
+}

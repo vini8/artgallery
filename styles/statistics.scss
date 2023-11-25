@@ -1,0 +1,34 @@
+@import "../styles/typography.scss";
+@import "../styles/variables.scss";
+
+.statistics-counter {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 115px auto;
+  grid-gap: 0.5rem;
+
+  h3{
+    @extend .boxsubHeading;
+  }
+
+  border: 1px solid $color__fill-box;
+  border-radius: 0px;
+  padding: 10px 30px;
+
+  align-items: center;
+  align-self: center;
+  justify-self: center;
+  margin-bottom: 10px;
+
+  .icon-with-title-container {
+    border-left: 1px solid $color__fill-box;
+    padding-left: 25px;
+    .title-container {
+      h6 {
+        font-weight: 800;
+        font-size: 17px;
+        font-family: "NovemberPro";
+      }
+    }
+  }
+}

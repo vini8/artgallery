@@ -1,0 +1,591 @@
+@import "../../styles/typography.scss";
+@import "../../styles/variables.scss";
+@import "../../styles/media.scss";
+
+@font-face {
+  font-family: "NovemberPro";
+  src: url("../../../assets/fonts/november-pro/NovemberPro-Reg.eot");
+  src: url("../../../assets/fonts/november-pro/NovemberPro.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../../assets/fonts/november-pro/NovemberPro.svg#NovemberPro")
+      format("svg"),
+    url("../../../assets/fonts/november-pro/NovemberPro.ttf") format("truetype"),
+    url("../../../assets/fonts/november-pro/NovemberPro.woff") format("woff"),
+    url("../../../assets/fonts/november-pro/NovemberPro.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NovemberPro-Reg";
+  src: url("../../../assets/fonts/november-pro/NovemberPro-Reg.eot");
+  src: url("../../../assets/fonts/november-pro/NovemberPro-Reg.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../../assets/fonts/november-pro/NovemberPro-Reg.svg#NovemberPro-Reg")
+      format("svg"),
+    url("../../../assets/fonts/november-pro/NovemberPro-Reg.ttf")
+      format("truetype"),
+    url("../../../assets/fonts/november-pro/NovemberPro-Reg.woff")
+      format("woff"),
+    url("../../../assets/fonts/november-pro/NovemberPro-Reg.woff2")
+      format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+// header css starts here
+button,
+p {
+  font-family: "NovemberPro-Reg" !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
+  font-family: "NovemberPro";
+}
+
+.header-container {
+  font-family: "NovemberPro";
+
+  &.fixed-top {
+    height: 80px;
+    .navbar {
+      margin: 0px 0;
+    }
+  }
+  .header-inner-container {
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  .mh-auto {
+    margin: 0 auto 0 auto;
+  }
+  .contact-btn {
+    @extend .btnbase;
+  }
+  .contact-btn:hover {
+    @extend .btnhover;
+  }
+  .nav-item.active {
+    a {
+      color: $primaryColor !important;
+      background: $color__fill-white;
+      border-radius: 4px;
+      padding-right: 25px;
+      padding-left: 25px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  }
+  .nav-item {
+    .nav-link {
+      color: $color__fill-white !important;
+      font-size: 16px;
+      font-family: "NovemberPro-Reg";
+      font-weight: 500;
+      text-transform: uppercase;
+    }
+  }
+  .dropdown-submenu {
+    position: relative;
+  }
+  .dropdown-menu {
+    min-width: 215px;
+  }
+  .dropdown-submenu > .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -7px;
+  }
+  .dropdown:hover > .dropdown-menu {
+    display: block;
+  }
+  .dropdown-submenu:hover > .dropdown-menu {
+    display: block;
+  }
+  .dropdown-submenu > a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+  }
+  .dropdown-submenu:hover > a:after {
+    border-left-color: #fff;
+  }
+  .multi-level {
+    padding: 10px 23px 10px 18px;
+    font-size: 14px;
+    border-radius: 18px;
+  }
+  .dropdown-submenu {
+    padding: 6px 0;
+    .dropdown-toggle {
+      text-decoration: none;
+      color: $color__fill-black;
+    }
+  }
+  .pre-menu-icon {
+    margin-right: 10px;
+    width: 0.3rem;
+  }
+  .pre-menu-icon:hover {
+    fill: $primaryColor;
+  }
+  .single-level {
+    font-size: 14px;
+    padding: 10px 23px 10px 18px;
+    border-radius: 18px;
+    li {
+      padding: 6px 0;
+      a {
+        text-decoration: none;
+        color: $color__fill-black;
+        span {
+          transition: transform 0.2s ease-out;
+        }
+      }
+      a:hover {
+        color: $primaryColor;
+      }
+    }
+  }
+  .nav-sub-item {
+    a {
+      text-decoration: none;
+    }
+  }
+  .dropdown-toggle {
+    color: $color__fill-black;
+  }
+  .dropdown-toggle:hover {
+    color: $primaryColor;
+  }
+  // mega menu css starts here
+  .mega-dropdown {
+    position: relative !important;
+  }
+  .mega-dropdown-menu {
+    padding: 20px 0px;
+    width: 100%;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+  }
+  .mega-dropdown-menu {
+    position: absolute;
+    top: 87%;
+    left: 0;
+    z-index: 1000;
+    float: left;
+    width: max-content;
+    max-width: 500px;
+    min-width: 160px;
+    padding: 2px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: $color__fill-black;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #00000026;
+    border-radius: 4px;
+    box-shadow: 0 6px 12px #0000002e;
+    background: $color__fill-white;
+  }
+  .mega-menu-heading {
+    font-weight: bold;
+    margin-left: 30px;
+  }
+  ul {
+    list-style: none;
+    padding: 0 6px;
+    li {
+      padding: 12px 10px;
+      font-size: 14px;
+      font-family: "NovemberPro-Reg";
+      font-weight: 500;
+      text-transform: uppercase;
+    }
+    a {
+      text-decoration: none;
+      color: $color__fill-black;
+    }
+    a:hover {
+      color: $primaryColor;
+    }
+  }
+  .navbar {
+    margin: 14px 0;
+  }
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .sticky + .content {
+    padding-top: 60px;
+  }
+}
+.carousel-control-next,
+.carousel-control-prev {
+  width: 3% !important;
+}
+.fixed-top {
+  height: 125px !important;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background: $color__fill-white;
+  left: 0;
+  z-index: 1030;
+  box-shadow: 0px 9px 95px 13px #6e7b831a;
+}
+.fixed-top .nav-link {
+  color: $primaryColor !important;
+}
+.home-logo-black {
+  display: none;
+}
+.fixed-top .home-logo-black {
+  display: block;
+}
+.fixed-top .home-logo {
+  display: none;
+}
+.fixed-top .navbar-dark .navbar-nav .nav-link {
+  color: $color__fill-black !important;
+  padding: 6px 14px !important;
+}
+.fixed-top .navbar-dark .navbar-nav .active .nav-link {
+  color: $color__fill-white !important;
+  background: $primaryColor;
+}
+
+// header css ends here
+
+.full-stack-banner-section {
+  background: url("../../assets/img/full-stack.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  position: relative;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  .full-stack-banner-inner {
+    position: relative;
+  }
+  h1 {
+    @extend .H1heading;
+  }
+  p {
+    @extend .ptxtMediumWhite;
+  }
+  .banner-bg-overlay {
+    background-color: $color__fill-black;
+    opacity: 0.5;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+  .banner-inner-container {
+    position: relative;
+  }
+}
+
+.full-stack-business {
+  padding: 100px 0 100px 0;
+  button {
+    @extend .btnbase;
+  }
+  button:hover {
+    @extend .btnhover;
+  }
+  p {
+    @extend .txtDescription;
+  }
+  h2 {
+    @extend .mainHeading;
+  }
+  .vt-center {
+    align-items: center;
+  }
+}
+
+.full-stack-visionary {
+  padding: 100px 0 100px 0;
+  background: $bg__casestudy-grey;
+  button {
+    @extend .btnbase;
+  }
+  button:hover {
+    @extend .btnhover;
+  }
+  p {
+    @extend .txtDescription;
+  }
+  h2 {
+    @extend .mainHeading;
+  }
+  .vt-center {
+    align-items: center;
+  }
+  p {
+    padding: 0 0 0 0;
+  }
+  .full-stack-service_box {
+    align-items: center;
+    border: 1px solid $color__fill-soft-cream;
+    border-radius: 6px;
+    margin: 0 0;
+    p {
+      margin: 0;
+    }
+  }
+}
+
+.full-stack-expertise {
+  padding: 100px 0px 0px 0px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  h2 {
+    @extend .mainHeading;
+  }
+  p {
+    @extend .txtDescription;
+  }
+  .full-stack-expertise-box {
+    border-color: transparent;
+    box-shadow: 0px 5px 90px 0px $primary__light-shadow;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s,
+      box-shadow 0.3s;
+    border-style: solid;
+    padding: 0px 35px 12px 35px;
+    border-radius: 18px;
+    height: 100%;
+    .full-stack-expertise-box-title{
+      @extend .boxsubHeading;
+    }
+  }
+  .description {
+    padding: 15px 0px 15px 0px;
+    @extend .miniDescription;
+  }
+  .full-stack-expertise-icon {
+    margin-bottom: 0px;
+  }
+  .pulse-shrink {
+    @-webkit-keyframes pulse-shrink {
+      to {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+      }
+    }
+    @keyframes pulse-shrink {
+      to {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+      }
+    }
+    .pulse-shrink {
+      display: inline-block;
+      vertical-align: middle;
+      -webkit-transform: translateZ(0);
+      transform: translateZ(0);
+      box-shadow: 0 0 1px $primary__box-shadow;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    .pulse-shrink:hover,
+    .pulse-shrink:focus,
+    .pulse-shrink:active {
+      -webkit-animation-name: pulse-shrink;
+      animation-name: pulse-shrink;
+      -webkit-animation-duration: 0.3s;
+      animation-duration: 0.3s;
+      -webkit-animation-timing-function: linear;
+      animation-timing-function: linear;
+      -webkit-animation-iteration-count: infinite;
+      animation-iteration-count: infinite;
+      -webkit-animation-direction: alternate;
+      animation-direction: alternate;
+    }
+  }
+  .pulse-shrink-box {
+    padding: 4px 16px;
+    font-size: 23px;
+    border-radius: 50%;
+    align-items: center;
+  }
+  .full-stack-expertise-box:hover {
+    border-bottom: 2px solid $primaryColor;
+    box-shadow: 0px 5px 90px 0px $primary__blue-shadow;
+  }
+}
+
+.full-stack-development-benefit {
+  padding: 100px 0 100px 0;
+  .full-stack-development-benefit-inner {
+    h2 {
+      @extend .mainHeading;
+    }
+    .full-stack-development-benefit-quote-sub-title {
+      max-width: 800px;
+      margin: auto;
+      h2 {
+        text-transform: capitalize;
+      }
+    }
+    p {
+      @extend .txtDescription;
+      padding: 0 0 0 0;
+    }
+    .full-stack-benefit-box {
+      border: 1px solid $color__fill-box;
+      padding: 45px 27px 0px 27px;
+      border-radius: 15px;
+      margin-bottom: 25px;
+      height: 100%;
+      h5{
+        @extend .boxminiHeading;
+      }
+    }
+    .full-stack-benefit-box:hover {
+      box-shadow: 8px 8px 30px 0px $primary__box-shadow;
+    }
+  }
+}
+
+.full-stack-industries {
+  padding: 94px 0 60px 0;
+  background-color: $primaryColor !important;
+  background-size: 100% 100%;
+  .heading-title {
+    margin-bottom: 20px;
+    h4 {
+      @extend .subHeading;
+    }
+  }
+  h3 {
+    font-weight: bold;
+    opacity: 0.1;
+  }
+  .heading-sub-title {
+    padding: 0px 0px 10px 0px;
+    h2 {
+      @extend .mainHeading;
+      color: $color__fill-white;
+    }
+  }
+  .description {
+    @extend .txtDescription;
+    color: $color__fill-white;
+  }
+  .industries__name-section {
+    justify-content: center;
+  }
+  .industries_name {
+    @extend .txtDescription;
+    margin-top: 20px;
+    text-transform: uppercase;
+    padding: 0;
+  }
+  ul {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0;
+    list-style: none;
+    li {
+      flex: 1;
+    }
+    .list-box {
+      background: $color__fill-white;
+      margin: 5px 10px;
+      padding: 23px 22px 9px 22px;
+      height: 100%;
+      img {
+        width: 3.5rem;
+      }
+      p{
+        @extend .miniDescription;
+        padding: 0;
+      }
+    }
+  }
+}
+
+.full-stack-quote {
+  padding: 100px 0 100px 0;
+  h2 {
+    @extend .mainHeading;
+  }
+  .full-stack-quote-sub-title {
+    max-width: 900px;
+    margin: auto;
+    h4{
+      @extend .boxsubHeading;
+    }
+    p{
+      @extend .txtDescription;
+      padding: 0;
+    }
+  }
+}
+
+.full-stack-hire {
+  padding: 65px 0 65px 0;
+  background-image: url("../../assets/img/bg-shape1-home5.png");
+  background-position: center right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background: #f3f5f5;
+  .full-stack-hire-inner {
+    .ror-blue-column {
+      color: $primaryColor;
+    }
+    h2 {
+      @extend .mainHeading;
+    }
+    h4{
+      @extend .boxsubHeading;
+    }
+    p {
+      @extend .txtDescription;
+      padding: 15px 0 0px 0;
+    }
+    .align-vt_center {
+      align-items: center;
+    }
+    button {
+      @extend .btnbase;
+    }
+    button:hover {
+      @extend .btnhover;
+    }
+    .full_stack-icon {
+      width: 100px;
+    }
+    .full-stack-quote-sub-title {
+      max-width: 800px;
+      margin: auto;
+    }
+  }
+}
+

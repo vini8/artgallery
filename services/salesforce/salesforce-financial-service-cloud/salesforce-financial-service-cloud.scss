@@ -1,0 +1,319 @@
+@import "../../../styles/typography.scss";
+@import "../../../styles/variables.scss";
+@import "../../../styles/media.scss";
+
+
+.salesforce-financial-cloud-banner-section {
+    background-image: url("../../../assets/img/salesforce-header.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    .salesforce-financial-cloud-banner-inner {
+        position: relative;
+    }
+
+    h1 {
+        @extend .H1heading;
+    }
+
+    p {
+        @extend .ptxtMediumWhite;
+    }
+
+    .banner-bg-overlay {
+        background-color: #000000;
+        opacity: 0.5;
+        transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        position: absolute;
+    }
+
+    .banner-inner-container {
+        position: relative;
+    }
+}
+
+// salesforce financial cloud intro css starts here
+.salesforce-financial-cloud-intro {
+    padding: 80px 0 80px 0;
+    background: $color__fill-box;
+
+    .salesforce-financial-cloud-intro-inner {
+        h2 {
+            @extend .mainHeading;
+        }
+
+        .sub-column {
+            color: $secondryColor;
+        }
+
+        p {
+            @extend .txtDescription;
+            padding: 10px 0 0px 0;
+        }
+
+        .align-vt_center {
+            align-items: center;
+        }
+
+        button {
+            @extend .btnbase;
+            text-transform: capitalize;
+        }
+
+        button:hover {
+            @extend .btnhover;
+        }
+
+        img {
+            border-radius: 20px;
+            width: 70%;
+        }
+    }
+}
+
+// salesforce financial cloud intro css ends here
+
+// salesforce financial cloud services css starts here
+.salesforce-financial-cloud-services {
+    padding: 80px 0 80px 0;
+
+    .salesforce-financial-cloud-services-inner {
+        h2 {
+            @extend .mainHeading;
+        }
+
+        .sub-column {
+            color: $secondryColor;
+        }
+
+        p {
+            @extend .txtDescription;
+            padding: 0px 0 10px 0;
+        }
+
+        .align-vt_center {
+            align-items: center;
+        }
+
+        button {
+            @extend .btnbase;
+            text-transform: capitalize;
+        }
+
+        button:hover {
+            @extend .btnhover;
+        }
+
+        .count-box {
+            box-shadow: 8px 8px 30px 0px #2a43712e;
+            border-radius: 15px;
+            padding: 10px 32px 0px 32px;
+            height: 100%;
+        }
+    }
+}
+
+// salesforce financial cloud services css ends here
+
+// salesforce financial cloud specialization css starts here
+.salesforce__financial__cloud-specialization {
+    padding: 0px 0 80px 0;
+
+    .salesforce__financial__cloud-specialization-inner {
+        h2 {
+            @extend .mainHeading;
+        }
+
+        .sub-column {
+            color: $secondryColor;
+        }
+
+        p {
+            @extend .txtDescription;
+            padding: 0px 0 10px 0;
+        }
+
+        .align-vt_center {
+            align-items: center;
+        }
+
+        button {
+            @extend .btnbase;
+            text-transform: capitalize;
+        }
+
+        button:hover {
+            @extend .btnhover;
+        }
+
+        .salesforce__financial__cloud-specialization-box {
+            border-radius: 15px;
+            padding: 10px 32px 0px 32px;
+            height: 100%;
+
+            p {
+                font-size: 16px;
+            }
+
+            h4 {
+                @extend .boxsubHeading;
+            }
+        }
+    }
+}
+
+// salesforce financial cloud specialization css ends here
+
+// salesforce consulting services css starts here
+.salesforce__financial__service__cloud-advantages {
+    padding: 0px 0 0px 0;
+
+    .salesforce__financial__service__cloud-advantages-inner {
+        ul {
+            list-style: none;
+            padding: 0;
+
+            li {
+                padding: 3px 0px;
+            }
+        }
+
+        h2 {
+            @extend .mainHeading;
+        }
+
+        .sub-column {
+            color: $secondryColor;
+        }
+
+        p {
+            @extend .txtDescription;
+            padding: 0px 0 10px 0;
+        }
+
+        .align-vt_center {
+            align-items: center;
+        }
+
+        button {
+            @extend .btnbase;
+            text-transform: capitalize;
+        }
+
+        button:hover {
+            @extend .btnhover;
+        }
+
+        .salesforce-consulting-services-box {
+            border-radius: 15px;
+            height: 100%;
+
+            p {
+                @extend .txtDescription;
+                padding: 0;
+            }
+
+            h4 {
+                @extend .boxsubHeading;
+            }
+
+            img {
+                border-radius: 10px;
+            }
+        }
+    }
+}
+
+// salesforce consulting services css ends here
+
+
+// salesforce-consultancy partner css starts here
+.salesforce-financial-cloud__partner {
+    padding: 0px 0 0px 0;
+
+    .salesforce-financial-cloud__partner-inner {
+        h2 {
+            @extend .mainHeading;
+        }
+
+        .sub-column {
+            color: $secondryColor;
+        }
+
+        p {
+            @extend .txtDescription;
+            padding: 0px 0 10px 0;
+        }
+
+        .align-vt_center {
+            align-items: center;
+        }
+
+        button {
+            @extend .btnbase;
+            text-transform: capitalize;
+        }
+
+        button:hover {
+            @extend .btnhover;
+        }
+
+        .salesforce-financial-cloud__partner-main {
+            border: 1px solid $color__fill-dark-grey;
+            padding: 16px 0;
+            margin: -0.5px;
+            flex: 0 0 26%;
+        }
+
+        .salesforce-financial-cloud__partner-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .salesforce-financial-cloud__partner-box {
+            border-radius: 15px;
+            padding: 10px 32px 0px 32px;
+            height: 100%;
+
+            p {
+                font-size: 16px;
+            }
+
+            img {
+                border-radius: 10px;
+            }
+
+            i {
+                font-size: 60px;
+                color: $primaryColor;
+                margin: 0 0 15px 0;
+            }
+        }
+
+        .salesforce-financial-cloud__partner-description {
+            p {
+                font-size: 27px;
+            }
+
+            .salesforce-financial-cloud__partner-divider {
+                height: 4px;
+                background: $secondryColor;
+                width: 100px;
+                text-align: center;
+                margin: 22px auto 14px 0;
+            }
+        }
+    }
+}
+
+// salesforce-consultancy partner css ends here

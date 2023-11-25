@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_47676" data-name="Path 47676" d="M0,0H500V500H0Z"/>
+    </clipPath>
+    <clipPath id="clip-wireframe">
+      <rect width="500" height="500"/>
+    </clipPath>
+  </defs>
+  <g id="wireframe" clip-path="url(#clip-wireframe)">
+    <g id="_1328-web-design-outline" data-name="1328-web-design-outline" clip-path="url(#clip-path)">
+      <g id="Group_3968" data-name="Group 3968">
+        <path id="Path_47670" data-name="Path 47670" d="M130.036,192.442h92.832m-92.832,40.334h92.832m-92.832,40.333h92.832m-92.832,40.333h46.416" fill="none" stroke="#121331" stroke-linecap="round" stroke-linejoin="round" stroke-width="12.04"/>
+        <path id="Path_47671" data-name="Path 47671" d="M369.964,368.442h-111.4V190.694h111.4V368.442Zm-111.4-177.748,111.4,177.748m0-177.748-111.4,177.748" fill="none" stroke="#2f4ccc" stroke-linecap="round" stroke-linejoin="round" stroke-width="12.04"/>
+      </g>
+      <g id="Group_3969" data-name="Group 3969">
+        <path id="Path_47674" data-name="Path 47674" d="M387.712,410.119H112.288a22.407,22.407,0,0,1-22.407-22.407V112.288a22.407,22.407,0,0,1,22.407-22.407H387.712a22.407,22.407,0,0,1,22.407,22.407V387.712a22.407,22.407,0,0,1-22.407,22.407Zm20.407-268.865H89.881" fill="none" stroke="#121331" stroke-linecap="round" stroke-linejoin="round" stroke-width="12.04"/>
+        <path id="Path_47675" data-name="Path 47675" d="M177.864,115.567H178m-56.432,0h.136m28.012,0h.136" fill="none" stroke="#2f4ccc" stroke-linecap="round" stroke-linejoin="round" stroke-width="15.05"/>
+      </g>
+    </g>
+  </g>
+</svg>

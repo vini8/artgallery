@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Oak Tree Software - Innovation In Cloud</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="../assets/img/favicon_new.png">
+    <link rel="stylesheet" type="text/css" href="how-react-native-can-be-a-game-changer.css">
+    <link rel="stylesheet" type="text/css" href="blog.css">
+    <link rel="stylesheet" type="text/css" href="../styles/footer.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/lord-icon-2.1.0.js"></script>
+    <!-- <script src="../js/main.js"></script> -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- Blog react native game changer Banner section starts here -->
+    <!-- <section class="blog-react-native-game-changer-banner-section">
+        <div class="banner-bg-overlay"></div>
+        <div class="container">
+            <div class="banner-inner-container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div>
+                            <h1>React Native</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- Blog react native game changer Banner section ends here -->
+    <!-- Header starts here -->
+    <div class="header-container" id="navbar_top">
+        <div class="header-inner-container">
+            <div class="container">
+                <nav class="navbar navbar-expand-sm navbar-dark">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="../index.html"><img src="../../assets/img/logo.png"
+                                alt="Oak Tree Cloud" width="130px" class="home-logo"></a>
+                        <a class="navbar-brand" href="../index.html"><img src="../../assets/img/logo-color.png"
+                                alt="Oak Tree Cloud" width="130px" height="auto" class="home-logo-black"></a>
+                        <button class="navbar-toggler home-mobile-toggle" type="button" type="button"
+                            data-bs-toggle="offcanvas" data-bs-target="#offcanvasMobileMenu"
+                            aria-controls="offcanvasMobileMenu">
+                            <i class="fa fa-bars home-mobile-toggle-icon" aria-hidden="true"></i>
+                        </button>
+                        <!-- mobile offcanvas menu starts here -->
+
+                        <div class="offcanvas offcanvas-start d-lg-none d-md-none d-sm-none" tabindex="-1"
+                            id="offcanvasMobileMenu" aria-labelledby="offcanvasMobile">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasMobile">
+                                    <img src="../assets/img/logo-color.png" alt="Oak Tree Cloud" width="100px"
+                                        height="auto" class="">
+                                </h5>
+                                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <div>
+                                    <ul class="mobile-menu-list">
+                                        <li><a href="../index.html"
+                                                class="mobile-menu-item mobile-menu-item-active">Home</a></li>
+                                        <li><a href="../about/about.html" class="mobile-menu-item">About Us</a></li>
+                                        <li><a href="../case-studies/case-studies.html" class="mobile-menu-item">Case
+                                                Studies</a></li>
+                                        <li>
+                                            <a class="mobile-menu-item" data-bs-toggle="collapse"
+                                                href="#collapseService" role="button" aria-expanded="false"
+                                                aria-controls="collapseService">
+                                                Services <span class="float-end"><i class="fa fa-caret-down"
+                                                        aria-hidden="true"></i></span>
+                                            </a>
+                                            <div class="collapse" id="collapseService">
+                                                <div class="">
+                                                    <ul>
+                                                        <li><a href="../services/salesforce/salesforce.html"
+                                                                class="mobile-submenu-item">- Salesforce</a></li>
+                                                        <li><a href="../services/ror1/ror1.html"
+                                                                class="mobile-submenu-item">- Ruby on Rails</a></li>
+                                                        <li><a href="../services/reactjs/reactjs.html"
+                                                                class="mobile-submenu-item">- React JS</a></li>
+                                                        <li><a href="../services/fullstack/full-stack.html"
+                                                                class="mobile-submenu-item">- Full Stack Development</a>
+                                                        </li>
+                                                        <li><a href="../heroku/heroku.html"
+                                                                class="mobile-submenu-item">- Heroku</a></li>
+                                                        <li><a href="../aws-development/aws-development.html"
+                                                                class="mobile-submenu-item">- Aws Development</a></li>
+                                                        <li><a href="../services/marketingcloud/marketingcloud.html"
+                                                                class="mobile-submenu-item">- Marketing Cloud</a></li>
+                                                        <li><a href="../services/integrationandmigration/integrationandmigration.html"
+                                                                class="mobile-submenu-item">- Integration &
+                                                                Migration</a></li>
+                                                        <li><a href="../nodejs/nodejs.html"
+                                                                class="mobile-submenu-item">- NodeJS Development</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a class="mobile-menu-item" data-bs-toggle="collapse"
+                                                href="#collapseResources" role="button" aria-expanded="false"
+                                                aria-controls="collapseResources">
+                                                Resources <span class="float-end"><i class="fa fa-caret-down"
+                                                        aria-hidden="true"></i></span>
+                                            </a>
+                                            <div class="collapse" id="collapseResources">
+                                                <div class="">
+                                                    <ul>
+                                                        <li><a href="blog/blog.html" class="mobile-submenu-item">-
+                                                                Blog</a></li>
+                                                        <li><a href="whitepaper/whitepaper.html"
+                                                                class="mobile-submenu-item">- Whitepaper</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li><a href="start-up/start-up.html" class="mobile-menu-item">Start Up</a></li>
+                                        <li><a href="contact/contact.html" class="mobile-menu-item">Contact Us</a></li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- mobile offcanvas menu ends here -->
+                        <div class="collapse navbar-collapse d-none" id="mynavbar">
+                            <ul class="navbar-nav mh-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="../index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../about/about.html">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../case-studies/case-studies.html">Case Studies</a>
+                                </li>
+                                <li class="dropdown nav-item mega-dropdown">
+                                    <a href="javascript:void(0)" class="dropdown-toggle nav-link"
+                                        data-toggle="dropdown">Services <b class="caret"></b></a>
+                                    <div class="dropdown-menu mega-dropdown-menu">
+                                        <ul style="display: flex;">
+                                            <li>
+                                                <ul>
+                                                    <li><a href="../services/salesforce/salesforce.html">-
+                                                            Salesforce</a></li>
+                                                    <li class="nav-sub-item"><a href="../services/ror1/ror1.html">- Ruby
+                                                            on Rails</a></li>
+                                                    <li class="nav-sub-item"><a
+                                                            href="../services/reactjs/reactjs.html">- React JS</a></li>
+                                                    <li class="nav-sub-item"><a
+                                                            href="../services/fullstack/full-stack.html">- Full
+                                                            Stack
+                                                            Development</a></li>
+                                                    <li class="nav-sub-item"><a href="../heroku/heroku.html">-
+                                                            Heroku</a></li>
+                                                    <li class="nav-sub-item"><a
+                                                            href="../aws-development/aws-development.html">- Aws
+                                                            development</a></li>
+                                                    <li class="nav-sub-item"><a
+                                                            href="../services/marketingcloud/marketingcloud.html">-
+                                                            Marketing Cloud</a></li>
+                                                    <li class="nav-sub-item"><a
+                                                            href="../services/integrationandmigration/integrationandmigration.html">-
+                                                            Integration & Migration</a></li>
+                                                    <li class="nav-sub-item"><a href="../nodejs/nodejs.html">- NodeJS
+                                                            Development</a></li>
+                                                </ul>
+                                            </li>
+                                            <li></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="dropdown nav-item mega-dropdown">
+                                    <a href="javascript:void(0)" class="dropdown-toggle nav-link"
+                                        data-toggle="dropdown">Resources <b class="caret"></b></a>
+                                    <div class="dropdown-menu mega-dropdown-menu">
+                                        <ul style="display: flex;">
+                                            <li>
+                                                <ul>
+                                                    <li class="nav-sub-item"><a href="../blog/blog.html">- Blog</a></li>
+                                                    <li class="nav-sub-item"><a href="../whitepaper/whitepaper.html">-
+                                                            Whitepaper</a></li>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../start-up/start-up.html">Start Up</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../contact/contact.html">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- Header ends here -->
+
+    <div class="container">
+        <div class="instagram-blog page-top_space">
+            <div class="row">
+                <div class="col-xl-8 col-lg-7">
+                    <!-- react native game changer intro section starts here -->
+                    <section class="">
+                        <div class="container">
+                            <div class="">
+                                <div class="row align-vt_center">
+                                    <div class="col-lg-12 m-auto">
+                                        <div class="col-lg-12">
+                                            <div class="">
+                                                    <h1> <span class="sub-column">The Price of Innovation:</span> Exploring the Costs Involved in Building an App Like Instagram Threads</h1>
+                                                    <img src="../assets/img/instagram-blog.webp" alt="no img" class="w-100 rounded mb-2">
+                                                <div class="description">
+                                                    <p class="p-0">In a surprising move that left social media enthusiasts buzzing, Meta, formerly known as Facebook, recently unveiled its latest venture - Instagram Threads.
+                                                    </p>
+                                                    <p class="p-0">This new app, described as a Twitter-like platform, takes inspiration from the fast-paced world of microblogging and offers a fresh way to express yourself, connect with others, and stay up to date with the latest trends.</p>
+                                                    <p class="p-0">As the popularity of private messaging continues to surge, Instagram Threads steps in as the ultimate companion app, offering a seamless and intimate way to stay connected with your inner circle. But before you dive headfirst into this virtual world of personalized chats and automatic updates, there's one crucial question on your mind: What does it take to develop an app like Instagram Threads, and what might be the cost involved?</p>
+                                                    <p class="p-0">Well, you're in for a treat! In this captivating blog, we'll dive into the world of app development and uncover the mysteries surrounding the <b><i>cost of developing a captivating social media platform like Instagram Threads.</i></b> </p>
+                                                    <p class="p-0">In this blog, we dive deep into the world of Instagram Threads, exploring its features, functionalities, and cost.</p>
+                                                </div>
+                                                <div>
+                                                    <h2 class="mt-5 mb-3"><span class="border-before_bottom">What is Instagram threads?</span></h2>
+                                                    <p class="p-0">Threads, the sensational new app from Meta (formerly known as Facebook), has taken the social media world by storm, aiming to give Twitter a run for its money. With a strong focus on real-time conversations, this ground-breaking platform centers around text-based posts while also allowing users to share captivating photos and videos, making it a compelling choice for social media enthusiasts. In an astonishingly short span of time, Threads has achieved unprecedented success, attracting a staggering 30 million sign-ups as of Thursday morning.</p>
+                                                    <p class="p-0">Moreover, Threads empowers users with the freedom to decide the level of privacy they prefer. While the app encourages close connections and private conversations, users can choose to keep their Threads account either public or private. This flexibility ensures that users have control over their online presence and the ability to curate their desired social media experience.</p>
+                                                    <p class="p-0">With brands, celebrities, and influential individuals embracing Instagram Threads, the app has become a hub for genuine and meaningful interactions. It offers a unique space where users can connect with their favorite personalities, access exclusive content, and participate in conversations that go beyond the public eye. By bridging the gap between public and private communication, Threads opens up new avenues for engagement and connection in the digital realm.</p>
+
+                                                    <h2 class="mt-5 mb-3"><span class="border-before_bottom">How does Instagram Threads Work?</span></h2>
+                                                    <p class="p-0">This innovative platform seamlessly integrates with your existing Instagram username, unlocking a world of engaging possibilities. Let's embark on a journey through the unique features that make Threads a must-have for every social media enthusiast.</p>
+                                                    <p class="p-0"><b class="me-2">The Familiarity of Instagram, Elevated:</b>Threads merges the familiar aesthetics and navigation system of Instagram, ensuring a seamless and intuitive user experience. Navigating through the app feels like second nature, as if you're exploring an extension of your Instagram world. This integration effortlessly bridges the gap between private and public conversations, allowing you to effortlessly connect with like-minded individuals.</p>
+                                                    <p class="p-0"><b class="me-2">Expand Your Reach with Instagram Stories:</b>One of the highlights of Threads is its seamless integration with Instagram Stories. By sharing your content directly to Instagram Stories, you expand its reach beyond Threads' user base. Your voice echoes through the Instagram community, capturing the attention of a wider audience and amplifying your message.</p>
+                                                    <p class="p-0"><b class="me-2">Empowering Interactions and Control:</b>Threads put you in the driver's seat, giving you complete control over your interactions. You have the power to unfollow, block, restrict, and report profiles, ensuring that your online experience aligns with your preferences and values. With Threads, you can curate a safe and enjoyable environment that fosters meaningful conversations.</p>
+                                                    <p class="p-0"><b class="me-2">Expressive and Dynamic Content Creation:</b>With a character limit of 500, Threads empowers you to express yourself fully. Text, links, photos, and videos up to 5 minutes long serve as your creative arsenal, enabling you to convey your thoughts, share captivating visuals, and engage your audience in immersive storytelling. Threads are your canvas, and the possibilities for self-expression are limitless.</p>
+                                                    <p class="p-0"><b class="me-2">Community Guidelines and Responsible Engagement:</b>While Threads encourages vibrant discussions, it operates within the framework of Instagram's community guidelines. This ensures a responsible and respectful online environment where users can engage with each other while adhering to established norms. Threads empower you to share your voice and connect with others while upholding the values that make the Instagram community thrive.</p>
+                                                </div>
+                                                <div class="mt-5 pt-3">
+                                                    <h1>How Much Does it Cost to Build a Social Media App Like Threads?</h1>
+                                                    <p>Building a social media app like Instagram Threads requires careful consideration of various factors, including development, design, infrastructure, and ongoing maintenance. While it's challenging to provide an exact cost, let's delve into the key aspects that influence the overall expenses involved in creating such an engaging platform.</p>
+                                                    <h2>Planning and Research</h2>
+                                                    <p>The initial phase involves planning and conducting thorough market research to define the app's concept, target audience, and unique selling points. This stage lays the foundation for subsequent development steps and helps estimate the overall cost.</p>
+                                                    <h2>Development Team</h2>
+                                                    <p>The cost of building a social media app like Instagram Threads heavily relies on the development team. It typically includes project managers, UI/UX designers, front-end and back-end developers, quality assurance engineers, and possibly data analysts. The team's size and expertise impact the overall development cost.</p>
+                                                    <h2>Features and Functionality</h2>
+                                                    <p>The complexity and breadth of features heavily influence the development cost. Features like user profiles, multimedia sharing, push notifications, search functionality, privacy controls, and integration with external platforms all contribute to the overall expenses. Advanced features, such as machine learning algorithms for auto-status updates, may require additional investment.</p>
+                                                    <h2>Design and User Experience</h2>
+                                                    <p>Investing in a visually appealing and user-friendly design is essential for a social media app like Instagram Threads. UI/UX designers ensure seamless navigation, engaging interactions, and an intuitive interface, enhancing user satisfaction and retention. The design intricacies and level of customization required can impact the development cost.</p>
+                                                    <h2>Infrastructure and Backend Development</h2>
+                                                    <p>Building a scalable and robust infrastructure is crucial for handling the increasing user base and data storage. This involves backend development, server setup, database management, and integration with cloud services. The cost depends on the infrastructure complexity and the anticipated user load.</p>
+                                                    <h2>Testing and Quality Assurance</h2>
+                                                    <p>Rigorous testing and quality assurance processes are vital to ensure a smooth and error-free user experience. This includes functional testing, compatibility testing, security testing, and performance optimization. Allocating adequate resources and time for testing is essential, as it impacts the overall cost.</p>
+                                                    <h2>Ongoing Maintenance and Updates</h2>
+                                                    <p class="p-0">Launching the app is just the beginning. Ongoing maintenance, bug fixing, feature updates, and security enhancements are critical to providing a seamless user experience and staying competitive in the ever-evolving social media landscape. These factors contribute to the long-term cost of app maintenance.</p>
+                                                    <p class="p-0">While it's challenging to provide an exact figure, the <b><i>development cost for a social media app like Instagram Threads</i></b> can range from tens of thousands to hundreds of thousands of dollars, depending on the scale and complexity of the project.</p>
+                                                    <p class="p-0">Creating a social media app like Instagram Threads requires careful planning, skilled development teams, and a focus on delivering an exceptional user experience. It's crucial to consider the desired features, scalability, design, and integration with advanced technologies to make the app stand out in a competitive landscape.</p>
+                                                    <p class="p-0">While the cost may seem substantial, it is important to view it as an investment in creating a high-quality, engaging platform that can attract and retain users. Remember to conduct thorough research, consult with experts, and create a detailed project plan to obtain a more accurate cost estimate based on your specific needs.</p>
+                                                    <p>In the end, developing an app like Instagram Threads involves not just financial investment but also a dedication to building a compelling and captivating platform that connects people, fosters meaningful conversations, and provides a unique user experience in the dynamic world of social media.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </section>
+                    <!-- react native game changer intro section ends here -->
+                </div>
+                <div class="col-xl-4 col-lg-5">
+                    <div class="card position-sticky top-0">
+                        <div class="card-body">
+                            <h2>Features of <span class="sub-column">Instagram Threads</span> App to Consider</h2>
+                            <p class="p-0">When <b><i>developing an app like Instagram Threads</i></b> , it's crucial to understand the key features that will provide users with a seamless and engaging experience and additionally affects the threads app development cost. Let's delve into three essential features: profile creation, follow/unfollow functionality, and creating a new thread.</p>
+                            <p class="pb-1 mb-0"><i class="fa fa-check-circle text-success"></i> <b>Profile Creation</b></p>
+                            <p class="p-0">Profile creation is the first step for users to establish their presence within the app. Allow users to create unique profiles, providing essential information such as username, profile picture, and bio. Encourage personalization by enabling users to customize their profiles with cover photos, themes, or stickers that reflect their individuality. A well-designed profile page sets the stage for users to express themselves and connect with others.</p>
+                            <p class="pb-1 mb-0"><i class="fa fa-check-circle text-success"></i> <b>Follow/Unfollow Functionality</b></p>
+                            <p class="p-0">Implementing a follow/unfollow functionality is vital to facilitate connections and allow users to curate their network. Users should be able to follow or unfollow other users, thereby shaping their own feeds and the content they see. Ensure a user-friendly interface that allows for easy discovery of other profiles, with options to search for specific users or explore suggested accounts based on common interests.</p>
+                            <p class="pb-1 mb-0"><i class="fa fa-check-circle text-success"></i> <b>Search</b></p>
+                            <p class="p-0">The Threads app offers a search feature in the menu bar, allowing users to enter search queries and discover user-profiles and posts.</p>
+                            <p class="pb-1 mb-0"><i class="fa fa-check-circle text-success"></i> <b>Create a New Thread</b></p>
+                            <p class="p-0">With a "New Thread" option in Instagram Threads, users can create and share posts with their followers. These posts can include images, videos, text, and links. Users have control over the privacy settings, allowing them to choose who can interact with their posts. They can select options such as allowing anyone to engage, only profiles they follow, or only mentioned profiles. It's a way to express and connect with others in a personalized and controlled manner.</p>
+                            <p class="pb-1 mb-0"><i class="fa fa-check-circle text-success"></i> <b>Thread Reactions</b></p>
+                            <p class="p-0">React to specific messages within a thread with a diverse set of emojis. Let your friends know how you feel about their messages without interrupting the flow of the conversation.</p>
+                            <p class="pb-1 mb-0"><i class="fa fa-check-circle text-success"></i> <b>Thread Mentions</b></p>
+                            <p class="p-0">Want to get someone's attention in a busy thread? Simply use the @mention feature to notify specific participants. They'll receive a notification, ensuring they never miss an important message again.</p>
+                            <p class="pb-1 mb-0"><i class="fa fa-check-circle text-success"></i> <b>Share the Thread on Instagram</b></p>
+                            <p class="p-0">Users have the ability to share their threads directly on the main Instagram platform. This feature seamlessly bridges the gap between the two apps, allowing users to extend their conversations and experiences to a wider audience.</p>
+                            <p class="p-0 m-0"><a href="">Now moving forward to
+                                <span class="ms-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-box-arrow-in-up-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M6.364 13.5a.5.5 0 0 0 .5.5H13.5a1.5 1.5 0 0 0 1.5-1.5v-10A1.5 1.5 0 0 0 13.5 1h-10A1.5 1.5 0 0 0 2 2.5v6.636a.5.5 0 1 0 1 0V2.5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v10a.5.5 0 0 1-.5.5H6.864a.5.5 0 0 0-.5.5z"/>
+                                    <path fill-rule="evenodd" d="M11 5.5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793l-8.147 8.146a.5.5 0 0 0 .708.708L10 6.707V10.5a.5.5 0 0 0 1 0v-5z"/>
+                                    </svg>
+                                </span> </a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="text-center col-lg-8 m-auto pt-5 mt-5">
+                        <h1>Trustworthy <span class="sub-column">Social Media App</span> Development Company in India, USA, and UAE</h1>
+                        <p>Oaktree Software is the perfect companion to guide you through the journey of building an app like Instagram Threads. With our wealth of experience in mobile app development and a profound understanding of social media platforms, we possess the expertise to transform your vision into reality. Our team will collaborate closely with you, from strategic planning and innovative design to seamless development and rigorous quality assurance. We prioritize transparent communication, ensuring that your unique requirements and objectives are met at every stage of the process. Trust Oaktree Software to be your reliable partner in crafting an engaging and dynamic Instagram Threads app that captivates users and stands out in the competitive landscape.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="faq">
+    <div class="container">
+      <div class="faq-inner">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="row align-vt_center">
+              <div class="col-lg-12 m-auto">
+                <div class="quote-sub-title mb-4 text-center">
+                  <h2>FAQ's</h2>
+                </div>
+                <div class="description collapse-section mb-4">
+                  <p>
+                    <a class="h4 text-black text-decoration-none" data-toggle="collapse" href="#collapseFaq1" role="button" aria-expanded="false" aria-controls="collapseFaq1">
+                      <b>Can you provide a rough estimate of the cost to develop an app like Instagram Threads?</b>
+                    </a>
+                  </p>
+                  <div class="collapse" id="collapseFaq1">
+                    <div class="card-body">
+                      The cost can range from $100,000 to $500,000 or more, depending on the specific requirements and variables of the project.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="description collapse-section mb-4">
+                  <p>
+                    <a class="h4 text-black text-decoration-none" data-toggle="collapse" href="#collapseFaq2" role="button" aria-expanded="false" aria-controls="collapseFaq2">
+                      <b>Are there any ongoing costs associated with app development?</b>
+                    </a>
+                  </p>
+                  <div class="collapse" id="collapseFaq2">
+                    <div class="card-body">
+                      Yes, ongoing costs include maintenance, updates, hosting, and any additional features or integrations implemented post-launch.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="description collapse-section mb-4">
+                  <p>
+                    <a class="h4 text-black text-decoration-none" data-toggle="collapse" href="#collapseFaq3" role="button" aria-expanded="false" aria-controls="collapseFaq3">
+                      <b>How can I reduce the cost of app development without compromising quality?</b>
+                    </a>
+                  </p>
+                  <div class="collapse" id="collapseFaq3">
+                    <div class="card-body">
+                      Prioritize essential features, conduct thorough planning, and work with an experienced development team that can offer cost-effective solutions.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="description collapse-section mb-4">
+                  <p>
+                    <a class="h4 text-black text-decoration-none" data-toggle="collapse" href="#collapseFaq4" role="button" aria-expanded="false" aria-controls="collapseFaq4">
+                      <b>Can I get a detailed cost breakdown for my specific app development project?</b>
+                    </a>
+                  </p>
+                  <div class="collapse" id="collapseFaq4">
+                    <div class="card-body">
+                      Yes, a detailed cost breakdown can be provided by consulting with development experts who can analyze your project requirements and provide a customized estimate.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="description collapse-section mb-4">
+                  <p>
+                    <a class="h4 text-black text-decoration-none" data-toggle="collapse" href="#collapseFaq5" role="button" aria-expanded="false" aria-controls="collapseFaq5">
+                      <b>How long does it take to develop an app like Instagram Threads?</b>
+                    </a>
+                  </p>
+                  <div class="collapse" id="collapseFaq5">
+                    <div class="card-body">
+                      The development timeline depends on factors such as the complexity of features, team size, and project scope. Typically, it can take several months to complete the development process.
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- Footer section starts here -->
+    <section>
+        <footer>
+            <div class="container pt-5">
+                <div>
+                    <div class="row">
+                        <div class="col-sm-3 mb-5">
+                            <div class="pb-3">
+                                <h4>Contact</h4>
+                            </div>
+                            <div>
+                                <ul>
+                                    <li class="footer-contact-address">
+                                        <span>
+                                            <i class="fa fa-map-marker-alt me-2"></i>
+                                            Shekhar Central, 8th, Floor, 801-802, Palasia Square, Manorama Ganj,
+                                            Indore, Madhya Pradesh 452001
+                                        </span>
+                                    </li>
+                                    <li><a href="mailto:hr@oaktreecloud.com%20"><span><i
+                                                    class="fas fa-envelope me-2"></i></span>hr@oaktreecloud.com</a></li>
+                                    <li><a href="tel:+91%2007314991873"><span><i
+                                                    class="fas fa-phone me-2"></i></span>+91 07314991873</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 mb-5">
+                            <div class="pb-3">
+                                <h4>Other Links</h4>
+                            </div>
+                            <div>
+                                <ul>
+                                    <li><a href="../blog/blog.html"><span><i
+                                                    class="fa fa-chevron-right footer-link-pre-icon"></i></span>Blogs</a>
+                                    </li>
+                                    <li><a href="../whitepaper/whitepaper.html"><span><i
+                                                    class="fa fa-chevron-right footer-link-pre-icon"></i></span>Whitepapers</a>
+                                    </li>
+                                    <li><a href="../case-studies/case-studies.html"><span><i
+                                                    class="fa fa-chevron-right footer-link-pre-icon"></i></span>Case
+                                            Studies</a>
+                                    </li>
+                                </ul>
+                                <div class="mt-4 social-icon-container">
+                                    <a href="https://in.linkedin.com/company/oaktreesoft" target="_blank"
+                                        title="Linkedin">
+                                        <div class="footer-linked"></div>
+                                    </a>
+                                    <a href="https://www.facebook.com/oak.treecloud.9" target="_blank" title="Facebook">
+                                        <div class="footer-facebook"></div>
+                                    </a>
+                                    <a href="https://www.instagram.com/oaktreecloud/" target="_blank" title="Instagram">
+                                        <div class="footer-instagram"></div>
+                                    </a>
+                                    <a href="https://twitter.com/SoftwareOak" target="_blank" title="Twitter">
+                                        <div class="footer-twitter"></div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 mb-5">
+                            <div class="pb-3">
+                                <h4>Reach Us</h4>
+                            </div>
+                            <div>
+                                <form action="">
+                                    <div class="row">
+                                        <div class="col-lg-6 mb-3">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control input-custom-footer" id=""
+                                                    aria-describedby="email" placeholder="First Name">
+                                                <i class="fa fa-user input-footer-pre-icon"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 mb-3">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control input-custom-footer" id=""
+                                                    aria-describedby="email" placeholder="Last Name">
+                                                <i class="fa fa-user input-footer-pre-icon"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 mb-3">
+                                            <div class="form-group">
+                                                <input type="email" class="form-control input-custom-footer" id=""
+                                                    aria-describedby="email" placeholder="Email Address">
+                                                <i class="fa fa-envelope input-footer-pre-icon"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 mb-3">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control input-custom-footer" id=""
+                                                    aria-describedby="email" placeholder="Contact Number">
+                                                <i class="fa fa-phone input-footer-pre-icon"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 mb-3">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control input-custom-footer" id=""
+                                                    aria-describedby="email" placeholder="Subject">
+                                                <i class="fa fa-file input-footer-pre-icon"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 mb-3">
+                                            <div class="form-group">
+                                                <textarea name="" id="" cols="30" rows="2"
+                                                    class="form-control input-custom-footer"
+                                                    placeholder="Message"></textarea>
+                                                <i class="fa fa-comment input-footer-pre-icon"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 mb-3">
+                                            <div class="form-group">
+                                                <button class="footer-msg-btn">Send Message</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container pt-3 copyright-divider">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <p>© 2022 Oak Tree Software. All Rights Reserved.</p>
+                    </div>
+                    <div class="col-lg-6 text-end">
+                        <p><a href="">Terms of Service</a></p>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+    <!-- Footer section ends here -->
+
+    <!-- Modal -->
+  <div class="modal fade contact-modal" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content contact-modal-content">
+        <div class="modal-header contact-modal-header">
+          <!-- <div class="contact-modal-overlay"></div> -->
+          <h5 class="modal-title p-4" id="contactModalLabel">Contact us</h5>
+          <button type="button" class="btn-close contact-btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body contact-modal-body">
+          <div class="row">
+            <div class="col-lg-12">
+              <form>
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="form-group">
+                      <i class="fa fa-user contact-pre-icon"></i>
+                      <input type="text" class="form-control contact-input-custom" id="firstname"
+                        aria-describedby="firstname" placeholder="First Name">
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="form-group">
+                      <i class="fa fa-user contact-pre-icon"></i>
+                      <input type="text" class="form-control contact-input-custom" id="lastname"
+                        aria-describedby="lastname" placeholder="Last Name">
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="form-group">
+                      <i class="fas fa-envelope contact-pre-icon"></i>
+                      <input type="email" class="form-control contact-input-custom" id="" aria-describedby="email"
+                        placeholder="Email Address">
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="form-group">
+                      <i class="fa fa-phone contact-pre-icon"></i>
+                      <input type="text" class="form-control contact-input-custom" id="contact"
+                        aria-describedby="contact" placeholder="Contact Number">
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="form-group">
+                      <i class="fa fa-file contact-pre-icon"></i>
+                      <input type="text" class="form-control contact-input-custom" id="subject"
+                        aria-describedby="subject" placeholder="Subject">
+                    </div>
+                  </div>
+                  <div class="col-lg-12 mb-3">
+                    <div class="form-group">
+                      <i class="fa fa-comment contact-pre-icon"></i>
+                      <textarea class="form-control rounded-0 contact-custom-txt-area" id="exampleFormControlTextarea2"
+                        rows="3" placeholder="Message"></textarea>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer contact-modal-footer">
+          <div class="col-lg-12">
+            <div>
+              <div class="row">
+                <div class="col-lg-8">
+                  <p class="share-info-txt"><span class="me-2"><img src="../../component/svg/info-fill.svg" alt="info"
+                        class="contact-info-img"></span> We will not share your details with any 3rd party</p>
+                </div>
+                <div class="col-lg-4">
+                  <button class="btn contact-check-btn btn-sm">Submit</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+<style>
+    .page-top_space {
+        margin-top: 135px;
+    }
+</style>
+
+</html>

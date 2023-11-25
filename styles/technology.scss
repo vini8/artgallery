@@ -1,0 +1,148 @@
+@import "../styles/typography.scss";
+@import "../styles/variables.scss";
+
+.blue-column {
+  color: $primaryColor;
+}
+.technology__verticals {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(2, minmax(240px, 2fr));
+  grid-gap: 1rem;
+
+  .blue-column {
+    color: $primaryColor;
+  }
+
+  &-mobile {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 2fr));
+    grid-gap: 0rem;
+
+    border: 1px solid #ebebeb;
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+
+    &__iconcontainer {
+      display: grid;
+      align-items: center;
+      grid-template-columns: repeat(auto-fit, minmax(90px, 2fr));
+      grid-gap: 0.5rem;
+
+      a {
+        text-decoration: none;
+      }
+
+      h3 {
+        font-size: 15px;
+        font-weight: normal;
+        color: #000000;
+        font-family: "NovemberPro-Reg" !important;
+      }
+
+      &-iconsingle {
+        margin-bottom: 30px;
+        // border: 1px solid #ebebeb;
+        text-align: center;
+
+        .applicable-technology-sprite-icon {
+          //   background: #000;
+          background-image: url("../assets/img/technologies-sprite-icon.png");
+          background-repeat: no-repeat;
+
+          &.icon70 {
+            width: 70px;
+            height: 70px;
+            display: block;
+          }
+          &.ios {
+            background-position: 2px 1px;
+            margin: 0 auto;
+          }
+          &.android {
+            background-position: -97px 1px;
+            margin: 0 auto;
+          }
+          &.react-native {
+            background-position: -196px 1px;
+            margin: 0 auto;
+          }
+          &.xamrin {
+            background-position: -295px 1px;
+            margin: 0 auto;
+          }
+          &.react-native {
+            background-position: -196px 1px;
+            margin: 0 auto;
+          }
+          &.angular {
+            background-position: -394px 1px;
+            margin: 0 auto;
+          }
+          &.react {
+            background-position: -493px 1px;
+            margin: 0 auto;
+          }
+          &.html-5 {
+            background-position: -691px 1px;
+            margin: 0 auto;
+          }
+          &.type-script {
+            background-position: -890px 1px;
+            margin: 0 auto;
+          }
+          &.java-script {
+            background-position: -790px 1px;
+            margin: 0 auto;
+          }
+          &.node-js {
+            background-position: -988px 1px;
+            margin: 0 auto;
+          }
+          &.laravel {
+            background-position: -1087px 1px;
+            margin: 0 auto;
+          }
+          &.python {
+            background-position: -1186px 1px;
+            margin: 0 auto;
+          }
+          &.dot-net {
+            background-position: -1284px 1px;
+            margin: 0 auto;
+          }
+          &.java {
+            background-position: -1384px 1px;
+            margin: 0 auto;
+          }
+          &.php {
+            background-position: -1484px 1px;
+            margin: 0 auto;
+          }
+          &.mongo-db {
+            background-position: 2px -97px;
+            margin: 0 auto;
+          }
+          &.redis {
+            background-position: -97px -97px;
+            margin: 0 auto;
+          }
+          &.postgre-sql {
+            background-position: -196px -97px;
+            margin: 0 auto;
+          }
+          &.my-sql {
+            background-position: -295px -97px;
+            margin: 0 auto;
+          }
+          .elasticsearch {
+            background-position: -393px -97px;
+            margin: 0 auto;
+          }
+        }
+      }
+    }
+  }
+}
